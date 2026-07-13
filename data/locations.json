@@ -1,0 +1,11 @@
+[
+  {
+    "id": "freddys-pizza-1",
+    "name": "Freddy Fazbear's Pizza",
+    "imageUrl": "/images/characters/bonnie-fnaf1.png",
+    "status": "Closed",
+    "causeOfClosure": "Health violations and missing children incident",
+    "presentCharacters": ["bonnie-fnaf1"],
+    "appearances": ["fnaf-1"]
+  }
+]

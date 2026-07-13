@@ -1,0 +1,13 @@
+[
+  {
+    "id": "bonnie-fnaf1",
+    "type": "Animatronic",
+    "name": "Bonnie",
+    "imageUrl": "/images/characters/bonnie-fnaf1.png",
+    "gender": "Male",
+    "color": "Indigo",
+    "group": "Original",
+    "soul": "Jeremy",
+    "appearances": ["fnaf-1"]
+  }
+]
