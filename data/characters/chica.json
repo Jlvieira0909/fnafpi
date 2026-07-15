@@ -1,0 +1,350 @@
+[
+  {
+    "id": "chica",
+    "type": "Animatronic",
+    "name": "Chica",
+    "continuity": "games",
+    "imageUrl": "/images/characters/chica.webp",
+    "gender": "Female",
+    "color": "Yellow",
+    "group": "Original",
+    "possessedBy": {
+      "value": "Susie",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "The Fourth Closet (graphic novel); the Fazbear Frights story 'The Real Jake' reinforces the Susie connection"
+    },
+    "status": {
+      "value": "Dismantled",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1",
+      "fnaf-ucn",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "counterparts": [
+      "chica-novels",
+      "chica-movie"
+    ]
+  },
+  {
+    "id": "toy-chica",
+    "type": "Animatronic",
+    "name": "Toy Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/toy-chica.webp",
+    "gender": "Female",
+    "color": "Yellow",
+    "group": "Toy",
+    "status": {
+      "value": "Scrapped",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 2"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Removes her beak and eyes when leaving the Show Stage in FNAF 2."
+    ]
+  },
+  {
+    "id": "withered-chica",
+    "type": "Animatronic",
+    "name": "Withered Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/withered-chica.webp",
+    "gender": "Female",
+    "color": "Yellow",
+    "group": "Withered",
+    "possessedBy": {
+      "value": "Susie",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "Same soul as classic Chica; The Fourth Closet (graphic novel)"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Missing both hands, with her jaw forced permanently open.",
+      "Verify whether the Help Wanted FNAF 2 levels justify adding fnaf-hw."
+    ]
+  },
+  {
+    "id": "phantom-chica",
+    "type": "Animatronic",
+    "name": "Phantom Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/phantom-chica.webp",
+    "gender": "Female",
+    "color": "Charred greenish yellow",
+    "group": "Phantom",
+    "status": {
+      "value": "Hallucination",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3"
+    ],
+    "notes": [
+      "Appears through the arcade cabinet screen on CAM 07."
+    ]
+  },
+  {
+    "id": "nightmare-chica",
+    "type": "Animatronic",
+    "name": "Nightmare Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/nightmare-chica.webp",
+    "gender": "Female",
+    "color": "Dark yellow",
+    "group": "Nightmare",
+    "status": {
+      "value": "Nonexistent (nightmare entity)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "In Ultimate Custom Night she attacks through her Nightmare Cupcake."
+    ]
+  },
+  {
+    "id": "jack-o-chica",
+    "type": "Animatronic",
+    "name": "Jack-O-Chica",
+    "continuity": "games",
+    "variantOf": "nightmare-chica",
+    "imageUrl": "/images/characters/jack-o-chica.webp",
+    "gender": "Female",
+    "color": "Charred black with orange glow",
+    "group": "Nightmare",
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4"
+    ],
+    "notes": [
+      "Halloween Edition of FNAF 4, replacing Nightmare Chica; carries a jack-o'-lantern instead of the cupcake.",
+      "Verify whether her Ultimate Custom Night appearance warrants adding fnaf-ucn."
+    ]
+  },
+  {
+    "id": "funtime-chica",
+    "type": "Animatronic",
+    "name": "Funtime Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/funtime-chica.webp",
+    "gender": "Female",
+    "color": "White and orange-pink",
+    "group": "Funtime",
+    "debut": "fnaf-ucn",
+    "appearances": [
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Debuted directly in Ultimate Custom Night, arriving with camera flashes and a red carpet.",
+      "Never appeared in Sister Location despite belonging to the Funtime line."
+    ]
+  },
+  {
+    "id": "rockstar-chica",
+    "type": "Animatronic",
+    "name": "Rockstar Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/rockstar-chica.webp",
+    "gender": "Female",
+    "color": "Yellow",
+    "group": "Rockstar",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Carries dual maracas; in Ultimate Custom Night she is deterred by a 'wet floor' sign."
+    ]
+  },
+  {
+    "id": "glamrock-chica",
+    "type": "Animatronic",
+    "name": "Glamrock Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/glamrock-chica.webp",
+    "gender": "Female",
+    "color": "White and pink",
+    "group": "Glamrock",
+    "status": {
+      "value": "Shattered",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Crushed in the trash compactor in Security Breach; roams shattered in the RUIN DLC"
+    },
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ]
+  },
+  {
+    "id": "cupcake",
+    "type": "Animatronic",
+    "name": "Cupcake",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/cupcake.webp",
+    "color": "Pink",
+    "group": "Companion",
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Chica's companion prop, sitting on the office desk in FNAF 1; becomes an active attacker in Help Wanted and Special Delivery.",
+      "Nightmare and Jack-O-Lantern versions exist within FNAF 4's Halloween content; modeled here as a single entry.",
+      "Nicknamed 'Carl' by the community (non-canon)."
+    ]
+  },
+  {
+    "id": "highscore-toy-chica",
+    "type": "Animatronic",
+    "name": "Highscore Toy Chica",
+    "continuity": "games",
+    "variantOf": "toy-chica",
+    "imageUrl": "/images/characters/highscore-toy-chica.webp",
+    "gender": "Female",
+    "color": "8-bit yellow",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Retro 8-bit-styled skin from Special Delivery's arcade-themed event. Verify exact event name and date on the wiki."
+    ]
+  },
+  {
+    "id": "system-error-toy-chica",
+    "type": "Animatronic",
+    "name": "System Error Toy Chica",
+    "continuity": "games",
+    "variantOf": "toy-chica",
+    "imageUrl": "/images/characters/system-error-toy-chica.webp",
+    "gender": "Female",
+    "color": "Glitched teal",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Glitch-themed skin in Special Delivery. Verify exact event name and date on the wiki."
+    ]
+  },
+  {
+    "id": "liberty-chica",
+    "type": "Animatronic",
+    "name": "Liberty Chica",
+    "continuity": "games",
+    "variantOf": "chica",
+    "imageUrl": "/images/characters/liberty-chica.webp",
+    "gender": "Female",
+    "color": "Copper green",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Statue of Liberty-inspired skin from Special Delivery's Independence Day 2020 event."
+    ]
+  },
+  {
+    "id": "chica-novels",
+    "type": "Animatronic",
+    "name": "Chica (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "chica",
+      "chica-movie"
+    ],
+    "imageUrl": "/images/characters/chica-novels.webp",
+    "gender": "Female",
+    "color": "Yellow",
+    "group": "Original",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "gn-the-silver-eyes"
+    ],
+    "notes": [
+      "There is no Twisted Chica — the Twisted line consists of Freddy, Bonnie, Foxy and Wolf.",
+      "Verify appearances in The Fourth Closet before publishing."
+    ]
+  },
+  {
+    "id": "chica-movie",
+    "type": "Animatronic",
+    "name": "Chica (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "chica",
+      "chica-novels"
+    ],
+    "imageUrl": "/images/characters/chica-movie.webp",
+    "gender": "Female",
+    "color": "Yellow",
+    "group": "Original",
+    "possessedBy": {
+      "value": "One of the five missing children",
+      "canonicity": "confirmed",
+      "continuity": "movies",
+      "source": "Five Nights at Freddy's (2023)"
+    },
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Accompanied by Mr. Cupcake, responsible for one of the movie's kills.",
+      "Suit performed by a physical animatronic built by Jim Henson's Creature Shop.",
+      "Verify the child's name for the movie continuity before publishing."
+    ]
+  }
+]

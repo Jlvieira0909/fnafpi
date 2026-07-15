@@ -1,0 +1,765 @@
+[
+  {
+    "id": "the-silver-eyes",
+    "type": "Book",
+    "bookType": "novel",
+    "title": "Five Nights at Freddy's: The Silver Eyes",
+    "imageUrl": "/images/media/silvereyes.webp",
+    "releaseDate": "2015-12-17",
+    "continuity": "novels",
+    "series": "The Novel Trilogy",
+    "seriesNumber": 1,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kira Breed-Wrisley"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Self-published as an e-book on 2015-12-17; physical edition published by Scholastic on 2016-09-27."
+    ]
+  },
+  {
+    "id": "the-twisted-ones",
+    "type": "Book",
+    "bookType": "novel",
+    "title": "Five Nights at Freddy's: The Twisted Ones",
+    "imageUrl": "/images/media/twistedones.webp",
+    "releaseDate": "2017-06-27",
+    "continuity": "novels",
+    "series": "The Novel Trilogy",
+    "seriesNumber": 2,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kira Breed-Wrisley"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "the-fourth-closet",
+    "type": "Book",
+    "bookType": "novel",
+    "title": "Five Nights at Freddy's: The Fourth Closet",
+    "imageUrl": "/images/media/fourthcloset.webp",
+    "releaseDate": "2018-06-26",
+    "continuity": "novels",
+    "series": "The Novel Trilogy",
+    "seriesNumber": 3,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kira Breed-Wrisley"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-01-into-the-pit",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #1: Into the Pit",
+    "imageUrl": "/images/media/ff01.webp",
+    "releaseDate": "2019-12-26",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 1,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Stories: Into the Pit, To Be Beautiful, Count the Ways + Stitchwraith Stingers epilogue."
+    ]
+  },
+  {
+    "id": "ff-02-fetch",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #2: Fetch",
+    "imageUrl": "/images/media/ff02.webp",
+    "releaseDate": "2020-03-03",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 2,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener",
+        "Carly Anne West"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-03-135am",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #3: 1:35 A.M.",
+    "imageUrl": "/images/media/ff03.webp",
+    "releaseDate": "2020-05-05",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 3,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-04-step-closer",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #4: Step Closer",
+    "imageUrl": "/images/media/ff04.webp",
+    "releaseDate": "2020-07-07",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 4,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener",
+        "Kelly Parra"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-05-bunny-call",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #5: Bunny Call",
+    "imageUrl": "/images/media/ff05.webp",
+    "releaseDate": "2020-09-01",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 5,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-06-blackbird",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #6: Blackbird",
+    "imageUrl": "/images/media/ff06.webp",
+    "releaseDate": "2020-12-01",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 6,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener",
+        "Kelly Parra"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-07-the-cliffs",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #7: The Cliffs",
+    "imageUrl": "/images/media/ff07.webp",
+    "releaseDate": "2021-03-02",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 7,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-08-gumdrop-angel",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #8: Gumdrop Angel",
+    "imageUrl": "/images/media/ff08.webp",
+    "releaseDate": "2021-05-04",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 8,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-09-the-puppet-carver",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #9: The Puppet Carver",
+    "imageUrl": "/images/media/ff09.webp",
+    "releaseDate": "2021-07-06",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 9,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-10-friendly-face",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #10: Friendly Face",
+    "imageUrl": "/images/media/ff10.webp",
+    "releaseDate": "2021-09-07",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 10,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener",
+        "Elley Cooper"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-11-prankster",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #11: Prankster",
+    "imageUrl": "/images/media/ff11.webp",
+    "releaseDate": "2021-12-07",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 11,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "ff-12-felix-the-shark",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Fazbear Frights #12: Felix the Shark",
+    "imageUrl": "/images/media/ff12.webp",
+    "releaseDate": "2022-04-19",
+    "continuity": "frights",
+    "series": "Fazbear Frights",
+    "seriesNumber": 12,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener",
+        "Elley Cooper",
+        "Kelly Parra"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Released only as an e-book and inside the complete-collection box set (2022-04-19)."
+    ]
+  },
+  {
+    "id": "tftp-01-lallys-game",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #1: Lally's Game",
+    "imageUrl": "/images/media/tftp01.webp",
+    "releaseDate": "2022-07-19",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 1,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kelly Parra",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "The Tales from the Pizzaplex series is a canon prequel to Security Breach (games continuity)."
+    ]
+  },
+  {
+    "id": "tftp-02-happs",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #2: HAPPS",
+    "imageUrl": "/images/media/tftp02.webp",
+    "releaseDate": "2022-09-20",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 2,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "tftp-03-somniphobia",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #3: Somniphobia",
+    "imageUrl": "/images/media/tftp03.webp",
+    "releaseDate": "2022-12-06",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 3,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kelly Parra",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "tftp-04-submechanophobia",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #4: Submechanophobia",
+    "imageUrl": "/images/media/tftp04.webp",
+    "releaseDate": "2022-12-27",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 4,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kelly Parra",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "tftp-05-bobbiedots-conclusion",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #5: The Bobbiedots Conclusion",
+    "imageUrl": "/images/media/tftp05.webp",
+    "releaseDate": "2023-03-07",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 5,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener",
+        "Elley Cooper"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Includes the story GGY, relevant to Gregory/Security Breach theories."
+    ]
+  },
+  {
+    "id": "tftp-06-nexie",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #6: Nexie",
+    "imageUrl": "/images/media/tftp06.webp",
+    "releaseDate": "2023-05-02",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 6,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener",
+        "Kelly Parra"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Includes the story The Mimic, origin of the character of the same name."
+    ]
+  },
+  {
+    "id": "tftp-07-tiger-rock",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #7: Tiger Rock",
+    "imageUrl": "/images/media/tftp07.webp",
+    "releaseDate": "2023-07-18",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 7,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kelly Parra",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "tftp-08-b7-2",
+    "type": "Book",
+    "bookType": "anthology",
+    "title": "Tales from the Pizzaplex #8: B7-2",
+    "imageUrl": "/images/media/tftp08.webp",
+    "releaseDate": "2023-10-03",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex",
+    "seriesNumber": 8,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener",
+        "Kelly Parra"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "gn-the-silver-eyes",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "The Silver Eyes: The Graphic Novel",
+    "imageUrl": "/images/media/gnsilvereyes.webp",
+    "releaseDate": "2019-12-26",
+    "continuity": "novels",
+    "series": "Graphic Novel Trilogy",
+    "seriesNumber": 1,
+    "adaptationOf": "the-silver-eyes",
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kira Breed-Wrisley"
+      ],
+      "illustrator": "Claudia Schröder",
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "gn-the-twisted-ones",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "The Twisted Ones: The Graphic Novel",
+    "imageUrl": "/images/media/gntwistedones.webp",
+    "releaseDate": "2021-02-02",
+    "continuity": "novels",
+    "series": "Graphic Novel Trilogy",
+    "seriesNumber": 2,
+    "adaptationOf": "the-twisted-ones",
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kira Breed-Wrisley"
+      ],
+      "illustrator": "Claudia Aguirre",
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "gn-the-fourth-closet",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "The Fourth Closet: The Graphic Novel",
+    "imageUrl": "/images/media/gnfourthcloset.webp",
+    "releaseDate": "2021-12-28",
+    "continuity": "novels",
+    "series": "Graphic Novel Trilogy",
+    "seriesNumber": 3,
+    "adaptationOf": "the-fourth-closet",
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Kira Breed-Wrisley"
+      ],
+      "illustrator": "Diana Camero",
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Source of the spelling of the missing children's names (Gabriel, Jeremy, Susie, Fritz, Cassidy). Verify exact day on the wiki."
+    ]
+  },
+  {
+    "id": "gn-ff-vol-1",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "Fazbear Frights: Graphic Novel Collection Vol. 1",
+    "imageUrl": "/images/media/gnff1.webp",
+    "releaseDate": "2022-09-06",
+    "continuity": "frights",
+    "series": "Fazbear Frights Graphic Novels",
+    "seriesNumber": 1,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Carly Anne West"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Adapts Into the Pit, To Be Beautiful and Out of Stock. Verify exact day on the wiki."
+    ]
+  },
+  {
+    "id": "gn-ff-vol-2",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "Fazbear Frights: Graphic Novel Collection Vol. 2",
+    "imageUrl": "/images/media/gnff2.webp",
+    "releaseDate": "2023-03-07",
+    "continuity": "frights",
+    "series": "Fazbear Frights Graphic Novels",
+    "seriesNumber": 2,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Andrea Waggener",
+        "Elley Cooper"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Adapts Fetch, Room for One More and The New Kid."
+    ]
+  },
+  {
+    "id": "gn-ff-vol-3",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "Fazbear Frights: Graphic Novel Collection Vol. 3",
+    "imageUrl": "/images/media/gnff3.webp",
+    "releaseDate": "2023-09-05",
+    "continuity": "frights",
+    "series": "Fazbear Frights Graphic Novels",
+    "seriesNumber": 3,
+    "credits": {
+      "authors": [
+        "Scott Cawthon",
+        "Elley Cooper",
+        "Andrea Waggener"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Adapts Step Closer, Bunny Call and Hide-and-Seek."
+    ]
+  },
+  {
+    "id": "gn-ff-vol-4",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "Fazbear Frights: Graphic Novel Collection Vol. 4",
+    "imageUrl": "/images/media/gnff4.webp",
+    "releaseDate": "2024-03-05",
+    "continuity": "frights",
+    "series": "Fazbear Frights Graphic Novels",
+    "seriesNumber": 4,
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Verify exact day and authors on the wiki."
+    ]
+  },
+  {
+    "id": "gn-ff-vol-5",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "Fazbear Frights: Graphic Novel Collection Vol. 5",
+    "imageUrl": "/images/media/gnff5.webp",
+    "releaseDate": "2024-09-03",
+    "continuity": "frights",
+    "series": "Fazbear Frights Graphic Novels",
+    "seriesNumber": 5,
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Verify exact day and authors on the wiki."
+    ]
+  },
+  {
+    "id": "gn-tftp-vol-1",
+    "type": "Book",
+    "bookType": "graphic-novel",
+    "title": "Tales from the Pizzaplex: Graphic Novel Collection Vol. 1",
+    "imageUrl": "/images/media/gntftp1.webp",
+    "releaseDate": "2025-01-01",
+    "continuity": "games",
+    "series": "Tales from the Pizzaplex Graphic Novels",
+    "seriesNumber": 1,
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Exact date pending verification (released in 2025); a Vol. 2 is planned/released in 2026 — verify."
+    ]
+  },
+  {
+    "id": "the-freddy-files",
+    "type": "Book",
+    "bookType": "guide",
+    "title": "The Freddy Files",
+    "imageUrl": "/images/media/freddyfiles.webp",
+    "releaseDate": "2017-08-29",
+    "continuity": "meta",
+    "series": "Guides",
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "survival-logbook",
+    "type": "Book",
+    "bookType": "guide",
+    "title": "Five Nights at Freddy's: Survival Logbook",
+    "imageUrl": "/images/media/survivallogbook.webp",
+    "releaseDate": "2017-12-26",
+    "continuity": "meta",
+    "series": "Guides",
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Activity book containing lore secrets (e.g., the 'faded text' pages associated with Cassidy)."
+    ]
+  },
+  {
+    "id": "the-freddy-files-updated",
+    "type": "Book",
+    "bookType": "guide",
+    "title": "The Freddy Files: Updated Edition",
+    "imageUrl": "/images/media/freddyfilesupdated.webp",
+    "releaseDate": "2019-06-25",
+    "continuity": "meta",
+    "series": "Guides",
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "the-ultimate-guide",
+    "type": "Book",
+    "bookType": "guide",
+    "title": "Five Nights at Freddy's: The Ultimate Guide",
+    "imageUrl": "/images/media/ultimateguide.webp",
+    "releaseDate": "2021-12-07",
+    "continuity": "meta",
+    "series": "Guides",
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "security-breach-files",
+    "type": "Book",
+    "bookType": "guide",
+    "title": "The Security Breach Files",
+    "imageUrl": "/images/media/sbfiles.webp",
+    "releaseDate": "2022-03-01",
+    "continuity": "meta",
+    "series": "Guides",
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "Sources diverge between 2022-03-01 and 2022-09-20 — verify on the wiki. A later Updated Edition also exists."
+    ]
+  },
+  {
+    "id": "character-encyclopedia",
+    "type": "Book",
+    "bookType": "guide",
+    "title": "Five Nights at Freddy's: Character Encyclopedia",
+    "imageUrl": "/images/media/characterencyclopedia.webp",
+    "releaseDate": "2023-01-03",
+    "continuity": "meta",
+    "series": "Guides",
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    }
+  },
+  {
+    "id": "the-week-before",
+    "type": "Book",
+    "bookType": "interactive-novel",
+    "title": "Five Nights at Freddy's: The Week Before",
+    "imageUrl": "/images/media/weekbefore.webp",
+    "releaseDate": "2024-06-04",
+    "continuity": "games",
+    "series": "Interactive Novels",
+    "credits": {
+      "authors": [
+        "Scott Cawthon"
+      ],
+      "publisher": "Scholastic"
+    },
+    "notes": [
+      "'Choose your own adventure'-style interactive novel set before FNAF 1. Verify exact day on the wiki."
+    ]
+  }
+]

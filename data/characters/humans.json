@@ -1,0 +1,598 @@
+[
+  {
+    "id": "mike-schmidt",
+    "type": "Human",
+    "name": "Mike Schmidt",
+    "continuity": "games",
+    "imageUrl": "/images/characters/mike-schmidt.webp",
+    "gender": "Male",
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1"
+    ],
+    "notes": [
+      "Night guard and player character of FNAF 1; fired after seven nights for tampering with the animatronics.",
+      "Popular theory identifies him as Michael Afton using an alias; treat as theory, not fact.",
+      "The movie's Mike Schmidt is cataloged as mike-schmidt-movie."
+    ],
+    "counterparts": [
+      "mike-schmidt-movie"
+    ]
+  },
+  {
+    "id": "phone-guy",
+    "type": "Human",
+    "name": "Phone Guy",
+    "continuity": "games",
+    "imageUrl": "/images/characters/phone-guy.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Deceased",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 1 (Night 4 phone call is cut off by animatronic sounds)"
+    },
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1",
+      "fnaf-2",
+      "fnaf-3"
+    ],
+    "notes": [
+      "Voiced by Scott Cawthon.",
+      "His FNAF 2 and FNAF 3 appearances are voice recordings set earlier in the in-universe timeline."
+    ]
+  },
+  {
+    "id": "william-afton",
+    "type": "Human",
+    "name": "William Afton",
+    "continuity": "games",
+    "counterparts": [
+      "william-afton-novels",
+      "william-afton-movie"
+    ],
+    "imageUrl": "/images/characters/william-afton.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Deceased; soul bound to Springtrap",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3 minigames (springlock failure while hiding from the children's spirits)"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-3",
+      "fnaf-sl"
+    ],
+    "notes": [
+      "The franchise's main antagonist: co-founder of Fazbear Entertainment and the missing children's murderer, depicted as the 'Purple Guy' in minigames.",
+      "Continues as springtrap, scraptrap and (disputedly) glitchtrap and burntrap — see those entries.",
+      "Father of Michael, Elizabeth and (by strong implication) the Crying Child."
+    ]
+  },
+  {
+    "id": "michael-afton",
+    "type": "Human",
+    "name": "Michael Afton",
+    "continuity": "games",
+    "imageUrl": "/images/characters/michael-afton.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Reanimated after being scooped",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location Custom Night cutscenes (Ennard used his body as a disguise before abandoning it)"
+    },
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl"
+    ],
+    "notes": [
+      "Sister Location's protagonist, sent by his father to 'put his sister back together'.",
+      "Strongly implied to be Freddy Fazbear's Pizzeria Simulator's playable employee, dying in its fire.",
+      "The popular theory that FNAF 1's Mike Schmidt is Michael under an alias is tracked in the mike-schmidt entry as theory."
+    ]
+  },
+  {
+    "id": "elizabeth-afton",
+    "type": "Human",
+    "name": "Elizabeth Afton",
+    "continuity": "games",
+    "imageUrl": "/images/characters/elizabeth-afton.webp",
+    "gender": "Female",
+    "status": {
+      "value": "Deceased; soul bound to Circus Baby",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location (killed by Circus Baby's claw, narrated in Baby's ice cream story)"
+    },
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl"
+    ],
+    "notes": [
+      "William Afton's daughter; see circus-baby and scrap-baby for her animatronic vessels."
+    ]
+  },
+  {
+    "id": "crying-child",
+    "type": "Human",
+    "name": "Crying Child",
+    "continuity": "games",
+    "imageUrl": "/images/characters/crying-child.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Deceased",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4 (victim of the Bite of '83 during his birthday party)"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4"
+    ],
+    "notes": [
+      "FNAF 4's playable child, strongly implied to be William Afton's youngest son.",
+      "His real name is unconfirmed; community theories (e.g. 'Evan', 'C.C.') remain speculation.",
+      "Theories connecting him to Golden Freddy's second soul are tracked as theory only."
+    ]
+  },
+  {
+    "id": "henry-emily",
+    "type": "Human",
+    "name": "Henry Emily",
+    "continuity": "games",
+    "counterparts": [
+      "henry-novels"
+    ],
+    "imageUrl": "/images/characters/henry-emily.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Deceased",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator (dies in the fire he set to end the franchise's horrors)"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Co-founder of Fazbear Entertainment and original animatronic creator, known as 'Cassette Man' until named in later materials.",
+      "Father of Charlotte Emily; orchestrated Freddy Fazbear's Pizzeria Simulator as a trap for the possessed animatronics."
+    ]
+  },
+  {
+    "id": "charlotte-emily",
+    "type": "Human",
+    "name": "Charlotte Emily",
+    "continuity": "games",
+    "counterparts": [
+      "charlie-novels"
+    ],
+    "imageUrl": "/images/characters/charlotte-emily.webp",
+    "gender": "Female",
+    "status": {
+      "value": "Deceased; soul bound to the Puppet",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator (Security Puppet minigame)"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Henry Emily's daughter and William Afton's first victim, locked outside the restaurant in the rain."
+    ]
+  },
+  {
+    "id": "jeremy-fitzgerald",
+    "type": "Human",
+    "name": "Jeremy Fitzgerald",
+    "continuity": "games",
+    "imageUrl": "/images/characters/jeremy-fitzgerald.webp",
+    "gender": "Male",
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2"
+    ],
+    "notes": [
+      "FNAF 2's night guard, moved to the day shift for the 1987 birthday party.",
+      "Popular theory makes him the Bite of '87 victim; tracked as theory.",
+      "Not to be confused with 'Jeremy', the name attributed to Bonnie's soul."
+    ]
+  },
+  {
+    "id": "fritz-smith",
+    "type": "Human",
+    "name": "Fritz Smith",
+    "continuity": "games",
+    "imageUrl": "/images/characters/fritz-smith.webp",
+    "gender": "Male",
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2"
+    ],
+    "notes": [
+      "FNAF 2's Night 7 guard, fired the same day for tampering with the animatronics and odor.",
+      "Not to be confused with 'Fritz', the name attributed to Foxy's soul."
+    ]
+  },
+  {
+    "id": "gregory",
+    "type": "Human",
+    "name": "Gregory",
+    "continuity": "games",
+    "imageUrl": "/images/characters/gregory.webp",
+    "gender": "Male",
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
+    "notes": [
+      "Security Breach's protagonist, trapped overnight in the Mega Pizzaplex; guides Cassie by walkie-talkie in RUIN.",
+      "The 'GGY' story in Tales from the Pizzaplex #5 fuels theories connecting him to the Mimic and Vanny; tracked as theory."
+    ]
+  },
+  {
+    "id": "vanessa",
+    "type": "Human",
+    "name": "Vanessa",
+    "continuity": "games",
+    "counterparts": [
+      "vanessa-shelly-movie"
+    ],
+    "imageUrl": "/images/characters/vanessa.webp",
+    "gender": "Female",
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb"
+    ],
+    "notes": [
+      "The Mega Pizzaplex's night security guard.",
+      "Her alter ego as Vanny is cataloged separately; see vanny.",
+      "Verify whether her RUIN and Help Wanted 2 appearances warrant adding those ids."
+    ]
+  },
+  {
+    "id": "vanny",
+    "type": "Human",
+    "name": "Vanny",
+    "continuity": "games",
+    "variantOf": "vanessa",
+    "imageUrl": "/images/characters/vanny.webp",
+    "gender": "Female",
+    "color": "White rabbit costume",
+    "debut": "fnaf-hw",
+    "appearances": [
+      "fnaf-hw",
+      "fnaf-sb"
+    ],
+    "notes": [
+      "Vanessa's alter ego under Glitchtrap's influence: the 'Reluctant Follower' in a handmade rabbit suit.",
+      "Debuted as a voice/silhouette cameo in Help Wanted before appearing physically in Security Breach.",
+      "Using variantOf for a human alter ego is an editorial decision — same person, two catalog identities."
+    ]
+  },
+  {
+    "id": "cassie",
+    "type": "Human",
+    "name": "Cassie",
+    "continuity": "games",
+    "imageUrl": "/images/characters/cassie.webp",
+    "gender": "Female",
+    "debut": "sb-ruin",
+    "appearances": [
+      "sb-ruin"
+    ],
+    "notes": [
+      "RUIN's protagonist, entering the ruined Pizzaplex to rescue her friend Gregory.",
+      "Verify her connections to Help Wanted 2 (her father is tied to the Mask) before adding fnaf-hw2."
+    ]
+  },
+  {
+    "id": "william-afton-novels",
+    "type": "Human",
+    "name": "William Afton (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "william-afton",
+      "william-afton-movie"
+    ],
+    "imageUrl": "/images/characters/william-afton-novels.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Springlocked inside the Spring Bonnie suit; deteriorates across the trilogy",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Silver Eyes through The Fourth Closet"
+    },
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-twisted-ones",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-twisted-ones",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Operates under the alias Dave Miller; the novels' counterpart of the games' Springtrap arc."
+    ]
+  },
+  {
+    "id": "charlie-novels",
+    "type": "Human",
+    "name": "Charlie (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "charlotte-emily"
+    ],
+    "imageUrl": "/images/characters/charlie-novels.webp",
+    "gender": "Female",
+    "status": {
+      "value": "Revealed to be an android created by Henry",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Fourth Closet"
+    },
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-twisted-ones",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-twisted-ones",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Protagonist of the novel trilogy; her true nature is the trilogy's central twist.",
+      "Type kept as Human to avoid spoiling queries; the reveal is documented in status."
+    ]
+  },
+  {
+    "id": "henry-novels",
+    "type": "Human",
+    "name": "Henry (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "henry-emily"
+    ],
+    "imageUrl": "/images/characters/henry-novels.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Deceased before the trilogy's events",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Silver Eyes"
+    },
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Charlie's father and the animatronics' creator; his legacy drives the trilogy's plot.",
+      "Verify appearances in The Twisted Ones before publishing."
+    ]
+  },
+  {
+    "id": "mike-schmidt-movie",
+    "type": "Human",
+    "name": "Mike Schmidt (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "mike-schmidt"
+    ],
+    "imageUrl": "/images/characters/mike-schmidt-movie.webp",
+    "gender": "Male",
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Played by Josh Hutcherson; guardian of his younger sister Abby, haunted by his brother Garrett's abduction.",
+      "Unlike the games, the movie's Mike has no established connection to the Afton family."
+    ]
+  },
+  {
+    "id": "abby-schmidt",
+    "type": "Human",
+    "name": "Abby Schmidt",
+    "continuity": "movies",
+    "imageUrl": "/images/characters/abby-schmidt.webp",
+    "gender": "Female",
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Played by Piper Rubio; Mike's younger sister, able to communicate with the ghost children."
+    ]
+  },
+  {
+    "id": "vanessa-shelly-movie",
+    "type": "Human",
+    "name": "Vanessa Shelly (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "vanessa"
+    ],
+    "imageUrl": "/images/characters/vanessa-shelly-movie.webp",
+    "gender": "Female",
+    "status": {
+      "value": "Hospitalized after being stabbed by her father",
+      "canonicity": "confirmed",
+      "continuity": "movies",
+      "source": "Five Nights at Freddy's (2023)"
+    },
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Played by Elizabeth Lail; police officer revealed to be William Afton's daughter — a major divergence from the games' Vanessa.",
+      "Verify her status and role in Five Nights at Freddy's 2 (2025) before publishing."
+    ]
+  },
+  {
+    "id": "william-afton-movie",
+    "type": "Human",
+    "name": "William Afton (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "william-afton",
+      "william-afton-novels"
+    ],
+    "imageUrl": "/images/characters/william-afton-movie.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Springlocked inside the Yellow Rabbit suit",
+      "canonicity": "confirmed",
+      "continuity": "movies",
+      "source": "Five Nights at Freddy's (2023)"
+    },
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Played by Matthew Lillard; operates under the alias Steve Raglan, a career counselor.",
+      "His animatronic form is cataloged as yellow-rabbit-movie.",
+      "Verify the details of his return in Five Nights at Freddy's 2 (2025) before publishing."
+    ]
+  },
+  {
+    "id": "john-novels",
+    "type": "Human",
+    "name": "John (Novel Trilogy)",
+    "continuity": "novels",
+    "imageUrl": "/images/characters/john-novels.webp",
+    "gender": "Male",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-twisted-ones",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-twisted-ones",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Charlie's closest friend and love interest; effectively the trilogy's second protagonist by The Fourth Closet."
+    ]
+  },
+  {
+    "id": "jessica-novels",
+    "type": "Human",
+    "name": "Jessica (Novel Trilogy)",
+    "continuity": "novels",
+    "imageUrl": "/images/characters/jessica-novels.webp",
+    "gender": "Female",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-twisted-ones",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-twisted-ones",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Charlie's childhood friend; part of the returning group across all three novels."
+    ]
+  },
+  {
+    "id": "carlton-burke",
+    "type": "Human",
+    "name": "Carlton Burke",
+    "continuity": "novels",
+    "imageUrl": "/images/characters/carlton-burke.webp",
+    "gender": "Male",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-twisted-ones",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-twisted-ones",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Comic relief of the friend group; survives being trapped in a springlock suit in The Silver Eyes and a remnant injection in The Fourth Closet."
+    ]
+  },
+  {
+    "id": "clay-burke",
+    "type": "Human",
+    "name": "Clay Burke",
+    "continuity": "novels",
+    "imageUrl": "/images/characters/clay-burke.webp",
+    "gender": "Male",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-twisted-ones",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-twisted-ones",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Carlton's father and Hurricane's police chief; one of the few adults who believes the group.",
+      "Verify the extent of his role in The Twisted Ones before publishing."
+    ]
+  },
+  {
+    "id": "sammy-emily",
+    "type": "Human",
+    "name": "Sammy Emily",
+    "continuity": "novels",
+    "imageUrl": "/images/characters/sammy-emily.webp",
+    "gender": "Male",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "the-fourth-closet",
+      "gn-the-silver-eyes",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "Charlie's twin, believed for most of the trilogy to be the child William abducted from Fredbear's Family Diner.",
+      "The Fourth Closet inverts this belief — the abducted twin was Charlie herself; documented at claim level in charlie-novels.",
+      "Appears mostly through flashbacks and the finale; verify his exact page presence before publishing."
+    ]
+  },
+  {
+    "id": "michael-brooks",
+    "type": "Human",
+    "name": "Michael Brooks",
+    "continuity": "novels",
+    "imageUrl": "/images/characters/michael-brooks.webp",
+    "gender": "Male",
+    "status": {
+      "value": "Deceased; spirit tied to the golden Freddy suit",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "The Silver Eyes (leader of the missing children's spirits)"
+    },
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "gn-the-silver-eyes"
+    ],
+    "notes": [
+      "Carlton's childhood friend and one of William's victims; the novels' counterpart to the games' Golden Freddy child debate."
+    ]
+  }
+]

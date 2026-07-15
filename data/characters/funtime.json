@@ -1,0 +1,236 @@
+[
+  {
+    "id": "circus-baby",
+    "type": "Animatronic",
+    "name": "Circus Baby",
+    "continuity": "games",
+    "imageUrl": "/images/characters/circus-baby.webp",
+    "gender": "Female",
+    "color": "White and red",
+    "group": "Funtime",
+    "possessedBy": {
+      "value": "Elizabeth Afton",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location (Baby's ice cream story and cutscenes); reinforced by Freddy Fazbear's Pizzeria Simulator"
+    },
+    "status": {
+      "value": "Ejected from Ennard; continues as Scrap Baby",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location Custom Night cutscenes and Freddy Fazbear's Pizzeria Simulator"
+    },
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Star of Circus Baby's Entertainment and Rental, built by William Afton with child-capture capabilities; killed his daughter Elizabeth.",
+      "Merged with the other Funtimes to form Ennard, later ejected by the group."
+    ]
+  },
+  {
+    "id": "scrap-baby",
+    "type": "Animatronic",
+    "name": "Scrap Baby",
+    "continuity": "games",
+    "variantOf": "circus-baby",
+    "imageUrl": "/images/characters/scrap-baby.webp",
+    "gender": "Female",
+    "color": "Rusted white and red",
+    "group": "Scrap",
+    "possessedBy": {
+      "value": "Elizabeth Afton",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator (Henry's final speech addresses her directly)"
+    },
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Circus Baby's self-rebuilt body after being ejected from Ennard."
+    ]
+  },
+  {
+    "id": "ballora",
+    "type": "Animatronic",
+    "name": "Ballora",
+    "continuity": "games",
+    "imageUrl": "/images/characters/ballora.webp",
+    "gender": "Female",
+    "color": "White and blue",
+    "group": "Funtime",
+    "status": {
+      "value": "Merged into Ennard",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location (scooped on Night 4; part of Ennard by the ending)"
+    },
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl",
+      "fnaf-ucn",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Ballerina animatronic from the Ballora Gallery; keeps her eyes closed and hunts by sound.",
+      "The popular theory that she is tied to Mrs. Afton has no canonical support; intentionally omitted from possessedBy."
+    ]
+  },
+  {
+    "id": "minireena",
+    "type": "Animatronic",
+    "name": "Minireena",
+    "continuity": "games",
+    "variantOf": "ballora",
+    "imageUrl": "/images/characters/minireena.webp",
+    "color": "White",
+    "group": "Funtime",
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Ballora's small dancer companions; modeled as a single entry representing the group.",
+      "Classifying Minireenas as Ballora variants is an editorial decision — they are distinct entities in-universe."
+    ]
+  },
+  {
+    "id": "bidybab",
+    "type": "Animatronic",
+    "name": "Bidybab",
+    "continuity": "games",
+    "variantOf": "circus-baby",
+    "imageUrl": "/images/characters/bidybab.webp",
+    "color": "Metallic gray",
+    "group": "Funtime",
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl"
+    ],
+    "notes": [
+      "Circus Baby's small assistants; modeled as a single entry representing the group.",
+      "Classifying Bidybabs as Circus Baby variants is an editorial decision — they are distinct entities in-universe."
+    ]
+  },
+  {
+    "id": "electrobab",
+    "type": "Animatronic",
+    "name": "Electrobab",
+    "continuity": "games",
+    "variantOf": "bidybab",
+    "imageUrl": "/images/characters/electrobab.webp",
+    "color": "Metallic gray",
+    "group": "Funtime",
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl"
+    ],
+    "notes": [
+      "Power-draining Bidybab variant introduced in Sister Location's Custom Night."
+    ]
+  },
+  {
+    "id": "plushbaby",
+    "type": "Animatronic",
+    "name": "PlushBaby",
+    "continuity": "games",
+    "variantOf": "circus-baby",
+    "imageUrl": "/images/characters/plushbaby.webp",
+    "color": "White and red",
+    "group": "Funtime",
+    "debut": "fnaf-hw",
+    "appearances": [
+      "fnaf-hw"
+    ],
+    "notes": [
+      "Circus Baby plush that attacks in Help Wanted's Dark Rooms; also appears in Halloween recolors within Curse of Dreadbear — verify before adding the DLC id."
+    ]
+  },
+  {
+    "id": "ennard",
+    "type": "Animatronic",
+    "name": "Ennard",
+    "continuity": "games",
+    "imageUrl": "/images/characters/ennard.webp",
+    "color": "Exposed wires with a clown mask",
+    "group": "Amalgam",
+    "possessedBy": {
+      "value": "Amalgam of the Funtime animatronics (initially led by Circus Baby)",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location (formed from the scooped Funtimes to escape inside Michael Afton's body)"
+    },
+    "status": {
+      "value": "Continues as Molten Freddy after ejecting Circus Baby",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location Custom Night cutscenes and Freddy Fazbear's Pizzeria Simulator"
+    },
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Not a design variant of any single character: a fusion of Circus Baby, Ballora, Funtime Freddy and Funtime Foxy's endoskeletons.",
+      "After Circus Baby's ejection, the remaining amalgam is cataloged as molten-freddy.",
+      "Appears in Ultimate Custom Night through vent attacks alongside the Sister Location cast — verify the exact roster form (Ennard vs Molten Freddy) on the wiki."
+    ]
+  },
+  {
+    "id": "yenndo",
+    "type": "Animatronic",
+    "name": "Yenndo",
+    "continuity": "games",
+    "imageUrl": "/images/characters/yenndo.webp",
+    "gender": "Male",
+    "color": "Bare metal",
+    "group": "Endoskeleton",
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl"
+    ],
+    "notes": [
+      "Funtime endoskeleton resembling Funtime Freddy's frame; rare encounter in the Funtime Auditorium and Sister Location's Custom Night.",
+      "Verify whether his Help Wanted cameo warrants adding fnaf-hw."
+    ]
+  },
+  {
+    "id": "baby-novels",
+    "type": "Animatronic",
+    "name": "Baby (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "circus-baby"
+    ],
+    "imageUrl": "/images/characters/baby-novels.webp",
+    "gender": "Female",
+    "color": "White and red",
+    "group": "Funtime",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Fourth Closet"
+    },
+    "debut": "the-fourth-closet",
+    "appearances": [
+      "the-fourth-closet",
+      "gn-the-fourth-closet"
+    ],
+    "notes": [
+      "The Fourth Closet's main animatronic antagonist, running the sinister Circus Baby's Pizza; a far more monstrous take on the games' Circus Baby."
+    ]
+  }
+]

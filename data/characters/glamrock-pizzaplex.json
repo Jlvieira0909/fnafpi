@@ -1,0 +1,226 @@
+[
+  {
+    "id": "roxanne-wolf",
+    "type": "Animatronic",
+    "name": "Roxanne Wolf",
+    "continuity": "games",
+    "imageUrl": "/images/characters/roxanne-wolf.webp",
+    "gender": "Female",
+    "color": "Gray with green hair",
+    "group": "Glamrock",
+    "status": {
+      "value": "Heavily damaged but active",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Loses her eyes in Security Breach; survives and aids Cassie in the RUIN DLC"
+    },
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
+    "notes": [
+      "The Glamrock era's fox-role analog is a wolf — there is no Glamrock Foxy.",
+      "Her insecurity-driven personality and bond with Cassie in RUIN made her a fan favorite."
+    ]
+  },
+  {
+    "id": "montgomery-gator",
+    "type": "Animatronic",
+    "name": "Montgomery Gator",
+    "continuity": "games",
+    "imageUrl": "/images/characters/montgomery-gator.webp",
+    "gender": "Male",
+    "color": "Green",
+    "group": "Glamrock",
+    "status": {
+      "value": "Shattered",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Can be shattered in Security Breach; found wrecked in the RUIN DLC"
+    },
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
+    "notes": [
+      "Replaced Glamrock Bonnie as the band's bassist; his rivalry with Bonnie fuels the theory that he caused Bonnie's destruction (tracked as theory).",
+      "Verify the exact form of his RUIN appearance on the wiki."
+    ]
+  },
+  {
+    "id": "music-man",
+    "type": "Animatronic",
+    "name": "Music Man",
+    "continuity": "games",
+    "imageUrl": "/images/characters/music-man.webp",
+    "color": "White with red cheeks",
+    "group": "Original",
+    "debut": "fnaf-ucn",
+    "appearances": [
+      "fnaf-ucn",
+      "fnaf-sb"
+    ],
+    "notes": [
+      "Spider-like keyboardist that reacts to noise; debuted in Ultimate Custom Night.",
+      "Miniature Music Men roam the Mega Pizzaplex in Security Breach."
+    ]
+  },
+  {
+    "id": "dj-music-man",
+    "type": "Animatronic",
+    "name": "DJ Music Man",
+    "continuity": "games",
+    "variantOf": "music-man",
+    "imageUrl": "/images/characters/dj-music-man.webp",
+    "color": "White and purple",
+    "group": "Glamrock",
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb"
+    ],
+    "notes": [
+      "Giant arena-sized version of Music Man running Fazcade's DJ booth.",
+      "Verify whether he appears in the RUIN DLC before adding sb-ruin."
+    ]
+  },
+  {
+    "id": "sun",
+    "type": "Animatronic",
+    "name": "Sun (Daycare Attendant)",
+    "continuity": "games",
+    "imageUrl": "/images/characters/sun.webp",
+    "color": "Yellow and white",
+    "group": "Glamrock",
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin",
+      "fnaf-hw2"
+    ],
+    "notes": [
+      "The Daycare Attendant's lights-on persona: hyperactive and safety-obsessed.",
+      "Sun and Moon are the same physical unit; cataloged as two identities following the Vanessa/Vanny precedent."
+    ]
+  },
+  {
+    "id": "moon",
+    "type": "Animatronic",
+    "name": "Moon (Daycare Attendant)",
+    "continuity": "games",
+    "variantOf": "sun",
+    "imageUrl": "/images/characters/moon.webp",
+    "color": "Dark blue and white",
+    "group": "Glamrock",
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin",
+      "fnaf-hw2"
+    ],
+    "notes": [
+      "The Daycare Attendant's lights-off persona: a hostile 'naptime enforcer'.",
+      "Same physical unit as Sun; the persona switches with the daycare lights."
+    ]
+  },
+  {
+    "id": "eclipse",
+    "type": "Animatronic",
+    "name": "Eclipse (Daycare Attendant)",
+    "continuity": "games",
+    "variantOf": "sun",
+    "imageUrl": "/images/characters/eclipse.webp",
+    "color": "Yellow and blue",
+    "group": "Glamrock",
+    "debut": "sb-ruin",
+    "appearances": [
+      "sb-ruin",
+      "fnaf-hw2"
+    ],
+    "notes": [
+      "Balanced third persona combining Sun and Moon.",
+      "Verify its exact debut (RUIN vs Help Wanted 2) and role in each on the wiki."
+    ]
+  },
+  {
+    "id": "glamrock-endo",
+    "type": "Animatronic",
+    "name": "Glamrock Endo",
+    "continuity": "games",
+    "imageUrl": "/images/characters/glamrock-endo.webp",
+    "color": "Bare metal",
+    "group": "Endoskeleton",
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
+    "notes": [
+      "Bare Glamrock endoskeletons that only move when unobserved, Weeping Angel-style; modeled as a single entry representing the group."
+    ]
+  },
+  {
+    "id": "staff-bot",
+    "type": "Animatronic",
+    "name": "S.T.A.F.F. Bot",
+    "continuity": "games",
+    "imageUrl": "/images/characters/staff-bot.webp",
+    "color": "White",
+    "group": "Service",
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
+    "notes": [
+      "The Mega Pizzaplex's utility robots (Map Bots, Security Bots, janitors, cleaners); modeled as a single entry representing the group.",
+      "Notable named units (e.g. the Comedy Bot) can be split into their own entries later if needed."
+    ]
+  },
+  {
+    "id": "the-mimic",
+    "type": "Animatronic",
+    "name": "The Mimic",
+    "continuity": "games",
+    "imageUrl": "/images/characters/the-mimic.webp",
+    "color": "Bare metal with green paint traces",
+    "group": "Endoskeleton",
+    "status": {
+      "value": "Sealed beneath the Pizzaplex",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "RUIN DLC ending"
+    },
+    "debut": "sb-ruin",
+    "appearances": [
+      "sb-ruin",
+      "fnaf-hw2",
+      "fnaf-som",
+      "tftp-06-nexie"
+    ],
+    "notes": [
+      "Learning endoskeleton that copies behavior — including violence; the Steel Wool era's central antagonist.",
+      "Literary origin in 'The Mimic' story and the Tales from the Pizzaplex epilogues (see tftp-06-nexie in media); map the remaining epilogue volumes during a dedicated Tales sweep.",
+      "Secret of the Mimic explores its 1979 origin with creator Edwin Murray; verify details before expanding.",
+      "Theorized to be behind Glitchtrap/Burntrap instead of Afton; tracked as theory in those entries."
+    ]
+  },
+  {
+    "id": "mxes",
+    "type": "Animatronic",
+    "name": "M.X.E.S.",
+    "continuity": "games",
+    "imageUrl": "/images/characters/mxes.webp",
+    "color": "Red and dark blue",
+    "group": "Digital",
+    "debut": "sb-ruin",
+    "appearances": [
+      "sb-ruin"
+    ],
+    "notes": [
+      "Security AI visible only through the V.A.N.N.I. mask's AR layer in RUIN; acts as the antagonist while actually guarding the Mimic's containment.",
+      "Its name spells 'MXES', community-read as 'Mixes'; interpretations vary — keep to confirmed facts."
+    ]
+  }
+]

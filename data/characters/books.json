@@ -1,0 +1,89 @@
+[
+  {
+    "id": "twisted-wolf",
+    "type": "Animatronic",
+    "name": "Twisted Wolf",
+    "continuity": "novels",
+    "imageUrl": "/images/characters/twisted-wolf.webp",
+    "gender": "Male",
+    "color": "Gray",
+    "group": "Twisted",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Twisted Ones"
+    },
+    "debut": "the-twisted-ones",
+    "appearances": [
+      "the-twisted-ones",
+      "gn-the-twisted-ones"
+    ],
+    "notes": [
+      "Original Twisted design with no classic-game counterpart; completes the Twisted line alongside Freddy, Bonnie and Foxy."
+    ]
+  },
+  {
+    "id": "fetch",
+    "type": "Animatronic",
+    "name": "Fetch",
+    "continuity": "frights",
+    "imageUrl": "/images/characters/fetch.webp",
+    "color": "Black and gray",
+    "group": "Companion",
+    "debut": "ff-02-fetch",
+    "appearances": [
+      "ff-02-fetch",
+      "gn-ff-vol-2"
+    ],
+    "notes": [
+      "Robotic dog from Freddy Fazbear's Pizza that 'fetches' whatever its paired phone suggests its owner needs — with escalating horror.",
+      "One of Fazbear Frights' most iconic creations; also inspired a Special Delivery animatronic — verify before adding fnaf-ar."
+    ]
+  },
+  {
+    "id": "stitchwraith",
+    "type": "Animatronic",
+    "name": "The Stitchwraith",
+    "continuity": "frights",
+    "imageUrl": "/images/characters/stitchwraith.webp",
+    "color": "Black hooded figure",
+    "group": "Amalgam",
+    "possessedBy": {
+      "value": "Jake (with Andrew's agony attached)",
+      "canonicity": "confirmed",
+      "continuity": "frights",
+      "source": "Fazbear Frights: Stitchwraith Stingers epilogues"
+    },
+    "debut": "ff-01-into-the-pit",
+    "appearances": [
+      "ff-01-into-the-pit",
+      "ff-12-felix-the-shark"
+    ],
+    "notes": [
+      "Endoskeleton in a hooded coat, protagonist of the Stitchwraith Stingers — the epilogue storyline threading through the entire Fazbear Frights series.",
+      "Appearances list debut and finale only; the epilogues span most volumes in between — map fully during a dedicated Frights sweep."
+    ]
+  },
+  {
+    "id": "eleanor",
+    "type": "Animatronic",
+    "name": "Eleanor",
+    "continuity": "frights",
+    "imageUrl": "/images/characters/eleanor.webp",
+    "gender": "Female",
+    "color": "White and red",
+    "group": "Amalgam",
+    "debut": "ff-01-into-the-pit",
+    "appearances": [
+      "ff-01-into-the-pit",
+      "ff-11-prankster",
+      "ff-12-felix-the-shark"
+    ],
+    "notes": [
+      "Fazbear Frights' overarching villain: a shapeshifting agony entity resembling Circus Baby, introduced in 'To Be Beautiful'.",
+      "Deliberately not linked to circus-baby via counterparts — the resemblance is in-universe mystery, not the same character.",
+      "Verify the exact volumes of her appearances during a dedicated Frights sweep."
+    ]
+  }
+]

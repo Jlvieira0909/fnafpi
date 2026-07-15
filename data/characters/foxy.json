@@ -1,0 +1,399 @@
+[
+  {
+    "id": "foxy",
+    "type": "Animatronic",
+    "name": "Foxy",
+    "continuity": "games",
+    "imageUrl": "/images/characters/foxy.webp",
+    "gender": "Male",
+    "color": "Crimson",
+    "group": "Original",
+    "possessedBy": {
+      "value": "Fritz",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "The Fourth Closet (graphic novel); supported by the Survival Logbook"
+    },
+    "status": {
+      "value": "Dismantled",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1",
+      "fnaf-ucn",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Out of order since an unspecified incident; kept in Pirate Cove behind a curtain."
+    ],
+    "counterparts": [
+      "foxy-novels",
+      "foxy-movie"
+    ]
+  },
+  {
+    "id": "mangle",
+    "type": "Animatronic",
+    "name": "Mangle",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/mangle.webp",
+    "gender": "Unconfirmed",
+    "color": "White and pink",
+    "group": "Toy",
+    "status": {
+      "value": "Scrapped",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 2"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Originally Toy Foxy; constantly disassembled by children until staff left it as a 'take apart and put back together' attraction.",
+      "Mangle's gender is a canonical joke: asked whether Mangle is male or female, Scott Cawthon officially answered 'Yes'.",
+      "Popular theory links Mangle to the Bite of '87; treat as theory.",
+      "Verify whether the Help Wanted FNAF 2 levels justify adding fnaf-hw."
+    ]
+  },
+  {
+    "id": "withered-foxy",
+    "type": "Animatronic",
+    "name": "Withered Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/withered-foxy.webp",
+    "gender": "Male",
+    "color": "Crimson",
+    "group": "Withered",
+    "possessedBy": {
+      "value": "Fritz",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "Same soul as classic Foxy; The Fourth Closet (graphic novel)"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2"
+    ],
+    "notes": [
+      "Verify which design (classic or withered) Ultimate Custom Night's Foxy actually uses before splitting appearances."
+    ]
+  },
+  {
+    "id": "phantom-foxy",
+    "type": "Animatronic",
+    "name": "Phantom Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/phantom-foxy.webp",
+    "gender": "Male",
+    "color": "Charred greenish brown",
+    "group": "Phantom",
+    "status": {
+      "value": "Hallucination",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3"
+    ]
+  },
+  {
+    "id": "phantom-mangle",
+    "type": "Animatronic",
+    "name": "Phantom Mangle",
+    "continuity": "games",
+    "variantOf": "mangle",
+    "imageUrl": "/images/characters/phantom-mangle.webp",
+    "gender": "Unconfirmed",
+    "color": "Charred greenish white",
+    "group": "Phantom",
+    "status": {
+      "value": "Hallucination",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3"
+    ],
+    "notes": [
+      "Appears on CAM 04 and emits garbled radio static that attracts the real Springtrap."
+    ]
+  },
+  {
+    "id": "nightmare-foxy",
+    "type": "Animatronic",
+    "name": "Nightmare Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/nightmare-foxy.webp",
+    "gender": "Male",
+    "color": "Dark crimson",
+    "group": "Nightmare",
+    "status": {
+      "value": "Nonexistent (nightmare entity)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Hides inside the bedroom closet in FNAF 4."
+    ]
+  },
+  {
+    "id": "nightmare-mangle",
+    "type": "Animatronic",
+    "name": "Nightmare Mangle",
+    "continuity": "games",
+    "variantOf": "mangle",
+    "imageUrl": "/images/characters/nightmare-mangle.webp",
+    "gender": "Unconfirmed",
+    "color": "Dark white and pink",
+    "group": "Nightmare",
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4"
+    ],
+    "notes": [
+      "Halloween Edition of FNAF 4, replacing Nightmare Foxy in the closet.",
+      "Verify whether its Ultimate Custom Night appearance warrants adding fnaf-ucn."
+    ]
+  },
+  {
+    "id": "funtime-foxy",
+    "type": "Animatronic",
+    "name": "Funtime Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/funtime-foxy.webp",
+    "gender": "Unconfirmed",
+    "color": "White and pink",
+    "group": "Funtime",
+    "status": {
+      "value": "Merged into Ennard",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location ending"
+    },
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl",
+      "fnaf-ucn",
+      "fnaf-hw"
+    ],
+    "notes": [
+      "Performer at Circus Baby's Entertainment and Rental's Funtime Auditorium.",
+      "Gender is deliberately inconsistent across games, extending the Mangle joke.",
+      "Merged with the other Funtimes to form Ennard; see ennard."
+    ]
+  },
+  {
+    "id": "lolbit",
+    "type": "Animatronic",
+    "name": "Lolbit",
+    "continuity": "games",
+    "variantOf": "funtime-foxy",
+    "imageUrl": "/images/characters/lolbit.webp",
+    "gender": "Unconfirmed",
+    "color": "Orange, purple and white",
+    "group": "Funtime",
+    "debut": "fnaf-world",
+    "appearances": [
+      "fnaf-world",
+      "fnaf-sl",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Recolor of Funtime Foxy that debuted as FNAF World's shop vendor before cameos in Sister Location and Ultimate Custom Night ('PLEASE STAND BY')."
+    ]
+  },
+  {
+    "id": "rockstar-foxy",
+    "type": "Animatronic",
+    "name": "Rockstar Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/rockstar-foxy.webp",
+    "gender": "Male",
+    "color": "Crimson",
+    "group": "Rockstar",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Has a peg leg and a parrot; uniquely, in Ultimate Custom Night he can help the player instead of attacking."
+    ]
+  },
+  {
+    "id": "grimm-foxy",
+    "type": "Animatronic",
+    "name": "Grimm Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/grimm-foxy.webp",
+    "gender": "Male",
+    "color": "Charred black with fire",
+    "group": "Halloween",
+    "debut": "hw-curse-of-dreadbear",
+    "appearances": [
+      "hw-curse-of-dreadbear"
+    ],
+    "notes": [
+      "Scythe-wielding, burning fox that chases the player through the Curse of Dreadbear corn maze."
+    ]
+  },
+  {
+    "id": "radioactive-foxy",
+    "type": "Animatronic",
+    "name": "Radioactive Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/radioactive-foxy.webp",
+    "gender": "Male",
+    "color": "Toxic green",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Summer 2020 'Wasteland' event skin in Special Delivery."
+    ]
+  },
+  {
+    "id": "ringmaster-foxy",
+    "type": "Animatronic",
+    "name": "Ringmaster Foxy",
+    "continuity": "games",
+    "variantOf": "foxy",
+    "imageUrl": "/images/characters/ringmaster-foxy.webp",
+    "gender": "Male",
+    "color": "Crimson and gold",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "'Dark Circus' event skin in Special Delivery. Verify exact event name and date on the wiki."
+    ]
+  },
+  {
+    "id": "magician-mangle",
+    "type": "Animatronic",
+    "name": "Magician Mangle",
+    "continuity": "games",
+    "variantOf": "mangle",
+    "imageUrl": "/images/characters/magician-mangle.webp",
+    "gender": "Unconfirmed",
+    "color": "Black and white",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "'Dark Circus' event skin in Special Delivery. Verify exact event name and date on the wiki."
+    ]
+  },
+  {
+    "id": "foxy-novels",
+    "type": "Animatronic",
+    "name": "Foxy (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "foxy",
+      "foxy-movie"
+    ],
+    "imageUrl": "/images/characters/foxy-novels.webp",
+    "gender": "Male",
+    "color": "Crimson",
+    "group": "Original",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "gn-the-silver-eyes"
+    ],
+    "notes": [
+      "The Twisted Wolf is a distinct character in the novel continuity, not a Foxy variant.",
+      "Verify appearances in The Fourth Closet before publishing."
+    ]
+  },
+  {
+    "id": "twisted-foxy",
+    "type": "Animatronic",
+    "name": "Twisted Foxy",
+    "continuity": "novels",
+    "variantOf": "foxy-novels",
+    "imageUrl": "/images/characters/twisted-foxy.webp",
+    "gender": "Male",
+    "color": "Dark crimson",
+    "group": "Twisted",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Twisted Ones"
+    },
+    "debut": "the-twisted-ones",
+    "appearances": [
+      "the-twisted-ones",
+      "gn-the-twisted-ones"
+    ]
+  },
+  {
+    "id": "foxy-movie",
+    "type": "Animatronic",
+    "name": "Foxy (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "foxy",
+      "foxy-novels"
+    ],
+    "imageUrl": "/images/characters/foxy-movie.webp",
+    "gender": "Male",
+    "color": "Crimson",
+    "group": "Original",
+    "possessedBy": {
+      "value": "One of the five missing children",
+      "canonicity": "confirmed",
+      "continuity": "movies",
+      "source": "Five Nights at Freddy's (2023)"
+    },
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Suit performed by a physical animatronic built by Jim Henson's Creature Shop.",
+      "Verify the child's name for the movie continuity before publishing."
+    ]
+  }
+]

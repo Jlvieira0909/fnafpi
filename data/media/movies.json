@@ -1,0 +1,89 @@
+[
+  {
+    "id": "fnaf-movie-1",
+    "type": "Movie",
+    "title": "Five Nights at Freddy's",
+    "imageUrl": "/images/media/fnafmovie1.webp",
+    "releaseDate": "2023-10-27",
+    "continuity": "movies",
+    "credits": {
+      "director": "Emma Tammi",
+      "writers": [
+        "Scott Cawthon",
+        "Seth Cuddeback",
+        "Emma Tammi"
+      ],
+      "producers": [
+        "Jason Blum",
+        "Scott Cawthon"
+      ],
+      "studio": "Blumhouse Productions / Universal Pictures",
+      "cast": [
+        {
+          "actor": "Josh Hutcherson",
+          "role": "Mike Schmidt"
+        },
+        {
+          "actor": "Elizabeth Lail",
+          "role": "Vanessa Shelly"
+        },
+        {
+          "actor": "Piper Rubio",
+          "role": "Abby Schmidt"
+        },
+        {
+          "actor": "Matthew Lillard",
+          "role": "William Afton / Steve Raglan"
+        },
+        {
+          "actor": "Mary Stuart Masterson",
+          "role": "Aunt Jane"
+        },
+        {
+          "actor": "Kat Conner Sterling",
+          "role": "Max"
+        }
+      ]
+    },
+    "notes": [
+      "Released simultaneously in theaters and on Peacock (US). Animatronics built by Jim Henson's Creature Shop."
+    ]
+  },
+  {
+    "id": "fnaf-movie-2",
+    "type": "Movie",
+    "title": "Five Nights at Freddy's 2",
+    "imageUrl": "/images/media/fnafmovie2.webp",
+    "releaseDate": "2025-12-05",
+    "continuity": "movies",
+    "credits": {
+      "director": "Emma Tammi",
+      "producers": [
+        "Jason Blum",
+        "Scott Cawthon"
+      ],
+      "studio": "Blumhouse Productions / Universal Pictures",
+      "cast": [
+        {
+          "actor": "Josh Hutcherson",
+          "role": "Mike Schmidt"
+        },
+        {
+          "actor": "Elizabeth Lail",
+          "role": "Vanessa Shelly"
+        },
+        {
+          "actor": "Piper Rubio",
+          "role": "Abby Schmidt"
+        },
+        {
+          "actor": "Matthew Lillard",
+          "role": "William Afton"
+        }
+      ]
+    },
+    "notes": [
+      "Complete the crew credits (writers and new cast members) from the wiki before publishing."
+    ]
+  }
+]

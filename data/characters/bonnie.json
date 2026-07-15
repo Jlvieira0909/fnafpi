@@ -1,0 +1,584 @@
+[
+  {
+    "id": "bonnie",
+    "type": "Animatronic",
+    "name": "Bonnie",
+    "continuity": "games",
+    "imageUrl": "/images/characters/bonnie.webp",
+    "gender": "Male",
+    "color": "Indigo",
+    "group": "Original",
+    "possessedBy": {
+      "value": "Jeremy",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "The Fourth Closet (graphic novel); supported by the Survival Logbook"
+    },
+    "status": {
+      "value": "Dismantled",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1",
+      "fnaf-ucn",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Scott Cawthon has described Bonnie as the animatronic that scared him the most during development."
+    ],
+    "counterparts": [
+      "bonnie-novels",
+      "bonnie-movie"
+    ]
+  },
+  {
+    "id": "toy-bonnie",
+    "type": "Animatronic",
+    "name": "Toy Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/toy-bonnie.webp",
+    "gender": "Male",
+    "color": "Light blue",
+    "group": "Toy",
+    "status": {
+      "value": "Scrapped",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 2 (the Toy animatronics were scrapped after the location closed)"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn",
+      "fnaf-hw",
+      "fnaf-ar"
+    ]
+  },
+  {
+    "id": "withered-bonnie",
+    "type": "Animatronic",
+    "name": "Withered Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/withered-bonnie.webp",
+    "gender": "Male",
+    "color": "Blue",
+    "group": "Withered",
+    "possessedBy": {
+      "value": "Jeremy",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "Same soul as classic Bonnie; The Fourth Closet (graphic novel)"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn",
+      "fnaf-hw"
+    ],
+    "notes": [
+      "The withered animatronics are the original suits, decayed and missing parts (Bonnie lacks his face and left arm); later refurbished into the FNAF 1 versions."
+    ]
+  },
+  {
+    "id": "shadow-bonnie",
+    "type": "Animatronic",
+    "name": "Shadow Bonnie (RWQFSFASXC)",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/shadow-bonnie.webp",
+    "color": "Black",
+    "group": "Shadow",
+    "status": {
+      "value": "Unknown",
+      "canonicity": "theory",
+      "continuity": "games",
+      "source": "Widely theorized to be a shadow/spirit entity rather than a physical animatronic"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-3",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Rare encounter in FNAF 2; playable in a hidden FNAF 3 minigame under the name RWQFSFASXC.",
+      "Appears in Ultimate Custom Night as one of the secret characters summoned by Dee Dee/XOR."
+    ]
+  },
+  {
+    "id": "spring-bonnie",
+    "type": "Animatronic",
+    "name": "Spring Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/spring-bonnie.webp",
+    "color": "Golden yellow",
+    "group": "Springlock",
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3",
+      "fnaf-4"
+    ],
+    "notes": [
+      "Springlock hybrid suit from Fredbear's Family Diner; performed alongside Fredbear.",
+      "Chronologically precedes Bonnie in-universe, but debuted later in the real world; variantOf follows design lineage, not in-universe chronology.",
+      "The suit William Afton used to lure the missing children, later becoming Springtrap."
+    ]
+  },
+  {
+    "id": "springtrap",
+    "type": "Animatronic",
+    "name": "Springtrap",
+    "continuity": "games",
+    "variantOf": "spring-bonnie",
+    "imageUrl": "/images/characters/springtrap.webp",
+    "gender": "Male",
+    "color": "Decayed olive yellow",
+    "group": "Springlock",
+    "possessedBy": {
+      "value": "William Afton",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3 minigames; reinforced by Sister Location and Freddy Fazbear's Pizzeria Simulator"
+    },
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "William Afton's corpse trapped inside the Spring Bonnie suit after a springlock failure."
+    ]
+  },
+  {
+    "id": "scraptrap",
+    "type": "Animatronic",
+    "name": "Scraptrap",
+    "continuity": "games",
+    "variantOf": "springtrap",
+    "imageUrl": "/images/characters/scraptrap.webp",
+    "gender": "Male",
+    "color": "Decayed yellow",
+    "group": "Scrap",
+    "possessedBy": {
+      "value": "William Afton",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator"
+    },
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Listed in-game as 'Afton'. Whether Scraptrap is the same physical suit as Springtrap is debated by the community."
+    ]
+  },
+  {
+    "id": "glitchtrap",
+    "type": "Animatronic",
+    "name": "Glitchtrap",
+    "continuity": "games",
+    "variantOf": "spring-bonnie",
+    "imageUrl": "/images/characters/glitchtrap.webp",
+    "gender": "Male",
+    "color": "Golden yellow",
+    "group": "Digital",
+    "possessedBy": {
+      "value": "William Afton (digital consciousness)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Help Wanted (Fazbear Entertainment scanned old circuit boards, uploading a malicious agent)"
+    },
+    "debut": "fnaf-hw",
+    "appearances": [
+      "fnaf-hw",
+      "fnaf-sb"
+    ],
+    "notes": [
+      "Digital virus wearing a Spring Bonnie mascot costume inside The Freddy Fazbear Virtual Experience.",
+      "Appears in Security Breach through the Princess Quest arcade minigames.",
+      "Community debate exists over whether Glitchtrap is Afton or connected to the Mimic."
+    ]
+  },
+  {
+    "id": "burntrap",
+    "type": "Animatronic",
+    "name": "Burntrap",
+    "continuity": "games",
+    "variantOf": "springtrap",
+    "imageUrl": "/images/characters/burntrap.webp",
+    "gender": "Male",
+    "color": "Charred yellow",
+    "group": "Springlock",
+    "possessedBy": {
+      "value": "William Afton",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Security Breach ('Afton Ending'); identity disputed since the RUIN DLC introduced the Mimic"
+    },
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb"
+    ],
+    "notes": [
+      "Only appears in Security Breach's true ending beneath the Pizzaplex.",
+      "After RUIN, part of the community theorizes Burntrap may be connected to the Mimic rather than Afton."
+    ]
+  },
+  {
+    "id": "nightmare-bonnie",
+    "type": "Animatronic",
+    "name": "Nightmare Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/nightmare-bonnie.webp",
+    "gender": "Male",
+    "color": "Dark blue",
+    "group": "Nightmare",
+    "status": {
+      "value": "Nonexistent (nightmare entity)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4 (the nightmares are commonly interpreted as hallucinations/dreams)"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn"
+    ]
+  },
+  {
+    "id": "jack-o-bonnie",
+    "type": "Animatronic",
+    "name": "Jack-O-Bonnie",
+    "continuity": "games",
+    "variantOf": "nightmare-bonnie",
+    "imageUrl": "/images/characters/jack-o-bonnie.webp",
+    "gender": "Male",
+    "color": "Charred black with orange glow",
+    "group": "Nightmare",
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4"
+    ],
+    "notes": [
+      "Halloween Edition of FNAF 4 (update of 2015-10-31), replacing Nightmare Bonnie."
+    ]
+  },
+  {
+    "id": "plushtrap",
+    "type": "Animatronic",
+    "name": "Plushtrap",
+    "continuity": "games",
+    "variantOf": "spring-bonnie",
+    "imageUrl": "/images/characters/plushtrap.webp",
+    "gender": "Male",
+    "color": "Pale green-yellow",
+    "group": "Nightmare",
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-hw"
+    ],
+    "notes": [
+      "Small Spring Bonnie plush-like animatronic from the 'Fun with Plushtrap' minigame; returns in Help Wanted's Dark Rooms."
+    ]
+  },
+  {
+    "id": "rockstar-bonnie",
+    "type": "Animatronic",
+    "name": "Rockstar Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/rockstar-bonnie.webp",
+    "gender": "Male",
+    "color": "Blue",
+    "group": "Rockstar",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ]
+  },
+  {
+    "id": "glamrock-bonnie",
+    "type": "Animatronic",
+    "name": "Glamrock Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/glamrock-bonnie.webp",
+    "gender": "Male",
+    "color": "Blue and white",
+    "group": "Glamrock",
+    "status": {
+      "value": "Decommissioned and destroyed",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Security Breach (retired before the game's events); wrecked body found in the RUIN DLC"
+    },
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
+    "notes": [
+      "Referenced throughout Security Breach (Bonnie Bowl, posters, Monty's rivalry) but only physically found, destroyed, in RUIN.",
+      "Who or what destroyed Glamrock Bonnie is deliberately left ambiguous."
+    ]
+  },
+  {
+    "id": "bon-bon",
+    "type": "Animatronic",
+    "name": "Bon-Bon",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/bon-bon.webp",
+    "gender": "Male",
+    "color": "Blue",
+    "group": "Funtime",
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl",
+      "fnaf-ucn",
+      "fnaf-hw"
+    ],
+    "notes": [
+      "Hand puppet attached to Funtime Freddy's right arm; the Funtime era's Bonnie counterpart.",
+      "Classifying Bon-Bon as a Bonnie variant is an editorial decision — he is a distinct character in-universe."
+    ]
+  },
+  {
+    "id": "bonnet",
+    "type": "Animatronic",
+    "name": "Bonnet",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/bonnet.webp",
+    "gender": "Female",
+    "color": "Pink",
+    "group": "Funtime",
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl"
+    ],
+    "notes": [
+      "Introduced in Sister Location's Custom Night update; a pink counterpart to Bon-Bon."
+    ]
+  },
+  {
+    "id": "chocolate-bonnie",
+    "type": "Animatronic",
+    "name": "Chocolate Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/chocolate-bonnie.webp",
+    "gender": "Male",
+    "color": "Chocolate brown",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Easter 2020 event skin in Special Delivery. Verify whether its Help Wanted 2 cameo warrants adding fnaf-hw2."
+    ]
+  },
+  {
+    "id": "easter-bonnie",
+    "type": "Animatronic",
+    "name": "Easter Bonnie",
+    "continuity": "games",
+    "variantOf": "bonnie",
+    "imageUrl": "/images/characters/easter-bonnie.webp",
+    "gender": "Male",
+    "color": "White and purple",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Easter 2021 event skin in Special Delivery."
+    ]
+  },
+  {
+    "id": "toxic-springtrap",
+    "type": "Animatronic",
+    "name": "Toxic Springtrap",
+    "continuity": "games",
+    "variantOf": "springtrap",
+    "imageUrl": "/images/characters/toxic-springtrap.webp",
+    "gender": "Male",
+    "color": "Toxic green",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Summer 2020 'Wasteland' event skin in Special Delivery."
+    ]
+  },
+  {
+    "id": "clown-springtrap",
+    "type": "Animatronic",
+    "name": "Clown Springtrap",
+    "continuity": "games",
+    "variantOf": "springtrap",
+    "imageUrl": "/images/characters/clown-springtrap.webp",
+    "gender": "Male",
+    "color": "White and red",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "'Dark Circus' event skin in Special Delivery. Verify exact event name and date on the wiki."
+    ]
+  },
+  {
+    "id": "bonnie-novels",
+    "type": "Animatronic",
+    "name": "Bonnie (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "bonnie",
+      "bonnie-movie"
+    ],
+    "imageUrl": "/images/characters/bonnie-novels.webp",
+    "gender": "Male",
+    "color": "Blue-violet",
+    "group": "Original",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "gn-the-silver-eyes"
+    ],
+    "notes": [
+      "Verify appearances in The Fourth Closet before publishing."
+    ]
+  },
+  {
+    "id": "twisted-bonnie",
+    "type": "Animatronic",
+    "name": "Twisted Bonnie",
+    "continuity": "novels",
+    "variantOf": "bonnie-novels",
+    "imageUrl": "/images/characters/twisted-bonnie.webp",
+    "gender": "Male",
+    "color": "Dark blue",
+    "group": "Twisted",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Twisted Ones"
+    },
+    "debut": "the-twisted-ones",
+    "appearances": [
+      "the-twisted-ones",
+      "gn-the-twisted-ones"
+    ]
+  },
+  {
+    "id": "pit-bonnie",
+    "type": "Animatronic",
+    "name": "Spring Bonnie (Into the Pit)",
+    "continuity": "frights",
+    "counterparts": [
+      "spring-bonnie"
+    ],
+    "imageUrl": "/images/characters/pit-bonnie.webp",
+    "color": "Golden yellow",
+    "group": "Springlock",
+    "debut": "ff-01-into-the-pit",
+    "appearances": [
+      "ff-01-into-the-pit",
+      "gn-ff-vol-1",
+      "fnaf-into-the-pit"
+    ],
+    "notes": [
+      "Monstrous yellow rabbit encountered through the ball pit time portal; popularly nicknamed 'Pit Bonnie'."
+    ]
+  },
+  {
+    "id": "bonnie-movie",
+    "type": "Animatronic",
+    "name": "Bonnie (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "bonnie",
+      "bonnie-novels"
+    ],
+    "imageUrl": "/images/characters/bonnie-movie.webp",
+    "gender": "Male",
+    "color": "Blue-violet",
+    "group": "Original",
+    "possessedBy": {
+      "value": "One of the five missing children",
+      "canonicity": "confirmed",
+      "continuity": "movies",
+      "source": "Five Nights at Freddy's (2023)"
+    },
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Suit performed by a physical animatronic built by Jim Henson's Creature Shop.",
+      "Verify the child's name for the movie continuity before publishing."
+    ]
+  },
+  {
+    "id": "yellow-rabbit-movie",
+    "type": "Animatronic",
+    "name": "Yellow Rabbit (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "spring-bonnie",
+      "springtrap"
+    ],
+    "imageUrl": "/images/characters/yellow-rabbit-movie.webp",
+    "gender": "Male",
+    "color": "Golden yellow",
+    "group": "Springlock",
+    "possessedBy": {
+      "value": "William Afton",
+      "canonicity": "confirmed",
+      "continuity": "movies",
+      "source": "Five Nights at Freddy's (2023) — Afton wears the suit and is crushed by its springlocks"
+    },
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "The human inside the suit is cataloged as william-afton-movie.",
+      "The movie continuity's counterpart of Spring Bonnie/Springtrap.",
+      "Verify the exact nature of his Five Nights at Freddy's 2 (2025) appearance before publishing."
+    ]
+  }
+]

@@ -1,0 +1,639 @@
+[
+  {
+    "id": "fnaf-1",
+    "type": "Game",
+    "title": "Five Nights at Freddy's",
+    "imageUrl": "/images/media/fnaf1.webp",
+    "releaseDate": "2014-08-08",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2014-08-08"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2014-08-27"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2014-09-11"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "Xbox One",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "PlayStation 4",
+        "releaseDate": "2019-11-29"
+      }
+    ],
+    "notes": [
+      "First released on Desura on 2014-08-08; Steam release followed on 2014-08-18.",
+      "Console ports (2019) developed by Clickteam for the franchise's 5th anniversary."
+    ]
+  },
+  {
+    "id": "fnaf-2",
+    "type": "Game",
+    "title": "Five Nights at Freddy's 2",
+    "imageUrl": "/images/media/fnaf2.webp",
+    "releaseDate": "2014-11-10",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2014-11-10"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2014-11-12"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2014-11-20"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "Xbox One",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "PlayStation 4",
+        "releaseDate": "2019-11-29"
+      }
+    ]
+  },
+  {
+    "id": "fnaf-3",
+    "type": "Game",
+    "title": "Five Nights at Freddy's 3",
+    "imageUrl": "/images/media/fnaf3.webp",
+    "releaseDate": "2015-03-02",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2015-03-02"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2015-03-06"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2015-03-12"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "Xbox One",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "PlayStation 4",
+        "releaseDate": "2019-11-29"
+      }
+    ],
+    "notes": [
+      "Some sources (Wikipedia) list 2015-03-03; Steam and the franchise wiki record 2015-03-02."
+    ]
+  },
+  {
+    "id": "fnaf-4",
+    "type": "Game",
+    "title": "Five Nights at Freddy's 4",
+    "imageUrl": "/images/media/fnaf4.webp",
+    "releaseDate": "2015-07-23",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2015-07-23"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2015-07-25"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2015-08-04"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "Xbox One",
+        "releaseDate": "2019-11-29"
+      },
+      {
+        "platform": "PlayStation 4",
+        "releaseDate": "2019-11-29"
+      }
+    ],
+    "notes": [
+      "Originally announced for Halloween 2015, the release was moved up and it surprise-launched on 2015-07-23."
+    ]
+  },
+  {
+    "id": "fnaf-world",
+    "type": "Game",
+    "title": "FNaF World",
+    "imageUrl": "/images/media/fnafworld.webp",
+    "releaseDate": "2016-01-21",
+    "continuity": "games",
+    "mainSeries": false,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2016-01-21"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2016-01-12"
+      }
+    ],
+    "notes": [
+      "Pulled from Steam by Scott himself after negative reception; re-released for free on Game Jolt on 2016-02-08.",
+      "Update 2 released on 2016-05-13."
+    ]
+  },
+  {
+    "id": "fnaf-sl",
+    "type": "Game",
+    "title": "Five Nights at Freddy's: Sister Location",
+    "imageUrl": "/images/media/fnafsl.webp",
+    "releaseDate": "2016-10-07",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2016-10-07"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2016-12-22"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2017-01-03"
+      },
+      {
+        "platform": "Nintendo Switch"
+      },
+      {
+        "platform": "Xbox One"
+      },
+      {
+        "platform": "PlayStation 4"
+      }
+    ]
+  },
+  {
+    "id": "fnaf-ffps",
+    "type": "Game",
+    "title": "Freddy Fazbear's Pizzeria Simulator",
+    "imageUrl": "/images/media/fnafffps.webp",
+    "releaseDate": "2017-12-04",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2017-12-04"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2019-08-13"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2019-08-13"
+      },
+      {
+        "platform": "Nintendo Switch"
+      },
+      {
+        "platform": "Xbox One"
+      },
+      {
+        "platform": "PlayStation 4"
+      }
+    ],
+    "notes": [
+      "Also known as FNaF 6. Released for free on Steam."
+    ]
+  },
+  {
+    "id": "fnaf-ucn",
+    "type": "Game",
+    "title": "Ultimate Custom Night",
+    "imageUrl": "/images/media/fnafucn.webp",
+    "releaseDate": "2018-06-27",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2018-06-27"
+      },
+      {
+        "platform": "Android"
+      },
+      {
+        "platform": "iOS"
+      },
+      {
+        "platform": "Nintendo Switch"
+      },
+      {
+        "platform": "Xbox One"
+      },
+      {
+        "platform": "PlayStation 4"
+      }
+    ],
+    "notes": [
+      "Released for free on Steam."
+    ]
+  },
+  {
+    "id": "fnaf-hw",
+    "type": "Game",
+    "title": "Five Nights at Freddy's: Help Wanted",
+    "imageUrl": "/images/media/fnafhw.webp",
+    "releaseDate": "2019-05-28",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Steel Wool Studios",
+      "publisher": "ScottGames / Steel Wool Studios"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2019-05-28"
+      },
+      {
+        "platform": "PSVR",
+        "releaseDate": "2019-05-28"
+      },
+      {
+        "platform": "Oculus/Meta Quest",
+        "releaseDate": "2019-07-16"
+      },
+      {
+        "platform": "PlayStation 4",
+        "releaseDate": "2019-12-17"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "releaseDate": "2020-05-21"
+      },
+      {
+        "platform": "Xbox One",
+        "releaseDate": "2020-10-14"
+      },
+      {
+        "platform": "Android",
+        "releaseDate": "2020-10-26"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2020-10-26"
+      }
+    ],
+    "notes": [
+      "First game in the franchise developed by Steel Wool Studios; playable in VR and flat mode."
+    ]
+  },
+  {
+    "id": "hw-curse-of-dreadbear",
+    "type": "DLC",
+    "title": "Curse of Dreadbear",
+    "imageUrl": "/images/media/curseofdreadbear.webp",
+    "releaseDate": "2019-10-23",
+    "continuity": "games",
+    "mainSeries": false,
+    "parentId": "fnaf-hw",
+    "credits": {
+      "developer": "Steel Wool Studios"
+    },
+    "notes": [
+      "Paid Halloween-themed DLC for Help Wanted."
+    ]
+  },
+  {
+    "id": "fnaf-ar",
+    "type": "Game",
+    "title": "Five Nights at Freddy's AR: Special Delivery",
+    "imageUrl": "/images/media/fnafar.webp",
+    "releaseDate": "2019-11-25",
+    "continuity": "games",
+    "mainSeries": false,
+    "credits": {
+      "developer": "Illumix",
+      "publisher": "Illumix"
+    },
+    "platforms": [
+      {
+        "platform": "Android",
+        "releaseDate": "2019-11-25"
+      },
+      {
+        "platform": "iOS",
+        "releaseDate": "2019-11-25"
+      }
+    ],
+    "notes": [
+      "Free-to-play augmented reality game. Verify current server status to document a shutdown, if any."
+    ]
+  },
+  {
+    "id": "freddy-in-space-2",
+    "type": "Game",
+    "title": "Freddy in Space 2",
+    "imageUrl": "/images/media/freddyinspace2.webp",
+    "releaseDate": "2019-12-03",
+    "continuity": "games",
+    "mainSeries": false,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2019-12-03"
+      }
+    ],
+    "notes": [
+      "Released for free during a charity livestream benefiting St. Jude Children's Research Hospital."
+    ]
+  },
+  {
+    "id": "sb-furys-rage",
+    "type": "Game",
+    "title": "Security Breach: Fury's Rage",
+    "imageUrl": "/images/media/furysrage.webp",
+    "releaseDate": "2021-04-28",
+    "continuity": "games",
+    "mainSeries": false,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2021-04-28"
+      }
+    ],
+    "notes": [
+      "Parody beat 'em up released for free on Game Jolt."
+    ]
+  },
+  {
+    "id": "fnaf-sb",
+    "type": "Game",
+    "title": "Five Nights at Freddy's: Security Breach",
+    "imageUrl": "/images/media/fnafsb.webp",
+    "releaseDate": "2021-12-16",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Steel Wool Studios",
+      "publisher": "ScottGames / Steel Wool Studios"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2021-12-16"
+      },
+      {
+        "platform": "PlayStation 4",
+        "releaseDate": "2021-12-16"
+      },
+      {
+        "platform": "PlayStation 5",
+        "releaseDate": "2021-12-16"
+      },
+      {
+        "platform": "Xbox One",
+        "releaseDate": "2022-11-22"
+      },
+      {
+        "platform": "Xbox Series X/S",
+        "releaseDate": "2022-11-22"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-04-19"
+      }
+    ]
+  },
+  {
+    "id": "sb-ruin",
+    "type": "DLC",
+    "title": "Security Breach: RUIN",
+    "imageUrl": "/images/media/sbruin.webp",
+    "releaseDate": "2023-07-25",
+    "continuity": "games",
+    "mainSeries": true,
+    "parentId": "fnaf-sb",
+    "credits": {
+      "developer": "Steel Wool Studios"
+    },
+    "notes": [
+      "Free DLC for Security Breach."
+    ]
+  },
+  {
+    "id": "freddy-in-space-3",
+    "type": "Game",
+    "title": "Freddy in Space 3: Chica in Space",
+    "imageUrl": "/images/media/freddyinspace3.webp",
+    "releaseDate": "2023-10-18",
+    "continuity": "games",
+    "mainSeries": false,
+    "credits": {
+      "developer": "Scott Cawthon",
+      "publisher": "Scott Cawthon"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2023-10-18"
+      }
+    ],
+    "notes": [
+      "Released for free on Game Jolt, initially under the title 'FNAF: The Movie: The Game', as a movie tie-in."
+    ]
+  },
+  {
+    "id": "fnaf-hw2",
+    "type": "Game",
+    "title": "Five Nights at Freddy's: Help Wanted 2",
+    "imageUrl": "/images/media/fnafhw2.webp",
+    "releaseDate": "2023-12-14",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Steel Wool Studios",
+      "publisher": "ScottGames / Steel Wool Studios"
+    },
+    "platforms": [
+      {
+        "platform": "PSVR2",
+        "releaseDate": "2023-12-14"
+      },
+      {
+        "platform": "Windows",
+        "releaseDate": "2023-12-14"
+      },
+      {
+        "platform": "Meta Quest",
+        "releaseDate": "2024-04-25"
+      },
+      {
+        "platform": "PlayStation 5",
+        "releaseDate": "2024-06-20"
+      }
+    ],
+    "notes": [
+      "Flat (non-VR) version for PS5 released on 2024-06-20."
+    ]
+  },
+  {
+    "id": "fnaf-into-the-pit",
+    "type": "Game",
+    "title": "Five Nights at Freddy's: Into the Pit",
+    "imageUrl": "/images/media/intothepit.webp",
+    "releaseDate": "2024-08-07",
+    "continuity": "frights",
+    "mainSeries": false,
+    "credits": {
+      "developer": "Mega Cat Studios",
+      "publisher": "ScottGames"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2024-08-07"
+      },
+      {
+        "platform": "PlayStation 4",
+        "releaseDate": "2024-09-27"
+      },
+      {
+        "platform": "PlayStation 5",
+        "releaseDate": "2024-09-27"
+      },
+      {
+        "platform": "Xbox One",
+        "releaseDate": "2024-09-27"
+      },
+      {
+        "platform": "Xbox Series X/S",
+        "releaseDate": "2024-09-27"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "releaseDate": "2024-10-31"
+      }
+    ],
+    "notes": [
+      "Adaptation of the first story from Fazbear Frights #1; released on the franchise's 10th anniversary."
+    ]
+  },
+  {
+    "id": "fnaf-som",
+    "type": "Game",
+    "title": "Five Nights at Freddy's: Secret of the Mimic",
+    "imageUrl": "/images/media/secretofthemimic.webp",
+    "releaseDate": "2025-06-13",
+    "continuity": "games",
+    "mainSeries": true,
+    "credits": {
+      "developer": "Steel Wool Studios",
+      "publisher": "ScottGames / Steel Wool Studios"
+    },
+    "platforms": [
+      {
+        "platform": "Windows",
+        "releaseDate": "2025-06-13"
+      },
+      {
+        "platform": "PlayStation 5",
+        "releaseDate": "2025-06-13"
+      },
+      {
+        "platform": "PSVR2",
+        "releaseDate": "2025-06-13"
+      }
+    ],
+    "notes": [
+      "Verify dates of possible Xbox and Switch ports."
+    ]
+  },
+  {
+    "id": "five-laps-at-freddys",
+    "type": "Game",
+    "title": "Five Laps at Freddy's",
+    "imageUrl": "/images/media/fivelaps.webp",
+    "releaseDate": null,
+    "continuity": "games",
+    "mainSeries": false,
+    "credits": {},
+    "notes": [
+      "Kart racing game announced on 2024-06-19 for the 10th anniversary. Verify release status, developer and platforms before publishing."
+    ]
+  }
+]

@@ -1,0 +1,540 @@
+[
+  {
+    "id": "freddy-fazbear",
+    "type": "Animatronic",
+    "name": "Freddy Fazbear",
+    "continuity": "games",
+    "imageUrl": "/images/characters/freddy-fazbear.webp",
+    "gender": "Male",
+    "color": "Brown",
+    "group": "Original",
+    "possessedBy": {
+      "value": "Gabriel",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "The Fourth Closet (graphic novel); supported by the Survival Logbook"
+    },
+    "status": {
+      "value": "Dismantled",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3 (the classic animatronics were scrapped; parts salvaged for Fazbear's Fright)"
+    },
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1",
+      "fnaf-ucn",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Base identity for variants such as Withered Freddy, Toy Freddy, Nightmare Freddy and Glamrock Freddy.",
+      "The movie version is a separate character entry linked via counterparts."
+    ],
+    "counterparts": [
+      "freddy-novels",
+      "freddy-movie"
+    ]
+  },
+  {
+    "id": "golden-freddy",
+    "type": "Animatronic",
+    "name": "Golden Freddy",
+    "continuity": "games",
+    "imageUrl": "/images/characters/golden-freddy.webp",
+    "gender": "Male",
+    "color": "Golden yellow",
+    "group": "Original",
+    "possessedBy": {
+      "value": "Cassidy",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Survival Logbook (faded text); name spelling from The Fourth Closet (graphic novel)"
+    },
+    "status": {
+      "value": "Unknown",
+      "canonicity": "theory",
+      "continuity": "games",
+      "source": "Ultimate Custom Night is popularly theorized to depict its soul tormenting William Afton"
+    },
+    "debut": "fnaf-1",
+    "appearances": [
+      "fnaf-1",
+      "fnaf-2",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Appears as a hallucination-like entity rather than a physical animatronic in FNAF 1.",
+      "Identified in-universe as a retired 'golden Freddy suit' (springlock era); closely tied to the Fredbear identity, which should be its own entry.",
+      "Classified as a Fredbear variant: identified in-universe as the retired golden springlock suit."
+    ],
+    "variantOf": "fredbear"
+  },
+  {
+    "id": "toy-freddy",
+    "type": "Animatronic",
+    "name": "Toy Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/toy-freddy.webp",
+    "gender": "Male",
+    "color": "Light brown",
+    "group": "Toy",
+    "status": {
+      "value": "Scrapped",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 2"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn",
+      "fnaf-hw",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "In Ultimate Custom Night he is found playing video games in Parts/Service."
+    ]
+  },
+  {
+    "id": "withered-freddy",
+    "type": "Animatronic",
+    "name": "Withered Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/withered-freddy.webp",
+    "gender": "Male",
+    "color": "Brown",
+    "group": "Withered",
+    "possessedBy": {
+      "value": "Gabriel",
+      "canonicity": "implied",
+      "continuity": "novels",
+      "source": "Same soul as classic Freddy; The Fourth Closet (graphic novel)"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2"
+    ],
+    "notes": [
+      "Verify whether the Help Wanted FNAF 2 levels justify adding fnaf-hw."
+    ]
+  },
+  {
+    "id": "shadow-freddy",
+    "type": "Animatronic",
+    "name": "Shadow Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/shadow-freddy.webp",
+    "color": "Dark purple",
+    "group": "Shadow",
+    "status": {
+      "value": "Unknown",
+      "canonicity": "theory",
+      "continuity": "games",
+      "source": "Widely theorized to be a shadow/spirit entity rather than a physical animatronic"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-3"
+    ],
+    "notes": [
+      "Rare appearance in FNAF 2's Parts/Service; in the FNAF 3 minigames it lures the classic animatronics to be dismantled."
+    ]
+  },
+  {
+    "id": "phantom-freddy",
+    "type": "Animatronic",
+    "name": "Phantom Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/phantom-freddy.webp",
+    "gender": "Male",
+    "color": "Charred greenish brown",
+    "group": "Phantom",
+    "status": {
+      "value": "Hallucination",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3 (phantoms cause no physical harm, only ventilation errors)"
+    },
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3"
+    ]
+  },
+  {
+    "id": "fredbear",
+    "type": "Animatronic",
+    "name": "Fredbear",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/fredbear.webp",
+    "gender": "Male",
+    "color": "Golden yellow",
+    "group": "Springlock",
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Springlock hybrid suit from Fredbear's Family Diner; performed alongside Spring Bonnie.",
+      "Chronologically the first mascot in-universe; variantOf follows design lineage, not in-universe chronology.",
+      "Responsible for the Bite of '83 in the FNAF 4 minigames.",
+      "Appears in Ultimate Custom Night as a secret character summoned via Dee Dee."
+    ]
+  },
+  {
+    "id": "nightmare-freddy",
+    "type": "Animatronic",
+    "name": "Nightmare Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/nightmare-freddy.webp",
+    "gender": "Male",
+    "color": "Dark brown",
+    "group": "Nightmare",
+    "status": {
+      "value": "Nonexistent (nightmare entity)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Accompanied by three miniature Freddies known as Freddles."
+    ]
+  },
+  {
+    "id": "nightmare-fredbear",
+    "type": "Animatronic",
+    "name": "Nightmare Fredbear",
+    "continuity": "games",
+    "variantOf": "fredbear",
+    "imageUrl": "/images/characters/nightmare-fredbear.webp",
+    "gender": "Male",
+    "color": "Golden yellow",
+    "group": "Nightmare",
+    "status": {
+      "value": "Nonexistent (nightmare entity)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Replaces all other nightmares on Night 5 of FNAF 4."
+    ]
+  },
+  {
+    "id": "nightmare",
+    "type": "Animatronic",
+    "name": "Nightmare",
+    "continuity": "games",
+    "variantOf": "nightmare-fredbear",
+    "imageUrl": "/images/characters/nightmare.webp",
+    "gender": "Male",
+    "color": "Translucent black",
+    "group": "Nightmare",
+    "status": {
+      "value": "Nonexistent (nightmare entity)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4"
+    ],
+    "notes": [
+      "Shadow counterpart of Nightmare Fredbear, active from Night 7 (Nightmare mode).",
+      "Verify whether his Ultimate Custom Night appearance warrants adding fnaf-ucn."
+    ]
+  },
+  {
+    "id": "funtime-freddy",
+    "type": "Animatronic",
+    "name": "Funtime Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/funtime-freddy.webp",
+    "gender": "Male",
+    "color": "White and pink",
+    "group": "Funtime",
+    "status": {
+      "value": "Merged into Ennard / Molten Freddy",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Sister Location ending and Freddy Fazbear's Pizzeria Simulator"
+    },
+    "debut": "fnaf-sl",
+    "appearances": [
+      "fnaf-sl",
+      "fnaf-ucn",
+      "fnaf-hw"
+    ],
+    "notes": [
+      "Built by Circus Baby's Entertainment and Rental with child-capture capabilities; carries the Bon-Bon hand puppet.",
+      "Merged with the other Funtimes to form Ennard; see ennard and molten-freddy."
+    ]
+  },
+  {
+    "id": "molten-freddy",
+    "type": "Animatronic",
+    "name": "Molten Freddy",
+    "continuity": "games",
+    "variantOf": "funtime-freddy",
+    "imageUrl": "/images/characters/molten-freddy.webp",
+    "gender": "Male",
+    "color": "Rusted orange wires",
+    "group": "Scrap",
+    "possessedBy": {
+      "value": "Funtime animatronics' amalgam (Ennard minus Circus Baby)",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator (voiced by Funtime Freddy's dominant personality)"
+    },
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Cross-family variant: it is Ennard's wire mass after Circus Baby's ejection, wearing a Funtime Freddy-like mask.",
+      "Classified under the Freddy family by its dominant personality; see ennard for the amalgam's origin."
+    ]
+  },
+  {
+    "id": "rockstar-freddy",
+    "type": "Animatronic",
+    "name": "Rockstar Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/rockstar-freddy.webp",
+    "gender": "Male",
+    "color": "Brown",
+    "group": "Rockstar",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ]
+  },
+  {
+    "id": "helpy",
+    "type": "Animatronic",
+    "name": "Helpy",
+    "continuity": "games",
+    "variantOf": "funtime-freddy",
+    "imageUrl": "/images/characters/helpy.webp",
+    "gender": "Male",
+    "color": "White and pink",
+    "group": "Funtime",
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-sb"
+    ],
+    "notes": [
+      "Miniature Funtime Freddy lookalike serving as Fazbear Entertainment's mascot/assistant.",
+      "Classifying Helpy as a Funtime Freddy variant is an editorial decision — he is a distinct character in-universe.",
+      "Verify whether his Ultimate Custom Night and Help Wanted 2 cameos warrant adding those ids."
+    ]
+  },
+  {
+    "id": "glamrock-freddy",
+    "type": "Animatronic",
+    "name": "Glamrock Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/glamrock-freddy.webp",
+    "gender": "Male",
+    "color": "Orange-brown with blue accents",
+    "group": "Glamrock",
+    "status": {
+      "value": "Active",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's: Security Breach"
+    },
+    "debut": "fnaf-sb",
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
+    "notes": [
+      "First heroic protagonist animatronic in the series; allies with Gregory against the Pizzaplex threats.",
+      "Verify the extent of his RUIN appearance (head used in the Mimic's ending sequence) on the wiki."
+    ]
+  },
+  {
+    "id": "dreadbear",
+    "type": "Animatronic",
+    "name": "Dreadbear",
+    "continuity": "games",
+    "variantOf": "nightmare-fredbear",
+    "imageUrl": "/images/characters/dreadbear.webp",
+    "gender": "Male",
+    "color": "Green",
+    "group": "Halloween",
+    "debut": "hw-curse-of-dreadbear",
+    "appearances": [
+      "hw-curse-of-dreadbear"
+    ],
+    "notes": [
+      "Frankenstein's-monster-like bear introduced as the Curse of Dreadbear DLC's flagship character."
+    ]
+  },
+  {
+    "id": "freddy-frostbear",
+    "type": "Animatronic",
+    "name": "Freddy Frostbear",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/freddy-frostbear.webp",
+    "gender": "Male",
+    "color": "Ice blue",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Christmas 2019 event skin in Special Delivery; the game's first skin."
+    ]
+  },
+  {
+    "id": "shamrock-freddy",
+    "type": "Animatronic",
+    "name": "Shamrock Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/shamrock-freddy.webp",
+    "gender": "Male",
+    "color": "Green",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "St. Patrick's Day 2020 event skin in Special Delivery."
+    ]
+  },
+  {
+    "id": "firework-freddy",
+    "type": "Animatronic",
+    "name": "Firework Freddy",
+    "continuity": "games",
+    "variantOf": "freddy-fazbear",
+    "imageUrl": "/images/characters/firework-freddy.webp",
+    "gender": "Male",
+    "color": "Red, white and blue",
+    "group": "Skin",
+    "debut": "fnaf-ar",
+    "appearances": [
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Independence Day 2020 event skin in Special Delivery. Verify exact name and event on the wiki."
+    ]
+  },
+  {
+    "id": "freddy-novels",
+    "type": "Animatronic",
+    "name": "Freddy Fazbear (Novel Trilogy)",
+    "continuity": "novels",
+    "counterparts": [
+      "freddy-fazbear",
+      "freddy-movie"
+    ],
+    "imageUrl": "/images/characters/freddy-novels.webp",
+    "gender": "Male",
+    "color": "Brown",
+    "group": "Original",
+    "debut": "the-silver-eyes",
+    "appearances": [
+      "the-silver-eyes",
+      "gn-the-silver-eyes"
+    ],
+    "notes": [
+      "In the novel continuity, the golden Freddy suit is tied to Michael Brooks — see michael-brooks.",
+      "Verify appearances in The Fourth Closet before publishing."
+    ]
+  },
+  {
+    "id": "twisted-freddy",
+    "type": "Animatronic",
+    "name": "Twisted Freddy",
+    "continuity": "novels",
+    "variantOf": "freddy-novels",
+    "imageUrl": "/images/characters/twisted-freddy.webp",
+    "gender": "Male",
+    "color": "Dark brown",
+    "group": "Twisted",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "novels",
+      "source": "The Twisted Ones"
+    },
+    "debut": "the-twisted-ones",
+    "appearances": [
+      "the-twisted-ones",
+      "gn-the-twisted-ones"
+    ]
+  },
+  {
+    "id": "freddy-movie",
+    "type": "Animatronic",
+    "name": "Freddy Fazbear (Movie)",
+    "continuity": "movies",
+    "counterparts": [
+      "freddy-fazbear",
+      "freddy-novels"
+    ],
+    "imageUrl": "/images/characters/freddy-movie.webp",
+    "gender": "Male",
+    "color": "Brown",
+    "group": "Original",
+    "possessedBy": {
+      "value": "One of the five missing children",
+      "canonicity": "confirmed",
+      "continuity": "movies",
+      "source": "Five Nights at Freddy's (2023)"
+    },
+    "debut": "fnaf-movie-1",
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
+    "notes": [
+      "Suit performed by a physical animatronic built by Jim Henson's Creature Shop.",
+      "Verify the child's name for the movie continuity before publishing."
+    ]
+  }
+]

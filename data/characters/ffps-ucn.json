@@ -1,0 +1,243 @@
+[
+  {
+    "id": "happy-frog",
+    "type": "Animatronic",
+    "name": "Happy Frog",
+    "continuity": "games",
+    "imageUrl": "/images/characters/happy-frog.webp",
+    "gender": "Female",
+    "color": "Green",
+    "group": "Mediocre Melodies",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ]
+  },
+  {
+    "id": "mr-hippo",
+    "type": "Animatronic",
+    "name": "Mr. Hippo",
+    "continuity": "games",
+    "imageUrl": "/images/characters/mr-hippo.webp",
+    "gender": "Male",
+    "color": "Purple",
+    "group": "Mediocre Melodies",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Famous for his rambling post-death monologues in Ultimate Custom Night."
+    ]
+  },
+  {
+    "id": "mystic-hippo",
+    "type": "Animatronic",
+    "name": "Mystic Hippo",
+    "continuity": "games",
+    "variantOf": "mr-hippo",
+    "imageUrl": "/images/characters/mystic-hippo.webp",
+    "gender": "Female",
+    "color": "Purple and gold",
+    "group": "Skin",
+    "debut": "fnaf-hw2",
+    "appearances": [
+      "fnaf-hw2"
+    ],
+    "notes": [
+      "Fortune-teller version of Mr. Hippo in Help Wanted 2. Verify official gender/voice details on the wiki."
+    ]
+  },
+  {
+    "id": "pigpatch",
+    "type": "Animatronic",
+    "name": "Pigpatch",
+    "continuity": "games",
+    "imageUrl": "/images/characters/pigpatch.webp",
+    "gender": "Male",
+    "color": "Pink",
+    "group": "Mediocre Melodies",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Banjo player who quotes proverbs in Ultimate Custom Night."
+    ]
+  },
+  {
+    "id": "nedd-bear",
+    "type": "Animatronic",
+    "name": "Nedd Bear",
+    "continuity": "games",
+    "imageUrl": "/images/characters/nedd-bear.webp",
+    "gender": "Male",
+    "color": "Brown and yellow",
+    "group": "Mediocre Melodies",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ]
+  },
+  {
+    "id": "orville-elephant",
+    "type": "Animatronic",
+    "name": "Orville Elephant",
+    "continuity": "games",
+    "imageUrl": "/images/characters/orville-elephant.webp",
+    "gender": "Male",
+    "color": "Gray and purple",
+    "group": "Mediocre Melodies",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ]
+  },
+  {
+    "id": "el-chip",
+    "type": "Animatronic",
+    "name": "El Chip",
+    "continuity": "games",
+    "imageUrl": "/images/characters/el-chip.webp",
+    "gender": "Male",
+    "color": "Brown",
+    "group": "Mediocre Melodies",
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Beaver mascot moonlighting for his own Tex-Mex restaurant, El Chip's; interrupts Ultimate Custom Night with ad pop-ups.",
+      "Grouped with the Mediocre Melodies for catalog purposes; verify whether the wiki classifies him separately."
+    ]
+  },
+  {
+    "id": "candy-cadet",
+    "type": "Animatronic",
+    "name": "Candy Cadet",
+    "continuity": "games",
+    "imageUrl": "/images/characters/candy-cadet.webp",
+    "color": "Red",
+    "group": "Service",
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Candy vending robot whose cryptic stories (five kittens, five keys, five children) mirror the franchise's lore of merged souls.",
+      "Verify whether his Security Breach cameo warrants adding fnaf-sb."
+    ]
+  },
+  {
+    "id": "egg-baby",
+    "type": "Animatronic",
+    "name": "Egg Baby (Data Archive)",
+    "continuity": "games",
+    "imageUrl": "/images/characters/egg-baby.webp",
+    "color": "Yellow and teal",
+    "group": "Service",
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Purchasable prop hiding the HRY223 audio files — Henry's hidden logs that reframe Freddy Fazbear's Pizzeria Simulator's ending."
+    ]
+  },
+  {
+    "id": "trash-and-the-gang",
+    "type": "Animatronic",
+    "name": "Trash and the Gang",
+    "continuity": "games",
+    "imageUrl": "/images/characters/trash-and-the-gang.webp",
+    "color": "Assorted junk",
+    "group": "Service",
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Budget 'animatronics' made of literal garbage: Bucket Bob, Mr. Can-Do, Mr. Hugs, No. 1 Crate and Pan Stan; modeled as a single entry representing the group."
+    ]
+  },
+  {
+    "id": "dee-dee",
+    "type": "Animatronic",
+    "name": "Dee Dee",
+    "continuity": "games",
+    "imageUrl": "/images/characters/dee-dee.webp",
+    "gender": "Female",
+    "color": "Pink and blue",
+    "group": "Original",
+    "debut": "fnaf-world",
+    "appearances": [
+      "fnaf-world",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Debuted running FNAF World's fishing minigame; returns in Ultimate Custom Night adding surprise characters to the roster.",
+      "Her shadow form XOR appears in 50/20 mode, summoning all of her secret characters in sequence."
+    ]
+  },
+  {
+    "id": "old-man-consequences",
+    "type": "Animatronic",
+    "name": "Old Man Consequences",
+    "continuity": "games",
+    "imageUrl": "/images/characters/old-man-consequences.webp",
+    "gender": "Male",
+    "color": "Red 8-bit sprite",
+    "group": "Original",
+    "debut": "fnaf-world",
+    "appearances": [
+      "fnaf-world",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "8-bit fisherman from FNAF World's Red Lake; his Ultimate Custom Night easter egg ('leave the demon to his demons') addresses the game's tormented subject.",
+      "Widely discussed in meta-lore theories; keep claims to confirmed appearances."
+    ]
+  }
+]

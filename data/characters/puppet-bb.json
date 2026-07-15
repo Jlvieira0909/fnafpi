@@ -1,0 +1,193 @@
+[
+  {
+    "id": "puppet",
+    "type": "Animatronic",
+    "name": "The Puppet",
+    "continuity": "games",
+    "imageUrl": "/images/characters/puppet.webp",
+    "gender": "Female",
+    "color": "Black and white",
+    "group": "Original",
+    "possessedBy": {
+      "value": "Charlotte Emily",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator (Security Puppet minigame and Henry's final speech)"
+    },
+    "status": {
+      "value": "Sealed inside Lefty; destroyed in the fire",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-3",
+      "fnaf-ucn",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Also known as The Marionette; kept at bay by a music box in FNAF 2.",
+      "Credited in-lore with giving the missing children's souls their animatronic bodies ('give gifts, give life')."
+    ]
+  },
+  {
+    "id": "phantom-puppet",
+    "type": "Animatronic",
+    "name": "Phantom Puppet",
+    "continuity": "games",
+    "variantOf": "puppet",
+    "imageUrl": "/images/characters/phantom-puppet.webp",
+    "color": "Charred black and white",
+    "group": "Phantom",
+    "status": {
+      "value": "Hallucination",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3"
+    ]
+  },
+  {
+    "id": "nightmarionne",
+    "type": "Animatronic",
+    "name": "Nightmarionne",
+    "continuity": "games",
+    "variantOf": "puppet",
+    "imageUrl": "/images/characters/nightmarionne.webp",
+    "color": "Black and white",
+    "group": "Nightmare",
+    "status": {
+      "value": "Nonexistent (nightmare entity)",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 4"
+    },
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn",
+      "fnaf-hw"
+    ],
+    "notes": [
+      "Halloween Edition of FNAF 4, replacing Nightmare; returns in Help Wanted's Night Terrors."
+    ]
+  },
+  {
+    "id": "security-puppet",
+    "type": "Animatronic",
+    "name": "Security Puppet",
+    "continuity": "games",
+    "variantOf": "puppet",
+    "imageUrl": "/images/characters/security-puppet.webp",
+    "color": "Black and white",
+    "group": "Original",
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps"
+    ],
+    "notes": [
+      "Seen in the Security Puppet minigame: assigned to protect Charlotte Emily, it reaches her too late and becomes her vessel."
+    ]
+  },
+  {
+    "id": "lefty",
+    "type": "Animatronic",
+    "name": "Lefty",
+    "continuity": "games",
+    "variantOf": "puppet",
+    "imageUrl": "/images/characters/lefty.webp",
+    "color": "Black",
+    "group": "Rockstar",
+    "possessedBy": {
+      "value": "Charlotte Emily (via the Puppet sealed inside)",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Freddy Fazbear's Pizzeria Simulator (L.E.F.T.E.: Lure Encapsulate Fuse Transport Extract)"
+    },
+    "status": {
+      "value": "Destroyed",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Burned in the Freddy Fazbear's Pizzeria Simulator fire"
+    },
+    "debut": "fnaf-ffps",
+    "appearances": [
+      "fnaf-ffps",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Freddy-style bear built by Henry to capture the Puppet; classified under the Puppet family by its contents, not its bear-shaped shell."
+    ]
+  },
+  {
+    "id": "balloon-boy",
+    "type": "Animatronic",
+    "name": "Balloon Boy",
+    "continuity": "games",
+    "imageUrl": "/images/characters/balloon-boy.webp",
+    "gender": "Male",
+    "color": "Red, blue and tan",
+    "group": "Toy",
+    "status": {
+      "value": "Scrapped",
+      "canonicity": "confirmed",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 2"
+    },
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn",
+      "fnaf-ar"
+    ],
+    "notes": [
+      "Disables the flashlight rather than attacking directly.",
+      "Verify whether his Help Wanted appearance warrants adding fnaf-hw."
+    ]
+  },
+  {
+    "id": "jj",
+    "type": "Animatronic",
+    "name": "JJ",
+    "continuity": "games",
+    "variantOf": "balloon-boy",
+    "imageUrl": "/images/characters/jj.webp",
+    "gender": "Female",
+    "color": "Purple and blue",
+    "group": "Toy",
+    "debut": "fnaf-2",
+    "appearances": [
+      "fnaf-2",
+      "fnaf-ucn"
+    ],
+    "notes": [
+      "Rare FNAF 2 encounter hiding under the office desk; became a full attacker in Ultimate Custom Night, disabling the door controls."
+    ]
+  },
+  {
+    "id": "phantom-bb",
+    "type": "Animatronic",
+    "name": "Phantom BB",
+    "continuity": "games",
+    "variantOf": "balloon-boy",
+    "imageUrl": "/images/characters/phantom-bb.webp",
+    "gender": "Male",
+    "color": "Charred greenish tan",
+    "group": "Phantom",
+    "status": {
+      "value": "Hallucination",
+      "canonicity": "implied",
+      "continuity": "games",
+      "source": "Five Nights at Freddy's 3"
+    },
+    "debut": "fnaf-3",
+    "appearances": [
+      "fnaf-3"
+    ]
+  }
+]
