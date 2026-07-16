@@ -1,0 +1,103 @@
+[
+  {
+    "id": "fnaf2-something-borrowed",
+    "title": "Something borrowed, something new.",
+    "imageUrl": "/images/teasers/fnaf2-something-borrowed.webp",
+    "postedDate": "2014-09",
+    "source": "scottgames.com",
+    "teases": "fnaf-2",
+    "description": "Extreme close-up of Toy Freddy announcing the sequel weeks after the original's success.",
+    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+  },
+  {
+    "id": "fnaf3-i-am-still-here",
+    "title": "I am still here.",
+    "imageUrl": "/images/teasers/fnaf3-i-am-still-here.webp",
+    "postedDate": "2015-01",
+    "source": "scottgames.com",
+    "teases": "fnaf-3",
+    "description": "Springtrap's decayed face emerging from darkness — the community's first look at the saga's true antagonist.",
+    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+  },
+  {
+    "id": "fnaf4-nightmare",
+    "title": "NIGHTMARE",
+    "imageUrl": "/images/teasers/fnaf4-nightmare.webp",
+    "postedDate": "2015-04",
+    "source": "scottgames.com",
+    "teases": "fnaf-4",
+    "hiddenContent": "Brightening the image reveals a faint '87' hidden on Nightmare Fredbear's hat.",
+    "description": "Nightmare Fredbear announcing the 'final chapter', posted around the franchise's first anniversary.",
+    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+  },
+  {
+    "id": "fnaf4-or-was-it-me",
+    "title": "Or was it me?",
+    "imageUrl": "/images/teasers/fnaf4-or-was-it-me.webp",
+    "postedDate": "2015-06",
+    "source": "scottgames.com",
+    "teases": "fnaf-4",
+    "description": "Nightmare Foxy joining the 'Was it me?' teaser series — each nightmare pleading guilt over the Bite.",
+    "notes": ["Part of a multi-image series; map the remaining entries from thefnafarchive.org."]
+  },
+  {
+    "id": "fnaf-world-reveal",
+    "title": "FNaF World",
+    "imageUrl": "/images/teasers/fnaf-world-reveal.webp",
+    "postedDate": "2015-09",
+    "source": "scottgames.com",
+    "teases": "fnaf-world",
+    "description": "A sudden burst of color on the usually pitch-black site: the Adventure cast announcing the RPG spin-off.",
+    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+  },
+  {
+    "id": "sl-there-was-never-just-one",
+    "title": "There was never just one.",
+    "imageUrl": "/images/teasers/sl-there-was-never-just-one.webp",
+    "postedDate": "2016-04",
+    "source": "scottgames.com",
+    "teases": "fnaf-sl",
+    "description": "Circus Baby's debut image, reframing the entire series' scale with a single caption.",
+    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+  },
+  {
+    "id": "sl-dont-hold-it-against-us",
+    "title": "Don't hold it against us.",
+    "imageUrl": "/images/teasers/sl-dont-hold-it-against-us.webp",
+    "postedDate": "2016-05",
+    "source": "scottgames.com",
+    "teases": "fnaf-sl",
+    "description": "The Funtime cast assembled in the dark ahead of Sister Location's reveal trailer.",
+    "notes": ["Verify the exact caption, cast and posted date on thefnafarchive.org."]
+  },
+  {
+    "id": "sl-cancelled",
+    "title": "CANCELLED. (due to leaks)",
+    "imageUrl": "/images/teasers/sl-cancelled.webp",
+    "postedDate": "2016-10",
+    "source": "scottgames.com",
+    "teases": "fnaf-sl",
+    "description": "Scott's infamous prank days before launch, 'cancelling' Sister Location over story leaks — the game shipped on schedule.",
+    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+  },
+  {
+    "id": "ucn-roster",
+    "title": "Ultimate Custom Night roster",
+    "imageUrl": "/images/teasers/ucn-roster.webp",
+    "postedDate": "2018-04",
+    "source": "scottgames.com",
+    "teases": "fnaf-ucn",
+    "description": "The gigantic character collage that grew over successive updates until it revealed all fifty selectable menaces.",
+    "notes": ["The collage evolved across several revisions; consider archiving each revision as its own entry."]
+  },
+  {
+    "id": "sb-vanny-reveal",
+    "title": "Vanny",
+    "imageUrl": "/images/teasers/sb-vanny-reveal.webp",
+    "postedDate": "2020-09",
+    "source": "scottgames.com",
+    "teases": "fnaf-sb",
+    "description": "The white rabbit stalking the Mega Pizzaplex era, surfacing on scottgames.com around the PS5 showcase reveal.",
+    "notes": ["Verify the exact image and posted date on thefnafarchive.org."]
+  }
+]

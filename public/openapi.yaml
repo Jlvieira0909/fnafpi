@@ -1,0 +1,584 @@
+openapi: 3.1.0
+info:
+  title: FNAFPI
+  version: 1.0.0
+  description: |
+    Public REST API for the Five Nights at Freddy's franchise: characters,
+    games, books, movies and locations across every continuity.
+
+    ## Continuities
+    FNAF spans four incompatible storylines plus out-of-universe material.
+    Every in-universe resource carries a `continuity` field: `games`,
+    `novels` (The Silver Eyes trilogy), `frights` (Fazbear Frights),
+    `movies` (the Blumhouse films) or `meta` (guidebooks).
+
+    ## Lore claims
+    Disputed lore (possessing souls, character fates) is expressed as a
+    `LoreClaim` object carrying a `canonicity` level (`confirmed`,
+    `implied` or `theory`) and its source, instead of being flattened
+    into plain strings.
+
+    ## Pagination
+    List endpoints return `{ info, results }`. `info.next` and `info.prev`
+    are absolute URLs. Default `limit` is 20, maximum 100.
+
+    All responses are CORS-enabled (`Access-Control-Allow-Origin: *`) and
+    CDN-cached for 24 hours.
+  contact:
+    name: FNAFPI
+    url: https://github.com/Jlvieira0909/fnafpi
+servers:
+  - url: /api/v1
+    description: Same-origin
+paths:
+  /characters:
+    get:
+      operationId: listCharacters
+      summary: List characters
+      tags: [Characters]
+      parameters:
+        - name: name
+          in: query
+          description: Case-insensitive substring match on the character name.
+          schema: { type: string }
+          example: bonnie
+        - name: type
+          in: query
+          schema: { type: string, enum: [Human, Animatronic] }
+        - $ref: "#/components/parameters/continuity"
+        - name: group
+          in: query
+          description: Design generation/class (Original, Toy, Withered, Funtime, Glamrock, Skin...).
+          schema: { type: string }
+          example: Glamrock
+        - name: gender
+          in: query
+          schema: { type: string }
+        - name: variantOf
+          in: query
+          description: Return only variants of the given character id.
+          schema: { type: string }
+          example: bonnie
+        - name: debut
+          in: query
+          description: Media id of the character's first appearance.
+          schema: { type: string }
+          example: fnaf-2
+        - name: appearsIn
+          in: query
+          description: Media id the character appears in.
+          schema: { type: string }
+          example: fnaf-ucn
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated character list.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/CharacterList" }
+  /characters/{id}:
+    get:
+      operationId: getCharacter
+      summary: Get a character by id
+      tags: [Characters]
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: The character, including its computed `variants`.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/CharacterDetail" }
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /media:
+    get:
+      operationId: listMedia
+      summary: List all media
+      tags: [Media]
+      parameters:
+        - name: title
+          in: query
+          description: Case-insensitive substring match on the title.
+          schema: { type: string }
+        - name: type
+          in: query
+          schema: { type: string, enum: [Game, DLC, Book, Movie] }
+        - $ref: "#/components/parameters/continuity"
+        - name: series
+          in: query
+          schema: { type: string }
+          example: Fazbear Frights
+        - name: bookType
+          in: query
+          schema: { type: string, enum: [novel, anthology, graphic-novel, guide, interactive-novel, companion] }
+        - $ref: "#/components/parameters/year"
+        - name: mainSeries
+          in: query
+          description: Filter mainline games ("true") or everything else ("false").
+          schema: { type: string, enum: ["true", "false"] }
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated media list.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MediaList" }
+  /media/{id}:
+    get:
+      operationId: getMedia
+      summary: Get a media entry by id
+      tags: [Media]
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: The media entry, including the computed `characters` roster.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MediaDetail" }
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /games:
+    get:
+      operationId: listGames
+      summary: List games and DLCs
+      tags: [Media]
+      parameters:
+        - name: title
+          in: query
+          schema: { type: string }
+        - $ref: "#/components/parameters/continuity"
+        - name: series
+          in: query
+          schema: { type: string }
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated list of Game and DLC entries.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MediaList" }
+  /books:
+    get:
+      operationId: listBooks
+      summary: List books
+      tags: [Media]
+      parameters:
+        - name: title
+          in: query
+          schema: { type: string }
+        - $ref: "#/components/parameters/continuity"
+        - name: series
+          in: query
+          schema: { type: string }
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated list of Book entries.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MediaList" }
+  /movies:
+    get:
+      operationId: listMovies
+      summary: List movies
+      tags: [Media]
+      parameters:
+        - name: title
+          in: query
+          schema: { type: string }
+        - $ref: "#/components/parameters/continuity"
+        - name: series
+          in: query
+          schema: { type: string }
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated list of Movie entries.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MediaList" }
+  /locations:
+    get:
+      operationId: listLocations
+      summary: List locations
+      tags: [Locations]
+      parameters:
+        - name: name
+          in: query
+          description: Case-insensitive substring match on the location name.
+          schema: { type: string }
+        - name: status
+          in: query
+          schema: { type: string, enum: [Active, Closed, Burned, Demolished, Unknown] }
+        - $ref: "#/components/parameters/continuity"
+        - name: owner
+          in: query
+          description: Case-insensitive substring match on the owner.
+          schema: { type: string }
+        - name: appearsIn
+          in: query
+          description: Media id the location appears in.
+          schema: { type: string }
+        - name: hasCharacter
+          in: query
+          description: Character id present at the location.
+          schema: { type: string }
+          example: springtrap
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated location list.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/LocationList" }
+  /locations/{id}:
+    get:
+      operationId: getLocation
+      summary: Get a location by id
+      tags: [Locations]
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: The location.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Location" }
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /teasers:
+    get:
+      operationId: listTeasers
+      summary: List teasers
+      tags: [Teasers]
+      parameters:
+        - name: title
+          in: query
+          description: Case-insensitive substring match on the teaser caption.
+          schema: { type: string }
+        - name: teases
+          in: query
+          description: Media id the teaser promotes.
+          schema: { type: string }
+          example: fnaf-4
+        - name: source
+          in: query
+          schema: { type: string }
+          example: scottgames.com
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated teaser list.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/TeaserList" }
+  /teasers/{id}:
+    get:
+      operationId: getTeaser
+      summary: Get a teaser by id
+      tags: [Teasers]
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: The teaser.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Teaser" }
+        "404":
+          $ref: "#/components/responses/NotFound"
+components:
+  parameters:
+    id:
+      name: id
+      in: path
+      required: true
+      description: URL-safe slug (case-insensitive).
+      schema: { type: string }
+      example: springtrap
+    page:
+      name: page
+      in: query
+      schema: { type: integer, minimum: 1, default: 1 }
+    limit:
+      name: limit
+      in: query
+      schema: { type: integer, minimum: 1, maximum: 100, default: 20 }
+    continuity:
+      name: continuity
+      in: query
+      schema: { $ref: "#/components/schemas/Continuity" }
+    year:
+      name: year
+      in: query
+      description: Four-digit release year.
+      schema: { type: string, pattern: "^[0-9]{4}$" }
+      example: "2023"
+  responses:
+    NotFound:
+      description: Resource not found.
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Error" }
+          example: { error: "Character 'sprungtrap' not found" }
+  schemas:
+    Continuity:
+      type: string
+      enum: [games, novels, frights, movies, meta]
+    Canonicity:
+      type: string
+      enum: [confirmed, implied, theory]
+    LoreClaim:
+      type: object
+      required: [value, canonicity, continuity]
+      properties:
+        value: { type: string }
+        canonicity: { $ref: "#/components/schemas/Canonicity" }
+        continuity: { $ref: "#/components/schemas/Continuity" }
+        source: { type: string }
+      example:
+        value: William Afton
+        canonicity: confirmed
+        continuity: games
+        source: Five Nights at Freddy's 3 minigames
+    PlatformRelease:
+      type: object
+      required: [platform]
+      properties:
+        platform: { type: string }
+        releaseDate: { type: string, format: date }
+    CastMember:
+      type: object
+      required: [actor, role]
+      properties:
+        actor: { type: string }
+        role: { type: string }
+    Credits:
+      type: object
+      properties:
+        developer: { type: string }
+        publisher: { type: string }
+        authors:
+          type: array
+          items: { type: string }
+        illustrator: { type: string }
+        director: { type: string }
+        writers:
+          type: array
+          items: { type: string }
+        producers:
+          type: array
+          items: { type: string }
+        studio: { type: string }
+        cast:
+          type: array
+          items: { $ref: "#/components/schemas/CastMember" }
+    Media:
+      type: object
+      required: [id, type, title, imageUrl, releaseDate, continuity, credits]
+      properties:
+        id: { type: string }
+        type:
+          type: string
+          enum: [Game, DLC, Book, Movie]
+        title: { type: string }
+        imageUrl: { type: string }
+        releaseDate:
+          type: [string, "null"]
+          format: date
+          description: Null for announced-but-unreleased titles.
+        continuity: { $ref: "#/components/schemas/Continuity" }
+        mainSeries: { type: boolean }
+        parentId:
+          type: string
+          description: Parent title for DLCs.
+        series: { type: string }
+        seriesNumber: { type: integer }
+        bookType:
+          type: string
+          enum: [novel, anthology, graphic-novel, guide, interactive-novel, companion]
+        adaptationOf: { type: string }
+        credits: { $ref: "#/components/schemas/Credits" }
+        platforms:
+          type: array
+          items: { $ref: "#/components/schemas/PlatformRelease" }
+        notes:
+          type: array
+          items: { type: string }
+    MediaDetail:
+      allOf:
+        - $ref: "#/components/schemas/Media"
+        - type: object
+          required: [characters]
+          properties:
+            characters:
+              type: array
+              items: { type: string }
+              description: Ids of every character appearing in this media.
+    Character:
+      type: object
+      required: [id, type, name, continuity, imageUrl, debut, appearances]
+      properties:
+        id: { type: string }
+        type:
+          type: string
+          enum: [Human, Animatronic]
+        name: { type: string }
+        continuity: { $ref: "#/components/schemas/Continuity" }
+        variantOf:
+          type: string
+          description: Base identity this variant belongs to (design lineage).
+        counterparts:
+          type: array
+          items: { type: string }
+          description: The same character in other continuities.
+        imageUrl: { type: string }
+        gender: { type: string }
+        color: { type: string }
+        group: { type: string }
+        possessedBy: { $ref: "#/components/schemas/LoreClaim" }
+        status: { $ref: "#/components/schemas/LoreClaim" }
+        debut:
+          type: string
+          description: Media id of the first real-world appearance.
+        appearances:
+          type: array
+          items: { type: string }
+        notes:
+          type: array
+          items: { type: string }
+    CharacterDetail:
+      allOf:
+        - $ref: "#/components/schemas/Character"
+        - type: object
+          required: [variants]
+          properties:
+            variants:
+              type: array
+              items: { type: string }
+              description: Ids whose variantOf points to this character.
+    Incident:
+      type: object
+      required: [name, description, canonicity]
+      properties:
+        name: { type: string }
+        year: { type: string }
+        description: { type: string }
+        canonicity: { $ref: "#/components/schemas/Canonicity" }
+        source: { type: string }
+    Location:
+      type: object
+      required: [id, name, continuity, imageUrl, status, presentCharacters, appearances]
+      properties:
+        id: { type: string }
+        name: { type: string }
+        continuity: { $ref: "#/components/schemas/Continuity" }
+        imageUrl: { type: string }
+        status:
+          type: string
+          enum: [Active, Closed, Burned, Demolished, Unknown]
+        causeOfClosure: { type: string }
+        owner: { type: string }
+        incidents:
+          type: array
+          items: { $ref: "#/components/schemas/Incident" }
+        rooms:
+          type: array
+          items: { type: string }
+        presentCharacters:
+          type: array
+          items: { type: string }
+        appearances:
+          type: array
+          items: { type: string }
+        notes:
+          type: array
+          items: { type: string }
+    PageInfo:
+      type: object
+      required: [count, pages, next, prev]
+      properties:
+        count: { type: integer }
+        pages: { type: integer }
+        next: { type: [string, "null"] }
+        prev: { type: [string, "null"] }
+    CharacterList:
+      type: object
+      required: [info, results]
+      properties:
+        info: { $ref: "#/components/schemas/PageInfo" }
+        results:
+          type: array
+          items: { $ref: "#/components/schemas/Character" }
+    MediaList:
+      type: object
+      required: [info, results]
+      properties:
+        info: { $ref: "#/components/schemas/PageInfo" }
+        results:
+          type: array
+          items: { $ref: "#/components/schemas/Media" }
+    LocationList:
+      type: object
+      required: [info, results]
+      properties:
+        info: { $ref: "#/components/schemas/PageInfo" }
+        results:
+          type: array
+          items: { $ref: "#/components/schemas/Location" }
+    Teaser:
+      type: object
+      required: [id, title, imageUrl, postedDate, source]
+      properties:
+        id: { type: string }
+        title: { type: string }
+        imageUrl: { type: string }
+        postedDate:
+          type: [string, "null"]
+          description: Approximate posting date (YYYY-MM or YYYY-MM-DD); null when unknown.
+        source: { type: string }
+        teases:
+          type: string
+          description: Media id the teaser promotes.
+        hiddenContent:
+          type: string
+          description: What brightening the image reveals.
+        description: { type: string }
+        notes:
+          type: array
+          items: { type: string }
+    TeaserList:
+      type: object
+      required: [info, results]
+      properties:
+        info: { $ref: "#/components/schemas/PageInfo" }
+        results:
+          type: array
+          items: { $ref: "#/components/schemas/Teaser" }
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error: { type: string }
+tags:
+  - name: Characters
+    description: Every animatronic and human across all continuities, organized by design-lineage families (variantOf) and cross-continuity links (counterparts).
+  - name: Media
+    description: Games, DLCs, books and movies.
+  - name: Locations
+    description: The franchise's venues, with structured incidents and canonicity.
+  - name: Teasers
+    description: The scottgames.com teaser archive, including what brightening each image reveals.

@@ -3,7 +3,7 @@
     "id": "fnaf-1",
     "type": "Game",
     "title": "Five Nights at Freddy's",
-    "imageUrl": "/images/media/fnaf1.webp",
+    "imageUrl": "/images/media/fnaf1.jpg",
     "releaseDate": "2014-08-08",
     "continuity": "games",
     "mainSeries": true,
@@ -46,7 +46,7 @@
     "id": "fnaf-2",
     "type": "Game",
     "title": "Five Nights at Freddy's 2",
-    "imageUrl": "/images/media/fnaf2.webp",
+    "imageUrl": "/images/media/fnaf2.jpg",
     "releaseDate": "2014-11-10",
     "continuity": "games",
     "mainSeries": true,
@@ -85,7 +85,7 @@
     "id": "fnaf-3",
     "type": "Game",
     "title": "Five Nights at Freddy's 3",
-    "imageUrl": "/images/media/fnaf3.webp",
+    "imageUrl": "/images/media/fnaf3.jpg",
     "releaseDate": "2015-03-02",
     "continuity": "games",
     "mainSeries": true,
@@ -127,7 +127,7 @@
     "id": "fnaf-4",
     "type": "Game",
     "title": "Five Nights at Freddy's 4",
-    "imageUrl": "/images/media/fnaf4.webp",
+    "imageUrl": "/images/media/fnaf4.jpg",
     "releaseDate": "2015-07-23",
     "continuity": "games",
     "mainSeries": true,
@@ -169,7 +169,7 @@
     "id": "fnaf-world",
     "type": "Game",
     "title": "FNaF World",
-    "imageUrl": "/images/media/fnafworld.webp",
+    "imageUrl": "/images/media/fnafworld.jpg",
     "releaseDate": "2016-01-21",
     "continuity": "games",
     "mainSeries": false,
@@ -196,7 +196,7 @@
     "id": "fnaf-sl",
     "type": "Game",
     "title": "Five Nights at Freddy's: Sister Location",
-    "imageUrl": "/images/media/fnafsl.webp",
+    "imageUrl": "/images/media/fnafsl.jpg",
     "releaseDate": "2016-10-07",
     "continuity": "games",
     "mainSeries": true,
@@ -232,7 +232,7 @@
     "id": "fnaf-ffps",
     "type": "Game",
     "title": "Freddy Fazbear's Pizzeria Simulator",
-    "imageUrl": "/images/media/fnafffps.webp",
+    "imageUrl": "/images/media/fnafffps.jpg",
     "releaseDate": "2017-12-04",
     "continuity": "games",
     "mainSeries": true,
@@ -263,15 +263,13 @@
         "platform": "PlayStation 4"
       }
     ],
-    "notes": [
-      "Also known as FNaF 6. Released for free on Steam."
-    ]
+    "notes": ["Also known as FNaF 6. Released for free on Steam."]
   },
   {
     "id": "fnaf-ucn",
     "type": "Game",
     "title": "Ultimate Custom Night",
-    "imageUrl": "/images/media/fnafucn.webp",
+    "imageUrl": "/images/media/fnafucn.jpg",
     "releaseDate": "2018-06-27",
     "continuity": "games",
     "mainSeries": true,
@@ -300,15 +298,13 @@
         "platform": "PlayStation 4"
       }
     ],
-    "notes": [
-      "Released for free on Steam."
-    ]
+    "notes": ["Released for free on Steam."]
   },
   {
     "id": "fnaf-hw",
     "type": "Game",
     "title": "Five Nights at Freddy's: Help Wanted",
-    "imageUrl": "/images/media/fnafhw.webp",
+    "imageUrl": "/images/media/fnafhw.jpg",
     "releaseDate": "2019-05-28",
     "continuity": "games",
     "mainSeries": true,
@@ -358,7 +354,7 @@
     "id": "hw-curse-of-dreadbear",
     "type": "DLC",
     "title": "Curse of Dreadbear",
-    "imageUrl": "/images/media/curseofdreadbear.webp",
+    "imageUrl": "/images/media/curseofdreadbear.jpg",
     "releaseDate": "2019-10-23",
     "continuity": "games",
     "mainSeries": false,
@@ -366,15 +362,13 @@
     "credits": {
       "developer": "Steel Wool Studios"
     },
-    "notes": [
-      "Paid Halloween-themed DLC for Help Wanted."
-    ]
+    "notes": ["Paid Halloween-themed DLC for Help Wanted."]
   },
   {
     "id": "fnaf-ar",
     "type": "Game",
     "title": "Five Nights at Freddy's AR: Special Delivery",
-    "imageUrl": "/images/media/fnafar.webp",
+    "imageUrl": "/images/media/fnafar.jpg",
     "releaseDate": "2019-11-25",
     "continuity": "games",
     "mainSeries": false,
@@ -400,7 +394,7 @@
     "id": "freddy-in-space-2",
     "type": "Game",
     "title": "Freddy in Space 2",
-    "imageUrl": "/images/media/freddyinspace2.webp",
+    "imageUrl": "/images/media/freddyinspace2.jpg",
     "releaseDate": "2019-12-03",
     "continuity": "games",
     "mainSeries": false,
@@ -422,7 +416,7 @@
     "id": "sb-furys-rage",
     "type": "Game",
     "title": "Security Breach: Fury's Rage",
-    "imageUrl": "/images/media/furysrage.webp",
+    "imageUrl": "/images/media/furysrage.jpg",
     "releaseDate": "2021-04-28",
     "continuity": "games",
     "mainSeries": false,
@@ -436,15 +430,13 @@
         "releaseDate": "2021-04-28"
       }
     ],
-    "notes": [
-      "Parody beat 'em up released for free on Game Jolt."
-    ]
+    "notes": ["Parody beat 'em up released for free on Game Jolt."]
   },
   {
     "id": "fnaf-sb",
     "type": "Game",
     "title": "Five Nights at Freddy's: Security Breach",
-    "imageUrl": "/images/media/fnafsb.webp",
+    "imageUrl": "/images/media/fnafsb.jpg",
     "releaseDate": "2021-12-16",
     "continuity": "games",
     "mainSeries": true,
@@ -483,7 +475,7 @@
     "id": "sb-ruin",
     "type": "DLC",
     "title": "Security Breach: RUIN",
-    "imageUrl": "/images/media/sbruin.webp",
+    "imageUrl": "/images/media/sbruin.jpg",
     "releaseDate": "2023-07-25",
     "continuity": "games",
     "mainSeries": true,
@@ -491,15 +483,13 @@
     "credits": {
       "developer": "Steel Wool Studios"
     },
-    "notes": [
-      "Free DLC for Security Breach."
-    ]
+    "notes": ["Free DLC for Security Breach."]
   },
   {
     "id": "freddy-in-space-3",
     "type": "Game",
     "title": "Freddy in Space 3: Chica in Space",
-    "imageUrl": "/images/media/freddyinspace3.webp",
+    "imageUrl": "/images/media/freddyinspace3.jpg",
     "releaseDate": "2023-10-18",
     "continuity": "games",
     "mainSeries": false,
@@ -521,7 +511,7 @@
     "id": "fnaf-hw2",
     "type": "Game",
     "title": "Five Nights at Freddy's: Help Wanted 2",
-    "imageUrl": "/images/media/fnafhw2.webp",
+    "imageUrl": "/images/media/fnafhw2.jpg",
     "releaseDate": "2023-12-14",
     "continuity": "games",
     "mainSeries": true,
@@ -547,15 +537,13 @@
         "releaseDate": "2024-06-20"
       }
     ],
-    "notes": [
-      "Flat (non-VR) version for PS5 released on 2024-06-20."
-    ]
+    "notes": ["Flat (non-VR) version for PS5 released on 2024-06-20."]
   },
   {
     "id": "fnaf-into-the-pit",
     "type": "Game",
     "title": "Five Nights at Freddy's: Into the Pit",
-    "imageUrl": "/images/media/intothepit.webp",
+    "imageUrl": "/images/media/intothepit.jpg",
     "releaseDate": "2024-08-07",
     "continuity": "frights",
     "mainSeries": false,
@@ -597,7 +585,7 @@
     "id": "fnaf-som",
     "type": "Game",
     "title": "Five Nights at Freddy's: Secret of the Mimic",
-    "imageUrl": "/images/media/secretofthemimic.webp",
+    "imageUrl": "/images/media/secretofthemimic.jpg",
     "releaseDate": "2025-06-13",
     "continuity": "games",
     "mainSeries": true,
@@ -619,15 +607,13 @@
         "releaseDate": "2025-06-13"
       }
     ],
-    "notes": [
-      "Verify dates of possible Xbox and Switch ports."
-    ]
+    "notes": ["Verify dates of possible Xbox and Switch ports."]
   },
   {
     "id": "five-laps-at-freddys",
     "type": "Game",
     "title": "Five Laps at Freddy's",
-    "imageUrl": "/images/media/fivelaps.webp",
+    "imageUrl": "/images/media/fivelaps.jpg",
     "releaseDate": null,
     "continuity": "games",
     "mainSeries": false,

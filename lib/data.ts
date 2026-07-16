@@ -1,4 +1,4 @@
-import type { Character, Location, Media } from "@/types";
+import type { Character, Location, Media, Teaser } from "@/types";
 
 import bonnie from "@/data/characters/bonnie.json";
 import freddy from "@/data/characters/freddy.json";
@@ -12,6 +12,7 @@ import booksCast from "@/data/characters/books.json";
 import humans from "@/data/characters/humans.json";
 
 import locationsData from "@/data/locations.json";
+import teasersData from "@/data/teasers.json";
 
 import gamesMedia from "@/data/media/games.json";
 import booksMedia from "@/data/media/books.json";
@@ -37,10 +38,12 @@ export const media = [
 ] as unknown as Media[];
 
 export const locations = locationsData as unknown as Location[];
+export const teasers = teasersData as unknown as Teaser[];
 
 export const charactersById = new Map(characters.map((c) => [c.id, c]));
 export const mediaById = new Map(media.map((m) => [m.id, m]));
 export const locationsById = new Map(locations.map((l) => [l.id, l]));
+export const teasersById = new Map(teasers.map((t) => [t.id, t]));
 
 export function variantsOf(id: string): string[] {
   return characters.filter((c) => c.variantOf === id).map((c) => c.id);

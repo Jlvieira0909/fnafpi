@@ -8,6 +8,7 @@ export interface LoreClaim {
   continuity: Continuity;
   source?: string;
 }
+
 export interface PlatformRelease {
   platform: string;
   releaseDate?: string;
@@ -100,5 +101,17 @@ export interface Location {
   owner?: string;
   presentCharacters: string[];
   appearances: string[];
+  notes?: string[];
+}
+
+export interface Teaser {
+  id: string;
+  title: string;
+  imageUrl: string;
+  postedDate: string | null;
+  source: string;
+  teases?: string;
+  hiddenContent?: string;
+  description?: string;
   notes?: string[];
 }
