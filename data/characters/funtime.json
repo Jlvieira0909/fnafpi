@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Circus Baby",
     "continuity": "games",
-    "imageUrl": "/images/characters/circus-baby.webp",
+    "images": {
+      "frame": "/images/characters/circus-baby/frame.webp",
+      "full": "/images/characters/circus-baby/full.webp"
+    },
     "gender": "Female",
     "color": "White and red",
     "group": "Funtime",
@@ -28,6 +31,9 @@
     "notes": [
       "Star of Circus Baby's Entertainment and Rental, built by William Afton with child-capture capabilities; killed his daughter Elizabeth.",
       "Merged with the other Funtimes to form Ennard, later ejected by the group."
+    ],
+    "counterparts": [
+      "baby-novels"
     ]
   },
   {
@@ -36,7 +42,10 @@
     "name": "Scrap Baby",
     "continuity": "games",
     "variantOf": "circus-baby",
-    "imageUrl": "/images/characters/scrap-baby.webp",
+    "images": {
+      "frame": "/images/characters/scrap-baby/frame.webp",
+      "full": "/images/characters/scrap-baby/full.webp"
+    },
     "gender": "Female",
     "color": "Rusted white and red",
     "group": "Scrap",
@@ -65,7 +74,10 @@
     "type": "Animatronic",
     "name": "Ballora",
     "continuity": "games",
-    "imageUrl": "/images/characters/ballora.webp",
+    "images": {
+      "frame": "/images/characters/ballora/frame.webp",
+      "full": "/images/characters/ballora/full.webp"
+    },
     "gender": "Female",
     "color": "White and blue",
     "group": "Funtime",
@@ -92,7 +104,10 @@
     "name": "Minireena",
     "continuity": "games",
     "variantOf": "ballora",
-    "imageUrl": "/images/characters/minireena.webp",
+    "images": {
+      "frame": "/images/characters/minireena/frame.webp",
+      "full": "/images/characters/minireena/full.webp"
+    },
     "color": "White",
     "group": "Funtime",
     "debut": "fnaf-sl",
@@ -111,7 +126,10 @@
     "name": "Bidybab",
     "continuity": "games",
     "variantOf": "circus-baby",
-    "imageUrl": "/images/characters/bidybab.webp",
+    "images": {
+      "frame": "/images/characters/bidybab/frame.webp",
+      "full": "/images/characters/bidybab/full.webp"
+    },
     "color": "Metallic gray",
     "group": "Funtime",
     "debut": "fnaf-sl",
@@ -129,7 +147,10 @@
     "name": "Electrobab",
     "continuity": "games",
     "variantOf": "bidybab",
-    "imageUrl": "/images/characters/electrobab.webp",
+    "images": {
+      "frame": "/images/characters/electrobab/frame.webp",
+      "full": "/images/characters/electrobab/full.webp"
+    },
     "color": "Metallic gray",
     "group": "Funtime",
     "debut": "fnaf-sl",
@@ -146,7 +167,10 @@
     "name": "PlushBaby",
     "continuity": "games",
     "variantOf": "circus-baby",
-    "imageUrl": "/images/characters/plushbaby.webp",
+    "images": {
+      "frame": "/images/characters/plushbaby/frame.webp",
+      "full": "/images/characters/plushbaby/full.webp"
+    },
     "color": "White and red",
     "group": "Funtime",
     "debut": "fnaf-hw",
@@ -162,7 +186,10 @@
     "type": "Animatronic",
     "name": "Ennard",
     "continuity": "games",
-    "imageUrl": "/images/characters/ennard.webp",
+    "images": {
+      "frame": "/images/characters/ennard/frame.webp",
+      "full": "/images/characters/ennard/full.webp"
+    },
     "color": "Exposed wires with a clown mask",
     "group": "Amalgam",
     "possessedBy": {
@@ -193,7 +220,10 @@
     "type": "Animatronic",
     "name": "Yenndo",
     "continuity": "games",
-    "imageUrl": "/images/characters/yenndo.webp",
+    "images": {
+      "frame": "/images/characters/yenndo/frame.webp",
+      "full": "/images/characters/yenndo/full.webp"
+    },
     "gender": "Male",
     "color": "Bare metal",
     "group": "Endoskeleton",
@@ -214,7 +244,10 @@
     "counterparts": [
       "circus-baby"
     ],
-    "imageUrl": "/images/characters/baby-novels.webp",
+    "images": {
+      "frame": "/images/characters/baby-novels/frame.webp",
+      "full": "/images/characters/baby-novels/full.webp"
+    },
     "gender": "Female",
     "color": "White and red",
     "group": "Funtime",

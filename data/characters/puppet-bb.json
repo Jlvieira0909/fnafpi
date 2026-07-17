@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "The Puppet",
     "continuity": "games",
-    "imageUrl": "/images/characters/puppet.webp",
+    "images": {
+      "frame": "/images/characters/puppet/frame.webp",
+      "full": "/images/characters/puppet/full.webp"
+    },
     "gender": "Female",
     "color": "Black and white",
     "group": "Original",
@@ -38,7 +41,10 @@
     "name": "Phantom Puppet",
     "continuity": "games",
     "variantOf": "puppet",
-    "imageUrl": "/images/characters/phantom-puppet.webp",
+    "images": {
+      "frame": "/images/characters/phantom-puppet/frame.webp",
+      "full": "/images/characters/phantom-puppet/full.webp"
+    },
     "color": "Charred black and white",
     "group": "Phantom",
     "status": {
@@ -58,7 +64,10 @@
     "name": "Nightmarionne",
     "continuity": "games",
     "variantOf": "puppet",
-    "imageUrl": "/images/characters/nightmarionne.webp",
+    "images": {
+      "frame": "/images/characters/nightmarionne/frame.webp",
+      "full": "/images/characters/nightmarionne/full.webp"
+    },
     "color": "Black and white",
     "group": "Nightmare",
     "status": {
@@ -83,7 +92,10 @@
     "name": "Security Puppet",
     "continuity": "games",
     "variantOf": "puppet",
-    "imageUrl": "/images/characters/security-puppet.webp",
+    "images": {
+      "frame": "/images/characters/security-puppet/frame.webp",
+      "full": "/images/characters/security-puppet/full.webp"
+    },
     "color": "Black and white",
     "group": "Original",
     "debut": "fnaf-ffps",
@@ -100,7 +112,10 @@
     "name": "Lefty",
     "continuity": "games",
     "variantOf": "puppet",
-    "imageUrl": "/images/characters/lefty.webp",
+    "images": {
+      "frame": "/images/characters/lefty/frame.webp",
+      "full": "/images/characters/lefty/full.webp"
+    },
     "color": "Black",
     "group": "Rockstar",
     "possessedBy": {
@@ -129,7 +144,10 @@
     "type": "Animatronic",
     "name": "Balloon Boy",
     "continuity": "games",
-    "imageUrl": "/images/characters/balloon-boy.webp",
+    "images": {
+      "frame": "/images/characters/balloon-boy/frame.webp",
+      "full": "/images/characters/balloon-boy/full.webp"
+    },
     "gender": "Male",
     "color": "Red, blue and tan",
     "group": "Toy",
@@ -156,7 +174,10 @@
     "name": "JJ",
     "continuity": "games",
     "variantOf": "balloon-boy",
-    "imageUrl": "/images/characters/jj.webp",
+    "images": {
+      "frame": "/images/characters/jj/frame.webp",
+      "full": "/images/characters/jj/full.webp"
+    },
     "gender": "Female",
     "color": "Purple and blue",
     "group": "Toy",
@@ -175,7 +196,10 @@
     "name": "Phantom BB",
     "continuity": "games",
     "variantOf": "balloon-boy",
-    "imageUrl": "/images/characters/phantom-bb.webp",
+    "images": {
+      "frame": "/images/characters/phantom-bb/frame.webp",
+      "full": "/images/characters/phantom-bb/full.webp"
+    },
     "gender": "Male",
     "color": "Charred greenish tan",
     "group": "Phantom",

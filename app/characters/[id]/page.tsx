@@ -34,7 +34,7 @@ export default async function CharacterPage({ params }: { params: Promise<{ id: 
   return (
     <article className="grid gap-8 py-10 lg:grid-cols-[minmax(0,380px)_1fr]">
       <div>
-        <CamFrame src={character.imageUrl} alt={character.name} label={`CAM · ${character.id}`} />
+        <CamFrame src={character.images.full} alt={character.name} label={`CAM · ${character.id}`} />
       </div>
       <div>
         <p className="font-mono text-[11px] uppercase tracking-[0.25em] text-faz-dim">

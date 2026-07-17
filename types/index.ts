@@ -36,11 +36,18 @@ export interface Credits {
   cast?: { actor: string; role: string }[];
 }
 
+export interface MediaImages {
+  poster: string;
+  hero?: string;
+  icon?: string;
+  logo?: string;
+}
+
 export interface Media {
   id: string;
   type: MediaType;
   title: string;
-  imageUrl: string;
+  images: MediaImages;
   releaseDate: string | null;
   continuity: Continuity;
   mainSeries?: boolean;
@@ -56,6 +63,11 @@ export interface Media {
 
 export type CharacterType = "Human" | "Animatronic";
 
+export interface CharacterImages {
+  frame: string;
+  full: string;
+}
+
 export interface Character {
   id: string;
   type: CharacterType;
@@ -63,7 +75,7 @@ export interface Character {
   continuity: Continuity;
   variantOf?: string;
   counterparts?: string[];
-  imageUrl: string;
+  images: CharacterImages;
   gender?: string;
   color?: string;
   group?: string;
@@ -89,11 +101,16 @@ export interface Incident {
   source?: string;
 }
 
+export interface LocationImages {
+  hero: string;
+  map?: string;
+}
+
 export interface Location {
   id: string;
   name: string;
   continuity: Continuity;
-  imageUrl: string;
+  images: LocationImages;
   status: LocationStatus;
   causeOfClosure?: string;
   incidents?: Incident[];

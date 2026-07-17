@@ -4,7 +4,9 @@
     "type": "Book",
     "bookType": "novel",
     "title": "Five Nights at Freddy's: The Silver Eyes",
-    "imageUrl": "/images/media/silvereyes.webp",
+    "images": {
+      "poster": "/images/media/the-silver-eyes/poster.webp"
+    },
     "releaseDate": "2015-12-17",
     "continuity": "novels",
     "series": "The Novel Trilogy",
@@ -25,7 +27,9 @@
     "type": "Book",
     "bookType": "novel",
     "title": "Five Nights at Freddy's: The Twisted Ones",
-    "imageUrl": "/images/media/twistedones.webp",
+    "images": {
+      "poster": "/images/media/the-twisted-ones/poster.webp"
+    },
     "releaseDate": "2017-06-27",
     "continuity": "novels",
     "series": "The Novel Trilogy",
@@ -43,7 +47,9 @@
     "type": "Book",
     "bookType": "novel",
     "title": "Five Nights at Freddy's: The Fourth Closet",
-    "imageUrl": "/images/media/fourthcloset.webp",
+    "images": {
+      "poster": "/images/media/the-fourth-closet/poster.webp"
+    },
     "releaseDate": "2018-06-26",
     "continuity": "novels",
     "series": "The Novel Trilogy",
@@ -61,7 +67,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #1: Into the Pit",
-    "imageUrl": "/images/media/ff01.webp",
+    "images": {
+      "poster": "/images/media/ff-01-into-the-pit/poster.webp"
+    },
     "releaseDate": "2019-12-26",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -82,7 +90,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #2: Fetch",
-    "imageUrl": "/images/media/ff02.webp",
+    "images": {
+      "poster": "/images/media/ff-02-fetch/poster.webp"
+    },
     "releaseDate": "2020-03-03",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -101,7 +111,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #3: 1:35 A.M.",
-    "imageUrl": "/images/media/ff03.webp",
+    "images": {
+      "poster": "/images/media/ff-03-135am/poster.webp"
+    },
     "releaseDate": "2020-05-05",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -120,7 +132,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #4: Step Closer",
-    "imageUrl": "/images/media/ff04.webp",
+    "images": {
+      "poster": "/images/media/ff-04-step-closer/poster.webp"
+    },
     "releaseDate": "2020-07-07",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -140,7 +154,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #5: Bunny Call",
-    "imageUrl": "/images/media/ff05.webp",
+    "images": {
+      "poster": "/images/media/ff-05-bunny-call/poster.webp"
+    },
     "releaseDate": "2020-09-01",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -159,7 +175,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #6: Blackbird",
-    "imageUrl": "/images/media/ff06.webp",
+    "images": {
+      "poster": "/images/media/ff-06-blackbird/poster.webp"
+    },
     "releaseDate": "2020-12-01",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -179,7 +197,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #7: The Cliffs",
-    "imageUrl": "/images/media/ff07.webp",
+    "images": {
+      "poster": "/images/media/ff-07-the-cliffs/poster.webp"
+    },
     "releaseDate": "2021-03-02",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -198,7 +218,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #8: Gumdrop Angel",
-    "imageUrl": "/images/media/ff08.webp",
+    "images": {
+      "poster": "/images/media/ff-08-gumdrop-angel/poster.webp"
+    },
     "releaseDate": "2021-05-04",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -216,7 +238,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #9: The Puppet Carver",
-    "imageUrl": "/images/media/ff09.webp",
+    "images": {
+      "poster": "/images/media/ff-09-the-puppet-carver/poster.webp"
+    },
     "releaseDate": "2021-07-06",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -235,7 +259,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #10: Friendly Face",
-    "imageUrl": "/images/media/ff10.webp",
+    "images": {
+      "poster": "/images/media/ff-10-friendly-face/poster.webp"
+    },
     "releaseDate": "2021-09-07",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -254,7 +280,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #11: Prankster",
-    "imageUrl": "/images/media/ff11.webp",
+    "images": {
+      "poster": "/images/media/ff-11-prankster/poster.webp"
+    },
     "releaseDate": "2021-12-07",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -273,7 +301,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Fazbear Frights #12: Felix the Shark",
-    "imageUrl": "/images/media/ff12.webp",
+    "images": {
+      "poster": "/images/media/ff-12-felix-the-shark/poster.webp"
+    },
     "releaseDate": "2022-04-19",
     "continuity": "frights",
     "series": "Fazbear Frights",
@@ -296,7 +326,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #1: Lally's Game",
-    "imageUrl": "/images/media/tftp01.webp",
+    "images": {
+      "poster": "/images/media/tftp-01-lallys-game/poster.webp"
+    },
     "releaseDate": "2022-07-19",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -318,7 +350,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #2: HAPPS",
-    "imageUrl": "/images/media/tftp02.webp",
+    "images": {
+      "poster": "/images/media/tftp-02-happs/poster.webp"
+    },
     "releaseDate": "2022-09-20",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -337,7 +371,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #3: Somniphobia",
-    "imageUrl": "/images/media/tftp03.webp",
+    "images": {
+      "poster": "/images/media/tftp-03-somniphobia/poster.webp"
+    },
     "releaseDate": "2022-12-06",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -356,7 +392,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #4: Submechanophobia",
-    "imageUrl": "/images/media/tftp04.webp",
+    "images": {
+      "poster": "/images/media/tftp-04-submechanophobia/poster.webp"
+    },
     "releaseDate": "2022-12-27",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -375,7 +413,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #5: The Bobbiedots Conclusion",
-    "imageUrl": "/images/media/tftp05.webp",
+    "images": {
+      "poster": "/images/media/tftp-05-bobbiedots-conclusion/poster.webp"
+    },
     "releaseDate": "2023-03-07",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -397,7 +437,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #6: Nexie",
-    "imageUrl": "/images/media/tftp06.webp",
+    "images": {
+      "poster": "/images/media/tftp-06-nexie/poster.webp"
+    },
     "releaseDate": "2023-05-02",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -419,7 +461,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #7: Tiger Rock",
-    "imageUrl": "/images/media/tftp07.webp",
+    "images": {
+      "poster": "/images/media/tftp-07-tiger-rock/poster.webp"
+    },
     "releaseDate": "2023-07-18",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -438,7 +482,9 @@
     "type": "Book",
     "bookType": "anthology",
     "title": "Tales from the Pizzaplex #8: B7-2",
-    "imageUrl": "/images/media/tftp08.webp",
+    "images": {
+      "poster": "/images/media/tftp-08-b7-2/poster.webp"
+    },
     "releaseDate": "2023-10-03",
     "continuity": "games",
     "series": "Tales from the Pizzaplex",
@@ -457,7 +503,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "The Silver Eyes: The Graphic Novel",
-    "imageUrl": "/images/media/gnsilvereyes.webp",
+    "images": {
+      "poster": "/images/media/gn-the-silver-eyes/poster.webp"
+    },
     "releaseDate": "2019-12-26",
     "continuity": "novels",
     "series": "Graphic Novel Trilogy",
@@ -477,7 +525,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "The Twisted Ones: The Graphic Novel",
-    "imageUrl": "/images/media/gntwistedones.webp",
+    "images": {
+      "poster": "/images/media/gn-the-twisted-ones/poster.webp"
+    },
     "releaseDate": "2021-02-02",
     "continuity": "novels",
     "series": "Graphic Novel Trilogy",
@@ -497,7 +547,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "The Fourth Closet: The Graphic Novel",
-    "imageUrl": "/images/media/gnfourthcloset.webp",
+    "images": {
+      "poster": "/images/media/gn-the-fourth-closet/poster.webp"
+    },
     "releaseDate": "2021-12-28",
     "continuity": "novels",
     "series": "Graphic Novel Trilogy",
@@ -520,7 +572,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "Fazbear Frights: Graphic Novel Collection Vol. 1",
-    "imageUrl": "/images/media/gnff1.webp",
+    "images": {
+      "poster": "/images/media/gn-ff-vol-1/poster.webp"
+    },
     "releaseDate": "2022-09-06",
     "continuity": "frights",
     "series": "Fazbear Frights Graphic Novels",
@@ -542,7 +596,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "Fazbear Frights: Graphic Novel Collection Vol. 2",
-    "imageUrl": "/images/media/gnff2.webp",
+    "images": {
+      "poster": "/images/media/gn-ff-vol-2/poster.webp"
+    },
     "releaseDate": "2023-03-07",
     "continuity": "frights",
     "series": "Fazbear Frights Graphic Novels",
@@ -564,7 +620,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "Fazbear Frights: Graphic Novel Collection Vol. 3",
-    "imageUrl": "/images/media/gnff3.webp",
+    "images": {
+      "poster": "/images/media/gn-ff-vol-3/poster.webp"
+    },
     "releaseDate": "2023-09-05",
     "continuity": "frights",
     "series": "Fazbear Frights Graphic Novels",
@@ -586,7 +644,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "Fazbear Frights: Graphic Novel Collection Vol. 4",
-    "imageUrl": "/images/media/gnff4.webp",
+    "images": {
+      "poster": "/images/media/gn-ff-vol-4/poster.webp"
+    },
     "releaseDate": "2024-03-05",
     "continuity": "frights",
     "series": "Fazbear Frights Graphic Novels",
@@ -606,7 +666,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "Fazbear Frights: Graphic Novel Collection Vol. 5",
-    "imageUrl": "/images/media/gnff5.webp",
+    "images": {
+      "poster": "/images/media/gn-ff-vol-5/poster.webp"
+    },
     "releaseDate": "2024-09-03",
     "continuity": "frights",
     "series": "Fazbear Frights Graphic Novels",
@@ -626,7 +688,9 @@
     "type": "Book",
     "bookType": "graphic-novel",
     "title": "Tales from the Pizzaplex: Graphic Novel Collection Vol. 1",
-    "imageUrl": "/images/media/gntftp1.webp",
+    "images": {
+      "poster": "/images/media/gn-tftp-vol-1/poster.webp"
+    },
     "releaseDate": "2025-01-01",
     "continuity": "games",
     "series": "Tales from the Pizzaplex Graphic Novels",
@@ -646,7 +710,9 @@
     "type": "Book",
     "bookType": "guide",
     "title": "The Freddy Files",
-    "imageUrl": "/images/media/freddyfiles.webp",
+    "images": {
+      "poster": "/images/media/the-freddy-files/poster.webp"
+    },
     "releaseDate": "2017-08-29",
     "continuity": "meta",
     "series": "Guides",
@@ -662,7 +728,9 @@
     "type": "Book",
     "bookType": "guide",
     "title": "Five Nights at Freddy's: Survival Logbook",
-    "imageUrl": "/images/media/survivallogbook.webp",
+    "images": {
+      "poster": "/images/media/survival-logbook/poster.webp"
+    },
     "releaseDate": "2017-12-26",
     "continuity": "meta",
     "series": "Guides",
@@ -681,7 +749,9 @@
     "type": "Book",
     "bookType": "guide",
     "title": "The Freddy Files: Updated Edition",
-    "imageUrl": "/images/media/freddyfilesupdated.webp",
+    "images": {
+      "poster": "/images/media/the-freddy-files-updated/poster.webp"
+    },
     "releaseDate": "2019-06-25",
     "continuity": "meta",
     "series": "Guides",
@@ -697,7 +767,9 @@
     "type": "Book",
     "bookType": "guide",
     "title": "Five Nights at Freddy's: The Ultimate Guide",
-    "imageUrl": "/images/media/ultimateguide.webp",
+    "images": {
+      "poster": "/images/media/the-ultimate-guide/poster.webp"
+    },
     "releaseDate": "2021-12-07",
     "continuity": "meta",
     "series": "Guides",
@@ -713,7 +785,9 @@
     "type": "Book",
     "bookType": "guide",
     "title": "The Security Breach Files",
-    "imageUrl": "/images/media/sbfiles.webp",
+    "images": {
+      "poster": "/images/media/security-breach-files/poster.webp"
+    },
     "releaseDate": "2022-03-01",
     "continuity": "meta",
     "series": "Guides",
@@ -732,7 +806,9 @@
     "type": "Book",
     "bookType": "guide",
     "title": "Five Nights at Freddy's: Character Encyclopedia",
-    "imageUrl": "/images/media/characterencyclopedia.webp",
+    "images": {
+      "poster": "/images/media/character-encyclopedia/poster.webp"
+    },
     "releaseDate": "2023-01-03",
     "continuity": "meta",
     "series": "Guides",
@@ -748,7 +824,9 @@
     "type": "Book",
     "bookType": "interactive-novel",
     "title": "Five Nights at Freddy's: The Week Before",
-    "imageUrl": "/images/media/weekbefore.webp",
+    "images": {
+      "poster": "/images/media/the-week-before/poster.webp"
+    },
     "releaseDate": "2024-06-04",
     "continuity": "games",
     "series": "Interactive Novels",

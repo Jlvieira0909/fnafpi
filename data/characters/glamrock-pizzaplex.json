@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Roxanne Wolf",
     "continuity": "games",
-    "imageUrl": "/images/characters/roxanne-wolf.webp",
+    "images": {
+      "frame": "/images/characters/roxanne-wolf/frame.webp",
+      "full": "/images/characters/roxanne-wolf/full.webp"
+    },
     "gender": "Female",
     "color": "Gray with green hair",
     "group": "Glamrock",
@@ -29,7 +32,10 @@
     "type": "Animatronic",
     "name": "Montgomery Gator",
     "continuity": "games",
-    "imageUrl": "/images/characters/montgomery-gator.webp",
+    "images": {
+      "frame": "/images/characters/montgomery-gator/frame.webp",
+      "full": "/images/characters/montgomery-gator/full.webp"
+    },
     "gender": "Male",
     "color": "Green",
     "group": "Glamrock",
@@ -54,7 +60,10 @@
     "type": "Animatronic",
     "name": "Music Man",
     "continuity": "games",
-    "imageUrl": "/images/characters/music-man.webp",
+    "images": {
+      "frame": "/images/characters/music-man/frame.webp",
+      "full": "/images/characters/music-man/full.webp"
+    },
     "color": "White with red cheeks",
     "group": "Original",
     "debut": "fnaf-ucn",
@@ -73,7 +82,10 @@
     "name": "DJ Music Man",
     "continuity": "games",
     "variantOf": "music-man",
-    "imageUrl": "/images/characters/dj-music-man.webp",
+    "images": {
+      "frame": "/images/characters/dj-music-man/frame.webp",
+      "full": "/images/characters/dj-music-man/full.webp"
+    },
     "color": "White and purple",
     "group": "Glamrock",
     "debut": "fnaf-sb",
@@ -90,7 +102,10 @@
     "type": "Animatronic",
     "name": "Sun (Daycare Attendant)",
     "continuity": "games",
-    "imageUrl": "/images/characters/sun.webp",
+    "images": {
+      "frame": "/images/characters/sun/frame.webp",
+      "full": "/images/characters/sun/full.webp"
+    },
     "color": "Yellow and white",
     "group": "Glamrock",
     "debut": "fnaf-sb",
@@ -110,7 +125,10 @@
     "name": "Moon (Daycare Attendant)",
     "continuity": "games",
     "variantOf": "sun",
-    "imageUrl": "/images/characters/moon.webp",
+    "images": {
+      "frame": "/images/characters/moon/frame.webp",
+      "full": "/images/characters/moon/full.webp"
+    },
     "color": "Dark blue and white",
     "group": "Glamrock",
     "debut": "fnaf-sb",
@@ -130,7 +148,10 @@
     "name": "Eclipse (Daycare Attendant)",
     "continuity": "games",
     "variantOf": "sun",
-    "imageUrl": "/images/characters/eclipse.webp",
+    "images": {
+      "frame": "/images/characters/eclipse/frame.webp",
+      "full": "/images/characters/eclipse/full.webp"
+    },
     "color": "Yellow and blue",
     "group": "Glamrock",
     "debut": "sb-ruin",
@@ -148,7 +169,10 @@
     "type": "Animatronic",
     "name": "Glamrock Endo",
     "continuity": "games",
-    "imageUrl": "/images/characters/glamrock-endo.webp",
+    "images": {
+      "frame": "/images/characters/glamrock-endo/frame.webp",
+      "full": "/images/characters/glamrock-endo/full.webp"
+    },
     "color": "Bare metal",
     "group": "Endoskeleton",
     "debut": "fnaf-sb",
@@ -165,7 +189,10 @@
     "type": "Animatronic",
     "name": "S.T.A.F.F. Bot",
     "continuity": "games",
-    "imageUrl": "/images/characters/staff-bot.webp",
+    "images": {
+      "frame": "/images/characters/staff-bot/frame.webp",
+      "full": "/images/characters/staff-bot/full.webp"
+    },
     "color": "White",
     "group": "Service",
     "debut": "fnaf-sb",
@@ -183,7 +210,10 @@
     "type": "Animatronic",
     "name": "The Mimic",
     "continuity": "games",
-    "imageUrl": "/images/characters/the-mimic.webp",
+    "images": {
+      "frame": "/images/characters/the-mimic/frame.webp",
+      "full": "/images/characters/the-mimic/full.webp"
+    },
     "color": "Bare metal with green paint traces",
     "group": "Endoskeleton",
     "status": {
@@ -211,7 +241,10 @@
     "type": "Animatronic",
     "name": "M.X.E.S.",
     "continuity": "games",
-    "imageUrl": "/images/characters/mxes.webp",
+    "images": {
+      "frame": "/images/characters/mxes/frame.webp",
+      "full": "/images/characters/mxes/full.webp"
+    },
     "color": "Red and dark blue",
     "group": "Digital",
     "debut": "sb-ruin",

@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Foxy",
     "continuity": "games",
-    "imageUrl": "/images/characters/foxy.webp",
+    "images": {
+      "frame": "/images/characters/foxy/frame.webp",
+      "full": "/images/characters/foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Crimson",
     "group": "Original",
@@ -41,7 +44,10 @@
     "name": "Mangle",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/mangle.webp",
+    "images": {
+      "frame": "/images/characters/mangle/frame.webp",
+      "full": "/images/characters/mangle/full.webp"
+    },
     "gender": "Unconfirmed",
     "color": "White and pink",
     "group": "Toy",
@@ -70,7 +76,10 @@
     "name": "Withered Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/withered-foxy.webp",
+    "images": {
+      "frame": "/images/characters/withered-foxy/frame.webp",
+      "full": "/images/characters/withered-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Crimson",
     "group": "Withered",
@@ -94,7 +103,10 @@
     "name": "Phantom Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/phantom-foxy.webp",
+    "images": {
+      "frame": "/images/characters/phantom-foxy/frame.webp",
+      "full": "/images/characters/phantom-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Charred greenish brown",
     "group": "Phantom",
@@ -115,7 +127,10 @@
     "name": "Phantom Mangle",
     "continuity": "games",
     "variantOf": "mangle",
-    "imageUrl": "/images/characters/phantom-mangle.webp",
+    "images": {
+      "frame": "/images/characters/phantom-mangle/frame.webp",
+      "full": "/images/characters/phantom-mangle/full.webp"
+    },
     "gender": "Unconfirmed",
     "color": "Charred greenish white",
     "group": "Phantom",
@@ -139,7 +154,10 @@
     "name": "Nightmare Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/nightmare-foxy.webp",
+    "images": {
+      "frame": "/images/characters/nightmare-foxy/frame.webp",
+      "full": "/images/characters/nightmare-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Dark crimson",
     "group": "Nightmare",
@@ -164,7 +182,10 @@
     "name": "Nightmare Mangle",
     "continuity": "games",
     "variantOf": "mangle",
-    "imageUrl": "/images/characters/nightmare-mangle.webp",
+    "images": {
+      "frame": "/images/characters/nightmare-mangle/frame.webp",
+      "full": "/images/characters/nightmare-mangle/full.webp"
+    },
     "gender": "Unconfirmed",
     "color": "Dark white and pink",
     "group": "Nightmare",
@@ -183,7 +204,10 @@
     "name": "Funtime Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/funtime-foxy.webp",
+    "images": {
+      "frame": "/images/characters/funtime-foxy/frame.webp",
+      "full": "/images/characters/funtime-foxy/full.webp"
+    },
     "gender": "Unconfirmed",
     "color": "White and pink",
     "group": "Funtime",
@@ -211,7 +235,10 @@
     "name": "Lolbit",
     "continuity": "games",
     "variantOf": "funtime-foxy",
-    "imageUrl": "/images/characters/lolbit.webp",
+    "images": {
+      "frame": "/images/characters/lolbit/frame.webp",
+      "full": "/images/characters/lolbit/full.webp"
+    },
     "gender": "Unconfirmed",
     "color": "Orange, purple and white",
     "group": "Funtime",
@@ -231,7 +258,10 @@
     "name": "Rockstar Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/rockstar-foxy.webp",
+    "images": {
+      "frame": "/images/characters/rockstar-foxy/frame.webp",
+      "full": "/images/characters/rockstar-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Crimson",
     "group": "Rockstar",
@@ -256,7 +286,10 @@
     "name": "Grimm Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/grimm-foxy.webp",
+    "images": {
+      "frame": "/images/characters/grimm-foxy/frame.webp",
+      "full": "/images/characters/grimm-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Charred black with fire",
     "group": "Halloween",
@@ -274,7 +307,10 @@
     "name": "Radioactive Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/radioactive-foxy.webp",
+    "images": {
+      "frame": "/images/characters/radioactive-foxy/frame.webp",
+      "full": "/images/characters/radioactive-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Toxic green",
     "group": "Skin",
@@ -292,7 +328,10 @@
     "name": "Ringmaster Foxy",
     "continuity": "games",
     "variantOf": "foxy",
-    "imageUrl": "/images/characters/ringmaster-foxy.webp",
+    "images": {
+      "frame": "/images/characters/ringmaster-foxy/frame.webp",
+      "full": "/images/characters/ringmaster-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Crimson and gold",
     "group": "Skin",
@@ -310,7 +349,10 @@
     "name": "Magician Mangle",
     "continuity": "games",
     "variantOf": "mangle",
-    "imageUrl": "/images/characters/magician-mangle.webp",
+    "images": {
+      "frame": "/images/characters/magician-mangle/frame.webp",
+      "full": "/images/characters/magician-mangle/full.webp"
+    },
     "gender": "Unconfirmed",
     "color": "Black and white",
     "group": "Skin",
@@ -331,7 +373,10 @@
       "foxy",
       "foxy-movie"
     ],
-    "imageUrl": "/images/characters/foxy-novels.webp",
+    "images": {
+      "frame": "/images/characters/foxy-novels/frame.webp",
+      "full": "/images/characters/foxy-novels/full.webp"
+    },
     "gender": "Male",
     "color": "Crimson",
     "group": "Original",
@@ -351,7 +396,10 @@
     "name": "Twisted Foxy",
     "continuity": "novels",
     "variantOf": "foxy-novels",
-    "imageUrl": "/images/characters/twisted-foxy.webp",
+    "images": {
+      "frame": "/images/characters/twisted-foxy/frame.webp",
+      "full": "/images/characters/twisted-foxy/full.webp"
+    },
     "gender": "Male",
     "color": "Dark crimson",
     "group": "Twisted",
@@ -376,7 +424,10 @@
       "foxy",
       "foxy-novels"
     ],
-    "imageUrl": "/images/characters/foxy-movie.webp",
+    "images": {
+      "frame": "/images/characters/foxy-movie/frame.webp",
+      "full": "/images/characters/foxy-movie/full.webp"
+    },
     "gender": "Male",
     "color": "Crimson",
     "group": "Original",

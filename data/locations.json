@@ -3,7 +3,9 @@
     "id": "fredbears-family-diner",
     "name": "Fredbear's Family Diner",
     "continuity": "games",
-    "imageUrl": "/images/locations/fredbears-family-diner.webp",
+    "images": {
+      "hero": "/images/locations/fredbears-family-diner/hero.webp"
+    },
     "status": "Closed",
     "causeOfClosure": "Closed after the Bite of '83 and the tragedies surrounding the Afton and Emily families",
     "owner": "Henry Emily & William Afton",
@@ -22,8 +24,16 @@
         "source": "Freddy Fazbear's Pizzeria Simulator (Security Puppet minigame)"
       }
     ],
-    "presentCharacters": ["fredbear", "spring-bonnie", "crying-child", "william-afton", "henry-emily"],
-    "appearances": ["fnaf-4"],
+    "presentCharacters": [
+      "fredbear",
+      "spring-bonnie",
+      "crying-child",
+      "william-afton",
+      "henry-emily"
+    ],
+    "appearances": [
+      "fnaf-4"
+    ],
     "notes": [
       "The franchise's in-universe origin point, seen through FNAF 4's minigames.",
       "Also referenced across Sister Location and Pizzeria Simulator lore; appearances list on-screen depictions only."
@@ -33,7 +43,10 @@
     "id": "freddy-fazbears-pizza-1993",
     "name": "Freddy Fazbear's Pizza (FNAF 1)",
     "continuity": "games",
-    "imageUrl": "/images/locations/freddy-fazbears-pizza-1993.webp",
+    "images": {
+      "hero": "/images/locations/freddy-fazbears-pizza-1993/hero.webp",
+      "map": "/images/locations/freddy-fazbears-pizza-1993/map.webp"
+    },
     "status": "Closed",
     "causeOfClosure": "Scheduled to close by year's end amid sanitation complaints, foul odors and the company's ruined reputation",
     "owner": "Fazbear Entertainment",
@@ -46,9 +59,32 @@
         "source": "FNAF 1 newspaper clippings and FNAF 3 minigames; the exact year is community-reconstructed"
       }
     ],
-    "rooms": ["Show Stage", "Dining Area", "Pirate Cove", "Backstage", "Kitchen", "Restrooms", "Supply Closet", "West Hall", "East Hall", "Office"],
-    "presentCharacters": ["freddy-fazbear", "bonnie", "chica", "foxy", "golden-freddy", "cupcake", "mike-schmidt", "phone-guy"],
-    "appearances": ["fnaf-1", "the-week-before"],
+    "rooms": [
+      "Show Stage",
+      "Dining Area",
+      "Pirate Cove",
+      "Backstage",
+      "Kitchen",
+      "Restrooms",
+      "Supply Closet",
+      "West Hall",
+      "East Hall",
+      "Office"
+    ],
+    "presentCharacters": [
+      "freddy-fazbear",
+      "bonnie",
+      "chica",
+      "foxy",
+      "golden-freddy",
+      "cupcake",
+      "mike-schmidt",
+      "phone-guy"
+    ],
+    "appearances": [
+      "fnaf-1",
+      "the-week-before"
+    ],
     "notes": [
       "Virtually recreated inside Help Wanted's The Freddy Fazbear Virtual Experience.",
       "Whether the Missing Children Incident happened here or at an earlier Freddy's is a long-running timeline debate."
@@ -58,7 +94,10 @@
     "id": "freddy-fazbears-pizza-1987",
     "name": "Freddy Fazbear's Pizza (FNAF 2)",
     "continuity": "games",
-    "imageUrl": "/images/locations/freddy-fazbears-pizza-1987.webp",
+    "images": {
+      "hero": "/images/locations/freddy-fazbears-pizza-1987/hero.webp",
+      "map": "/images/locations/freddy-fazbears-pizza-1987/map.webp"
+    },
     "status": "Closed",
     "causeOfClosure": "Closed after the events of 1987; the Toy animatronics were scrapped",
     "owner": "Fazbear Entertainment",
@@ -77,9 +116,41 @@
         "source": "FNAF 2 minigames"
       }
     ],
-    "rooms": ["Show Stage", "Game Area", "Prize Corner", "Kid's Cove", "Parts/Service", "Main Hall", "Party Room 1", "Party Room 2", "Party Room 3", "Party Room 4", "Office"],
-    "presentCharacters": ["toy-freddy", "toy-bonnie", "toy-chica", "mangle", "balloon-boy", "jj", "puppet", "withered-freddy", "withered-bonnie", "withered-chica", "withered-foxy", "golden-freddy", "shadow-freddy", "shadow-bonnie", "jeremy-fitzgerald", "fritz-smith", "phone-guy"],
-    "appearances": ["fnaf-2"],
+    "rooms": [
+      "Show Stage",
+      "Game Area",
+      "Prize Corner",
+      "Kid's Cove",
+      "Parts/Service",
+      "Main Hall",
+      "Party Room 1",
+      "Party Room 2",
+      "Party Room 3",
+      "Party Room 4",
+      "Office"
+    ],
+    "presentCharacters": [
+      "toy-freddy",
+      "toy-bonnie",
+      "toy-chica",
+      "mangle",
+      "balloon-boy",
+      "jj",
+      "puppet",
+      "withered-freddy",
+      "withered-bonnie",
+      "withered-chica",
+      "withered-foxy",
+      "golden-freddy",
+      "shadow-freddy",
+      "shadow-bonnie",
+      "jeremy-fitzgerald",
+      "fritz-smith",
+      "phone-guy"
+    ],
+    "appearances": [
+      "fnaf-2"
+    ],
     "notes": [
       "Chronologically a prequel: opened and closed in 1987, before the FNAF 1 location's events."
     ]
@@ -88,7 +159,10 @@
     "id": "fazbears-fright",
     "name": "Fazbear's Fright: The Horror Attraction",
     "continuity": "games",
-    "imageUrl": "/images/locations/fazbears-fright.webp",
+    "images": {
+      "hero": "/images/locations/fazbears-fright/hero.webp",
+      "map": "/images/locations/fazbears-fright/map.webp"
+    },
     "status": "Burned",
     "causeOfClosure": "Burned down before opening to the public",
     "incidents": [
@@ -99,8 +173,18 @@
         "source": "FNAF 3 ending newspaper and FNAF 3's continuity in later games"
       }
     ],
-    "presentCharacters": ["springtrap", "phantom-freddy", "phantom-chica", "phantom-foxy", "phantom-bb", "phantom-puppet", "phantom-mangle"],
-    "appearances": ["fnaf-3"],
+    "presentCharacters": [
+      "springtrap",
+      "phantom-freddy",
+      "phantom-chica",
+      "phantom-foxy",
+      "phantom-bb",
+      "phantom-puppet",
+      "phantom-mangle"
+    ],
+    "appearances": [
+      "fnaf-3"
+    ],
     "notes": [
       "Horror attraction built thirty years after FNAF 1 from salvaged Fazbear relics; its centerpiece find was the real Springtrap."
     ]
@@ -109,10 +193,27 @@
     "id": "crying-childs-house",
     "name": "The Crying Child's House",
     "continuity": "games",
-    "imageUrl": "/images/locations/crying-childs-house.webp",
+    "images": {
+      "hero": "/images/locations/crying-childs-house/hero.webp"
+    },
     "status": "Unknown",
-    "presentCharacters": ["crying-child", "nightmare-freddy", "nightmare-bonnie", "nightmare-chica", "nightmare-foxy", "nightmare-fredbear", "nightmare", "jack-o-bonnie", "jack-o-chica", "nightmare-mangle", "nightmarionne", "plushtrap"],
-    "appearances": ["fnaf-4"],
+    "presentCharacters": [
+      "crying-child",
+      "nightmare-freddy",
+      "nightmare-bonnie",
+      "nightmare-chica",
+      "nightmare-foxy",
+      "nightmare-fredbear",
+      "nightmare",
+      "jack-o-bonnie",
+      "jack-o-chica",
+      "nightmare-mangle",
+      "nightmarionne",
+      "plushtrap"
+    ],
+    "appearances": [
+      "fnaf-4"
+    ],
     "notes": [
       "FNAF 4's bedroom setting, widely theorized to be the Afton residence; the nightmares are commonly read as the Crying Child's dreams.",
       "Rooms (Bedroom, Closet, both Halls) omitted from the rooms field since the layout is dream logic rather than architecture."
@@ -122,7 +223,10 @@
     "id": "circus-babys-entertainment-rental",
     "name": "Circus Baby's Entertainment and Rental",
     "continuity": "games",
-    "imageUrl": "/images/locations/circus-babys-entertainment-rental.webp",
+    "images": {
+      "hero": "/images/locations/circus-babys-entertainment-rental/hero.webp",
+      "map": "/images/locations/circus-babys-entertainment-rental/map.webp"
+    },
     "status": "Closed",
     "causeOfClosure": "Abandoned after Ennard's escape through Michael Afton's body",
     "owner": "Afton Robotics (William Afton)",
@@ -140,9 +244,35 @@
         "source": "Sister Location ending"
       }
     ],
-    "rooms": ["Primary Control Module", "Ballora Gallery", "Circus Gallery", "Funtime Auditorium", "Parts/Service", "Breaker Room", "Scooping Room", "Private Room"],
-    "presentCharacters": ["circus-baby", "ballora", "funtime-freddy", "bon-bon", "funtime-foxy", "minireena", "bidybab", "electrobab", "bonnet", "yenndo", "lolbit", "ennard", "michael-afton", "elizabeth-afton"],
-    "appearances": ["fnaf-sl"],
+    "rooms": [
+      "Primary Control Module",
+      "Ballora Gallery",
+      "Circus Gallery",
+      "Funtime Auditorium",
+      "Parts/Service",
+      "Breaker Room",
+      "Scooping Room",
+      "Private Room"
+    ],
+    "presentCharacters": [
+      "circus-baby",
+      "ballora",
+      "funtime-freddy",
+      "bon-bon",
+      "funtime-foxy",
+      "minireena",
+      "bidybab",
+      "electrobab",
+      "bonnet",
+      "yenndo",
+      "lolbit",
+      "ennard",
+      "michael-afton",
+      "elizabeth-afton"
+    ],
+    "appearances": [
+      "fnaf-sl"
+    ],
     "notes": [
       "Underground facility beneath a nondescript surface building, reached by elevator."
     ]
@@ -151,7 +281,10 @@
     "id": "freddy-fazbears-pizza-place",
     "name": "Freddy Fazbear's Pizza Place",
     "continuity": "games",
-    "imageUrl": "/images/locations/freddy-fazbears-pizza-place.webp",
+    "images": {
+      "hero": "/images/locations/freddy-fazbears-pizza-place/hero.webp",
+      "map": "/images/locations/freddy-fazbears-pizza-place/map.webp"
+    },
     "status": "Burned",
     "causeOfClosure": "Deliberately burned down by Henry Emily to destroy the possessed animatronics",
     "owner": "Fazbear Entertainment (franchise location)",
@@ -163,8 +296,31 @@
         "source": "Freddy Fazbear's Pizzeria Simulator ending"
       }
     ],
-    "presentCharacters": ["scrap-baby", "scraptrap", "molten-freddy", "lefty", "helpy", "rockstar-freddy", "rockstar-bonnie", "rockstar-chica", "rockstar-foxy", "happy-frog", "mr-hippo", "pigpatch", "nedd-bear", "orville-elephant", "el-chip", "candy-cadet", "egg-baby", "trash-and-the-gang", "security-puppet", "henry-emily"],
-    "appearances": ["fnaf-ffps"],
+    "presentCharacters": [
+      "scrap-baby",
+      "scraptrap",
+      "molten-freddy",
+      "lefty",
+      "helpy",
+      "rockstar-freddy",
+      "rockstar-bonnie",
+      "rockstar-chica",
+      "rockstar-foxy",
+      "happy-frog",
+      "mr-hippo",
+      "pigpatch",
+      "nedd-bear",
+      "orville-elephant",
+      "el-chip",
+      "candy-cadet",
+      "egg-baby",
+      "trash-and-the-gang",
+      "security-puppet",
+      "henry-emily"
+    ],
+    "appearances": [
+      "fnaf-ffps"
+    ],
     "notes": [
       "The playable manager is strongly implied to be Michael Afton; kept out of presentCharacters pending confirmation.",
       "The Mega Pizzaplex was later built above this site's remains."
@@ -174,7 +330,10 @@
     "id": "freddy-fazbears-mega-pizzaplex",
     "name": "Freddy Fazbear's Mega Pizzaplex",
     "continuity": "games",
-    "imageUrl": "/images/locations/freddy-fazbears-mega-pizzaplex.webp",
+    "images": {
+      "hero": "/images/locations/freddy-fazbears-mega-pizzaplex/hero.webp",
+      "map": "/images/locations/freddy-fazbears-mega-pizzaplex/map.webp"
+    },
     "status": "Closed",
     "causeOfClosure": "Condemned and left in ruins after the Security Breach events",
     "owner": "Fazbear Entertainment",
@@ -192,9 +351,42 @@
         "source": "RUIN DLC ending"
       }
     ],
-    "rooms": ["Atrium", "Rockstar Row", "Fazcade", "Monty Golf", "Roxy Raceway", "Bonnie Bowl", "Superstar Daycare", "Parts and Service", "Sublevels"],
-    "presentCharacters": ["glamrock-freddy", "glamrock-chica", "glamrock-bonnie", "montgomery-gator", "roxanne-wolf", "dj-music-man", "music-man", "sun", "moon", "eclipse", "glamrock-endo", "staff-bot", "burntrap", "the-mimic", "mxes", "gregory", "vanessa", "vanny", "cassie"],
-    "appearances": ["fnaf-sb", "sb-ruin"],
+    "rooms": [
+      "Atrium",
+      "Rockstar Row",
+      "Fazcade",
+      "Monty Golf",
+      "Roxy Raceway",
+      "Bonnie Bowl",
+      "Superstar Daycare",
+      "Parts and Service",
+      "Sublevels"
+    ],
+    "presentCharacters": [
+      "glamrock-freddy",
+      "glamrock-chica",
+      "glamrock-bonnie",
+      "montgomery-gator",
+      "roxanne-wolf",
+      "dj-music-man",
+      "music-man",
+      "sun",
+      "moon",
+      "eclipse",
+      "glamrock-endo",
+      "staff-bot",
+      "burntrap",
+      "the-mimic",
+      "mxes",
+      "gregory",
+      "vanessa",
+      "vanny",
+      "cassie"
+    ],
+    "appearances": [
+      "fnaf-sb",
+      "sb-ruin"
+    ],
     "notes": [
       "The largest in-universe Fazbear venue: a three-story entertainment megaplex."
     ]
@@ -203,11 +395,17 @@
     "id": "murrays-costume-company",
     "name": "Murray's Costume Co.",
     "continuity": "games",
-    "imageUrl": "/images/locations/murrays-costume-company.webp",
+    "images": {
+      "hero": "/images/locations/murrays-costume-company/hero.webp"
+    },
     "status": "Unknown",
     "owner": "Edwin Murray",
-    "presentCharacters": ["the-mimic"],
-    "appearances": ["fnaf-som"],
+    "presentCharacters": [
+      "the-mimic"
+    ],
+    "appearances": [
+      "fnaf-som"
+    ],
     "notes": [
       "Edwin Murray's 1979 costume factory, where the Mimic was created; setting of Secret of the Mimic.",
       "Verify the venue's official name, status and full cast on the wiki before publishing."
@@ -217,7 +415,9 @@
     "id": "freddy-fazbears-pizza-novels",
     "name": "Freddy Fazbear's Pizza (Novel Trilogy)",
     "continuity": "novels",
-    "imageUrl": "/images/locations/freddy-fazbears-pizza-novels.webp",
+    "images": {
+      "hero": "/images/locations/freddy-fazbears-pizza-novels/hero.webp"
+    },
     "status": "Closed",
     "causeOfClosure": "Closed after the children's disappearances; a shopping mall was later built enclosing the intact restaurant",
     "owner": "Fazbear Entertainment",
@@ -229,8 +429,23 @@
         "source": "The Silver Eyes"
       }
     ],
-    "presentCharacters": ["freddy-novels", "bonnie-novels", "chica-novels", "foxy-novels", "william-afton-novels", "charlie-novels", "john-novels", "jessica-novels", "carlton-burke", "clay-burke", "michael-brooks"],
-    "appearances": ["the-silver-eyes", "gn-the-silver-eyes"],
+    "presentCharacters": [
+      "freddy-novels",
+      "bonnie-novels",
+      "chica-novels",
+      "foxy-novels",
+      "william-afton-novels",
+      "charlie-novels",
+      "john-novels",
+      "jessica-novels",
+      "carlton-burke",
+      "clay-burke",
+      "michael-brooks"
+    ],
+    "appearances": [
+      "the-silver-eyes",
+      "gn-the-silver-eyes"
+    ],
     "notes": [
       "Located in Hurricane, Utah; the mall built around the sealed restaurant is The Silver Eyes' central setting.",
       "Fredbear's Family Diner also exists in this continuity as the site of the twin abduction; add it as its own entry during a novels sweep if needed."
@@ -240,7 +455,9 @@
     "id": "circus-babys-pizza-novels",
     "name": "Circus Baby's Pizza (Novel Trilogy)",
     "continuity": "novels",
-    "imageUrl": "/images/locations/circus-babys-pizza-novels.webp",
+    "images": {
+      "hero": "/images/locations/circus-babys-pizza-novels/hero.webp"
+    },
     "status": "Closed",
     "owner": "William Afton (as Dave Miller)",
     "incidents": [
@@ -251,8 +468,18 @@
         "source": "The Fourth Closet"
       }
     ],
-    "presentCharacters": ["baby-novels", "william-afton-novels", "charlie-novels", "john-novels", "jessica-novels", "carlton-burke"],
-    "appearances": ["the-fourth-closet", "gn-the-fourth-closet"],
+    "presentCharacters": [
+      "baby-novels",
+      "william-afton-novels",
+      "charlie-novels",
+      "john-novels",
+      "jessica-novels",
+      "carlton-burke"
+    ],
+    "appearances": [
+      "the-fourth-closet",
+      "gn-the-fourth-closet"
+    ],
     "notes": [
       "Verify its final fate (destroyed vs abandoned) on the wiki before publishing."
     ]
@@ -261,11 +488,19 @@
     "id": "jeffs-pizza",
     "name": "Jeff's Pizza",
     "continuity": "frights",
-    "imageUrl": "/images/locations/jeffs-pizza.webp",
+    "images": {
+      "hero": "/images/locations/jeffs-pizza/hero.webp"
+    },
     "status": "Active",
     "owner": "Jeff",
-    "presentCharacters": ["pit-bonnie"],
-    "appearances": ["ff-01-into-the-pit", "gn-ff-vol-1", "fnaf-into-the-pit"],
+    "presentCharacters": [
+      "pit-bonnie"
+    ],
+    "appearances": [
+      "ff-01-into-the-pit",
+      "gn-ff-vol-1",
+      "fnaf-into-the-pit"
+    ],
     "notes": [
       "Ordinary pizzeria occupying a former Freddy's building; its ball pit acts as a portal to the location's 1985 past.",
       "Status reflects the story's timeframe."
@@ -275,7 +510,9 @@
     "id": "freddy-fazbears-pizza-movie",
     "name": "Freddy Fazbear's Pizza (Movie)",
     "continuity": "movies",
-    "imageUrl": "/images/locations/freddy-fazbears-pizza-movie.webp",
+    "images": {
+      "hero": "/images/locations/freddy-fazbears-pizza-movie/hero.webp"
+    },
     "status": "Closed",
     "causeOfClosure": "Abandoned since the 1980s after the children's disappearances",
     "owner": "Fazbear Entertainment (movie)",
@@ -288,8 +525,21 @@
         "source": "Five Nights at Freddy's (2023)"
       }
     ],
-    "presentCharacters": ["freddy-movie", "bonnie-movie", "chica-movie", "foxy-movie", "yellow-rabbit-movie", "william-afton-movie", "mike-schmidt-movie", "abby-schmidt", "vanessa-shelly-movie"],
-    "appearances": ["fnaf-movie-1", "fnaf-movie-2"],
+    "presentCharacters": [
+      "freddy-movie",
+      "bonnie-movie",
+      "chica-movie",
+      "foxy-movie",
+      "yellow-rabbit-movie",
+      "william-afton-movie",
+      "mike-schmidt-movie",
+      "abby-schmidt",
+      "vanessa-shelly-movie"
+    ],
+    "appearances": [
+      "fnaf-movie-1",
+      "fnaf-movie-2"
+    ],
     "notes": [
       "The physical set was built practically for the film; verify how Five Nights at Freddy's 2 (2025) changes the location's status before publishing."
     ]

@@ -29,6 +29,13 @@ export default async function LocationPage({ params }: { params: Promise<{ id: s
 
   return (
     <article className="py-10">
+      <div className="scanlines glow-faz relative mb-8 overflow-hidden rounded-lg border border-seam">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={location.images.hero} alt={location.name} className="aspect-video w-full object-cover" />
+        <span className="absolute left-4 top-4 font-pixel text-[9px] uppercase text-bone/70">
+          Cam · {location.id}
+        </span>
+      </div>
       <p className="font-mono text-[11px] uppercase tracking-[0.25em] text-faz-dim">
         {location.continuity} continuity · {location.status}
       </p>
@@ -100,7 +107,7 @@ export default async function LocationPage({ params }: { params: Promise<{ id: s
               <EntityCard
                 key={character.id}
                 href={`/characters/${character.id}`}
-                imageUrl={character.imageUrl}
+                imageUrl={character.images.frame}
                 title={character.name}
                 subtitle={character.group ?? character.type}
               />

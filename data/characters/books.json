@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Twisted Wolf",
     "continuity": "novels",
-    "imageUrl": "/images/characters/twisted-wolf.webp",
+    "images": {
+      "frame": "/images/characters/twisted-wolf/frame.webp",
+      "full": "/images/characters/twisted-wolf/full.webp"
+    },
     "gender": "Male",
     "color": "Gray",
     "group": "Twisted",
@@ -28,7 +31,10 @@
     "type": "Animatronic",
     "name": "Fetch",
     "continuity": "frights",
-    "imageUrl": "/images/characters/fetch.webp",
+    "images": {
+      "frame": "/images/characters/fetch/frame.webp",
+      "full": "/images/characters/fetch/full.webp"
+    },
     "color": "Black and gray",
     "group": "Companion",
     "debut": "ff-02-fetch",
@@ -46,7 +52,10 @@
     "type": "Animatronic",
     "name": "The Stitchwraith",
     "continuity": "frights",
-    "imageUrl": "/images/characters/stitchwraith.webp",
+    "images": {
+      "frame": "/images/characters/stitchwraith/frame.webp",
+      "full": "/images/characters/stitchwraith/full.webp"
+    },
     "color": "Black hooded figure",
     "group": "Amalgam",
     "possessedBy": {
@@ -70,7 +79,10 @@
     "type": "Animatronic",
     "name": "Eleanor",
     "continuity": "frights",
-    "imageUrl": "/images/characters/eleanor.webp",
+    "images": {
+      "frame": "/images/characters/eleanor/frame.webp",
+      "full": "/images/characters/eleanor/full.webp"
+    },
     "gender": "Female",
     "color": "White and red",
     "group": "Amalgam",

@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Freddy Fazbear",
     "continuity": "games",
-    "imageUrl": "/images/characters/freddy-fazbear.webp",
+    "images": {
+      "frame": "/images/characters/freddy-fazbear/frame.webp",
+      "full": "/images/characters/freddy-fazbear/full.webp"
+    },
     "gender": "Male",
     "color": "Brown",
     "group": "Original",
@@ -41,7 +44,10 @@
     "type": "Animatronic",
     "name": "Golden Freddy",
     "continuity": "games",
-    "imageUrl": "/images/characters/golden-freddy.webp",
+    "images": {
+      "frame": "/images/characters/golden-freddy/frame.webp",
+      "full": "/images/characters/golden-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Golden yellow",
     "group": "Original",
@@ -76,7 +82,10 @@
     "name": "Toy Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/toy-freddy.webp",
+    "images": {
+      "frame": "/images/characters/toy-freddy/frame.webp",
+      "full": "/images/characters/toy-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Light brown",
     "group": "Toy",
@@ -103,7 +112,10 @@
     "name": "Withered Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/withered-freddy.webp",
+    "images": {
+      "frame": "/images/characters/withered-freddy/frame.webp",
+      "full": "/images/characters/withered-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Brown",
     "group": "Withered",
@@ -127,7 +139,10 @@
     "name": "Shadow Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/shadow-freddy.webp",
+    "images": {
+      "frame": "/images/characters/shadow-freddy/frame.webp",
+      "full": "/images/characters/shadow-freddy/full.webp"
+    },
     "color": "Dark purple",
     "group": "Shadow",
     "status": {
@@ -151,7 +166,10 @@
     "name": "Phantom Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/phantom-freddy.webp",
+    "images": {
+      "frame": "/images/characters/phantom-freddy/frame.webp",
+      "full": "/images/characters/phantom-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Charred greenish brown",
     "group": "Phantom",
@@ -172,7 +190,10 @@
     "name": "Fredbear",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/fredbear.webp",
+    "images": {
+      "frame": "/images/characters/fredbear/frame.webp",
+      "full": "/images/characters/fredbear/full.webp"
+    },
     "gender": "Male",
     "color": "Golden yellow",
     "group": "Springlock",
@@ -194,7 +215,10 @@
     "name": "Nightmare Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/nightmare-freddy.webp",
+    "images": {
+      "frame": "/images/characters/nightmare-freddy/frame.webp",
+      "full": "/images/characters/nightmare-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Dark brown",
     "group": "Nightmare",
@@ -219,7 +243,10 @@
     "name": "Nightmare Fredbear",
     "continuity": "games",
     "variantOf": "fredbear",
-    "imageUrl": "/images/characters/nightmare-fredbear.webp",
+    "images": {
+      "frame": "/images/characters/nightmare-fredbear/frame.webp",
+      "full": "/images/characters/nightmare-fredbear/full.webp"
+    },
     "gender": "Male",
     "color": "Golden yellow",
     "group": "Nightmare",
@@ -244,7 +271,10 @@
     "name": "Nightmare",
     "continuity": "games",
     "variantOf": "nightmare-fredbear",
-    "imageUrl": "/images/characters/nightmare.webp",
+    "images": {
+      "frame": "/images/characters/nightmare/frame.webp",
+      "full": "/images/characters/nightmare/full.webp"
+    },
     "gender": "Male",
     "color": "Translucent black",
     "group": "Nightmare",
@@ -269,7 +299,10 @@
     "name": "Funtime Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/funtime-freddy.webp",
+    "images": {
+      "frame": "/images/characters/funtime-freddy/frame.webp",
+      "full": "/images/characters/funtime-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "White and pink",
     "group": "Funtime",
@@ -296,7 +329,10 @@
     "name": "Molten Freddy",
     "continuity": "games",
     "variantOf": "funtime-freddy",
-    "imageUrl": "/images/characters/molten-freddy.webp",
+    "images": {
+      "frame": "/images/characters/molten-freddy/frame.webp",
+      "full": "/images/characters/molten-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Rusted orange wires",
     "group": "Scrap",
@@ -328,7 +364,10 @@
     "name": "Rockstar Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/rockstar-freddy.webp",
+    "images": {
+      "frame": "/images/characters/rockstar-freddy/frame.webp",
+      "full": "/images/characters/rockstar-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Brown",
     "group": "Rockstar",
@@ -350,7 +389,10 @@
     "name": "Helpy",
     "continuity": "games",
     "variantOf": "funtime-freddy",
-    "imageUrl": "/images/characters/helpy.webp",
+    "images": {
+      "frame": "/images/characters/helpy/frame.webp",
+      "full": "/images/characters/helpy/full.webp"
+    },
     "gender": "Male",
     "color": "White and pink",
     "group": "Funtime",
@@ -371,7 +413,10 @@
     "name": "Glamrock Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/glamrock-freddy.webp",
+    "images": {
+      "frame": "/images/characters/glamrock-freddy/frame.webp",
+      "full": "/images/characters/glamrock-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Orange-brown with blue accents",
     "group": "Glamrock",
@@ -397,7 +442,10 @@
     "name": "Dreadbear",
     "continuity": "games",
     "variantOf": "nightmare-fredbear",
-    "imageUrl": "/images/characters/dreadbear.webp",
+    "images": {
+      "frame": "/images/characters/dreadbear/frame.webp",
+      "full": "/images/characters/dreadbear/full.webp"
+    },
     "gender": "Male",
     "color": "Green",
     "group": "Halloween",
@@ -415,7 +463,10 @@
     "name": "Freddy Frostbear",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/freddy-frostbear.webp",
+    "images": {
+      "frame": "/images/characters/freddy-frostbear/frame.webp",
+      "full": "/images/characters/freddy-frostbear/full.webp"
+    },
     "gender": "Male",
     "color": "Ice blue",
     "group": "Skin",
@@ -433,7 +484,10 @@
     "name": "Shamrock Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/shamrock-freddy.webp",
+    "images": {
+      "frame": "/images/characters/shamrock-freddy/frame.webp",
+      "full": "/images/characters/shamrock-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Green",
     "group": "Skin",
@@ -451,7 +505,10 @@
     "name": "Firework Freddy",
     "continuity": "games",
     "variantOf": "freddy-fazbear",
-    "imageUrl": "/images/characters/firework-freddy.webp",
+    "images": {
+      "frame": "/images/characters/firework-freddy/frame.webp",
+      "full": "/images/characters/firework-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Red, white and blue",
     "group": "Skin",
@@ -472,7 +529,10 @@
       "freddy-fazbear",
       "freddy-movie"
     ],
-    "imageUrl": "/images/characters/freddy-novels.webp",
+    "images": {
+      "frame": "/images/characters/freddy-novels/frame.webp",
+      "full": "/images/characters/freddy-novels/full.webp"
+    },
     "gender": "Male",
     "color": "Brown",
     "group": "Original",
@@ -492,7 +552,10 @@
     "name": "Twisted Freddy",
     "continuity": "novels",
     "variantOf": "freddy-novels",
-    "imageUrl": "/images/characters/twisted-freddy.webp",
+    "images": {
+      "frame": "/images/characters/twisted-freddy/frame.webp",
+      "full": "/images/characters/twisted-freddy/full.webp"
+    },
     "gender": "Male",
     "color": "Dark brown",
     "group": "Twisted",
@@ -517,7 +580,10 @@
       "freddy-fazbear",
       "freddy-novels"
     ],
-    "imageUrl": "/images/characters/freddy-movie.webp",
+    "images": {
+      "frame": "/images/characters/freddy-movie/frame.webp",
+      "full": "/images/characters/freddy-movie/full.webp"
+    },
     "gender": "Male",
     "color": "Brown",
     "group": "Original",

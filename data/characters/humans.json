@@ -4,7 +4,10 @@
     "type": "Human",
     "name": "Mike Schmidt",
     "continuity": "games",
-    "imageUrl": "/images/characters/mike-schmidt.webp",
+    "images": {
+      "frame": "/images/characters/mike-schmidt/frame.webp",
+      "full": "/images/characters/mike-schmidt/full.webp"
+    },
     "gender": "Male",
     "debut": "fnaf-1",
     "appearances": [
@@ -24,7 +27,10 @@
     "type": "Human",
     "name": "Phone Guy",
     "continuity": "games",
-    "imageUrl": "/images/characters/phone-guy.webp",
+    "images": {
+      "frame": "/images/characters/phone-guy/frame.webp",
+      "full": "/images/characters/phone-guy/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Deceased",
@@ -52,7 +58,10 @@
       "william-afton-novels",
       "william-afton-movie"
     ],
-    "imageUrl": "/images/characters/william-afton.webp",
+    "images": {
+      "frame": "/images/characters/william-afton/frame.webp",
+      "full": "/images/characters/william-afton/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Deceased; soul bound to Springtrap",
@@ -77,7 +86,10 @@
     "type": "Human",
     "name": "Michael Afton",
     "continuity": "games",
-    "imageUrl": "/images/characters/michael-afton.webp",
+    "images": {
+      "frame": "/images/characters/michael-afton/frame.webp",
+      "full": "/images/characters/michael-afton/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Reanimated after being scooped",
@@ -100,7 +112,10 @@
     "type": "Human",
     "name": "Elizabeth Afton",
     "continuity": "games",
-    "imageUrl": "/images/characters/elizabeth-afton.webp",
+    "images": {
+      "frame": "/images/characters/elizabeth-afton/frame.webp",
+      "full": "/images/characters/elizabeth-afton/full.webp"
+    },
     "gender": "Female",
     "status": {
       "value": "Deceased; soul bound to Circus Baby",
@@ -121,7 +136,10 @@
     "type": "Human",
     "name": "Crying Child",
     "continuity": "games",
-    "imageUrl": "/images/characters/crying-child.webp",
+    "images": {
+      "frame": "/images/characters/crying-child/frame.webp",
+      "full": "/images/characters/crying-child/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Deceased",
@@ -147,7 +165,10 @@
     "counterparts": [
       "henry-novels"
     ],
-    "imageUrl": "/images/characters/henry-emily.webp",
+    "images": {
+      "frame": "/images/characters/henry-emily/frame.webp",
+      "full": "/images/characters/henry-emily/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Deceased",
@@ -172,7 +193,10 @@
     "counterparts": [
       "charlie-novels"
     ],
-    "imageUrl": "/images/characters/charlotte-emily.webp",
+    "images": {
+      "frame": "/images/characters/charlotte-emily/frame.webp",
+      "full": "/images/characters/charlotte-emily/full.webp"
+    },
     "gender": "Female",
     "status": {
       "value": "Deceased; soul bound to the Puppet",
@@ -193,7 +217,10 @@
     "type": "Human",
     "name": "Jeremy Fitzgerald",
     "continuity": "games",
-    "imageUrl": "/images/characters/jeremy-fitzgerald.webp",
+    "images": {
+      "frame": "/images/characters/jeremy-fitzgerald/frame.webp",
+      "full": "/images/characters/jeremy-fitzgerald/full.webp"
+    },
     "gender": "Male",
     "debut": "fnaf-2",
     "appearances": [
@@ -210,7 +237,10 @@
     "type": "Human",
     "name": "Fritz Smith",
     "continuity": "games",
-    "imageUrl": "/images/characters/fritz-smith.webp",
+    "images": {
+      "frame": "/images/characters/fritz-smith/frame.webp",
+      "full": "/images/characters/fritz-smith/full.webp"
+    },
     "gender": "Male",
     "debut": "fnaf-2",
     "appearances": [
@@ -226,7 +256,10 @@
     "type": "Human",
     "name": "Gregory",
     "continuity": "games",
-    "imageUrl": "/images/characters/gregory.webp",
+    "images": {
+      "frame": "/images/characters/gregory/frame.webp",
+      "full": "/images/characters/gregory/full.webp"
+    },
     "gender": "Male",
     "debut": "fnaf-sb",
     "appearances": [
@@ -246,7 +279,10 @@
     "counterparts": [
       "vanessa-shelly-movie"
     ],
-    "imageUrl": "/images/characters/vanessa.webp",
+    "images": {
+      "frame": "/images/characters/vanessa/frame.webp",
+      "full": "/images/characters/vanessa/full.webp"
+    },
     "gender": "Female",
     "debut": "fnaf-sb",
     "appearances": [
@@ -264,7 +300,10 @@
     "name": "Vanny",
     "continuity": "games",
     "variantOf": "vanessa",
-    "imageUrl": "/images/characters/vanny.webp",
+    "images": {
+      "frame": "/images/characters/vanny/frame.webp",
+      "full": "/images/characters/vanny/full.webp"
+    },
     "gender": "Female",
     "color": "White rabbit costume",
     "debut": "fnaf-hw",
@@ -283,7 +322,10 @@
     "type": "Human",
     "name": "Cassie",
     "continuity": "games",
-    "imageUrl": "/images/characters/cassie.webp",
+    "images": {
+      "frame": "/images/characters/cassie/frame.webp",
+      "full": "/images/characters/cassie/full.webp"
+    },
     "gender": "Female",
     "debut": "sb-ruin",
     "appearances": [
@@ -303,7 +345,10 @@
       "william-afton",
       "william-afton-movie"
     ],
-    "imageUrl": "/images/characters/william-afton-novels.webp",
+    "images": {
+      "frame": "/images/characters/william-afton-novels/frame.webp",
+      "full": "/images/characters/william-afton-novels/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Springlocked inside the Spring Bonnie suit; deteriorates across the trilogy",
@@ -332,7 +377,10 @@
     "counterparts": [
       "charlotte-emily"
     ],
-    "imageUrl": "/images/characters/charlie-novels.webp",
+    "images": {
+      "frame": "/images/characters/charlie-novels/frame.webp",
+      "full": "/images/characters/charlie-novels/full.webp"
+    },
     "gender": "Female",
     "status": {
       "value": "Revealed to be an android created by Henry",
@@ -362,7 +410,10 @@
     "counterparts": [
       "henry-emily"
     ],
-    "imageUrl": "/images/characters/henry-novels.webp",
+    "images": {
+      "frame": "/images/characters/henry-novels/frame.webp",
+      "full": "/images/characters/henry-novels/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Deceased before the trilogy's events",
@@ -390,7 +441,10 @@
     "counterparts": [
       "mike-schmidt"
     ],
-    "imageUrl": "/images/characters/mike-schmidt-movie.webp",
+    "images": {
+      "frame": "/images/characters/mike-schmidt-movie/frame.webp",
+      "full": "/images/characters/mike-schmidt-movie/full.webp"
+    },
     "gender": "Male",
     "debut": "fnaf-movie-1",
     "appearances": [
@@ -407,7 +461,10 @@
     "type": "Human",
     "name": "Abby Schmidt",
     "continuity": "movies",
-    "imageUrl": "/images/characters/abby-schmidt.webp",
+    "images": {
+      "frame": "/images/characters/abby-schmidt/frame.webp",
+      "full": "/images/characters/abby-schmidt/full.webp"
+    },
     "gender": "Female",
     "debut": "fnaf-movie-1",
     "appearances": [
@@ -426,7 +483,10 @@
     "counterparts": [
       "vanessa"
     ],
-    "imageUrl": "/images/characters/vanessa-shelly-movie.webp",
+    "images": {
+      "frame": "/images/characters/vanessa-shelly-movie/frame.webp",
+      "full": "/images/characters/vanessa-shelly-movie/full.webp"
+    },
     "gender": "Female",
     "status": {
       "value": "Hospitalized after being stabbed by her father",
@@ -453,7 +513,10 @@
       "william-afton",
       "william-afton-novels"
     ],
-    "imageUrl": "/images/characters/william-afton-movie.webp",
+    "images": {
+      "frame": "/images/characters/william-afton-movie/frame.webp",
+      "full": "/images/characters/william-afton-movie/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Springlocked inside the Yellow Rabbit suit",
@@ -477,7 +540,10 @@
     "type": "Human",
     "name": "John (Novel Trilogy)",
     "continuity": "novels",
-    "imageUrl": "/images/characters/john-novels.webp",
+    "images": {
+      "frame": "/images/characters/john-novels/frame.webp",
+      "full": "/images/characters/john-novels/full.webp"
+    },
     "gender": "Male",
     "debut": "the-silver-eyes",
     "appearances": [
@@ -497,7 +563,10 @@
     "type": "Human",
     "name": "Jessica (Novel Trilogy)",
     "continuity": "novels",
-    "imageUrl": "/images/characters/jessica-novels.webp",
+    "images": {
+      "frame": "/images/characters/jessica-novels/frame.webp",
+      "full": "/images/characters/jessica-novels/full.webp"
+    },
     "gender": "Female",
     "debut": "the-silver-eyes",
     "appearances": [
@@ -517,7 +586,10 @@
     "type": "Human",
     "name": "Carlton Burke",
     "continuity": "novels",
-    "imageUrl": "/images/characters/carlton-burke.webp",
+    "images": {
+      "frame": "/images/characters/carlton-burke/frame.webp",
+      "full": "/images/characters/carlton-burke/full.webp"
+    },
     "gender": "Male",
     "debut": "the-silver-eyes",
     "appearances": [
@@ -537,7 +609,10 @@
     "type": "Human",
     "name": "Clay Burke",
     "continuity": "novels",
-    "imageUrl": "/images/characters/clay-burke.webp",
+    "images": {
+      "frame": "/images/characters/clay-burke/frame.webp",
+      "full": "/images/characters/clay-burke/full.webp"
+    },
     "gender": "Male",
     "debut": "the-silver-eyes",
     "appearances": [
@@ -558,7 +633,10 @@
     "type": "Human",
     "name": "Sammy Emily",
     "continuity": "novels",
-    "imageUrl": "/images/characters/sammy-emily.webp",
+    "images": {
+      "frame": "/images/characters/sammy-emily/frame.webp",
+      "full": "/images/characters/sammy-emily/full.webp"
+    },
     "gender": "Male",
     "debut": "the-silver-eyes",
     "appearances": [
@@ -578,7 +656,10 @@
     "type": "Human",
     "name": "Michael Brooks",
     "continuity": "novels",
-    "imageUrl": "/images/characters/michael-brooks.webp",
+    "images": {
+      "frame": "/images/characters/michael-brooks/frame.webp",
+      "full": "/images/characters/michael-brooks/full.webp"
+    },
     "gender": "Male",
     "status": {
       "value": "Deceased; spirit tied to the golden Freddy suit",

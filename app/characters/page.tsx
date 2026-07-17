@@ -21,6 +21,10 @@ export default async function CharactersPage({
   const group = params.group ?? null;
 
   const groups = Array.from(new Set(characters.map((c) => c.group).filter((g): g is string => Boolean(g)))).sort();
+  const countBy = (predicate: (c: (typeof characters)[number]) => boolean) => characters.filter(predicate).length;
+  const continuityCounts = Object.fromEntries(CONTINUITIES.map((v) => [v, countBy((c) => c.continuity === v)]));
+  const typeCounts = Object.fromEntries(TYPES.map((v) => [v, countBy((c) => c.type === v)]));
+  const groupCounts = Object.fromEntries(groups.map((v) => [v, countBy((c) => c.group === v)]));
 
   const results = characters.filter(
     (c) =>
@@ -45,18 +49,25 @@ export default async function CharactersPage({
         title="Characters"
         description={`${characters.length} entries. Variants link back to their base identity; counterparts link the same character across continuities.`}
       />
-      <div className="mt-6 space-y-2">
-        <FilterChips basePath="/characters" param="continuity" options={CONTINUITIES} active={continuity} otherParams={paramsWithout("continuity")} />
-        <FilterChips basePath="/characters" param="type" options={TYPES} active={type} otherParams={paramsWithout("type")} />
-        <FilterChips basePath="/characters" param="group" options={groups} active={group} otherParams={paramsWithout("group")} />
+      <div className="mt-6 rounded-md border border-seam bg-curtain/70 p-4">
+        <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-bone-dim">
+          <span>Filter console</span>
+          <span className="font-pixel text-[9px] text-signal">
+            Showing {results.length}/{characters.length}
+          </span>
+        </div>
+        <div className="mt-3 space-y-2.5">
+          <FilterChips basePath="/characters" param="continuity" options={CONTINUITIES} active={continuity} otherParams={paramsWithout("continuity")} label="Continuity" counts={continuityCounts} />
+          <FilterChips basePath="/characters" param="type" options={TYPES} active={type} otherParams={paramsWithout("type")} label="Type" counts={typeCounts} />
+          <FilterChips basePath="/characters" param="group" options={groups} active={group} otherParams={paramsWithout("group")} label="Group" counts={groupCounts} />
+        </div>
       </div>
-      <p className="mt-6 font-mono text-[11px] uppercase tracking-widest text-bone-dim">{results.length} shown</p>
-      <div className="mt-3 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
         {results.map((character) => (
           <EntityCard
             key={character.id}
             href={`/characters/${character.id}`}
-            imageUrl={character.imageUrl}
+            imageUrl={character.images.frame}
             title={character.name}
             subtitle={character.group ?? character.type}
             tag={character.continuity}

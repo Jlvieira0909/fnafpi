@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Chica",
     "continuity": "games",
-    "imageUrl": "/images/characters/chica.webp",
+    "images": {
+      "frame": "/images/characters/chica/frame.webp",
+      "full": "/images/characters/chica/full.webp"
+    },
     "gender": "Female",
     "color": "Yellow",
     "group": "Original",
@@ -38,7 +41,10 @@
     "name": "Toy Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/toy-chica.webp",
+    "images": {
+      "frame": "/images/characters/toy-chica/frame.webp",
+      "full": "/images/characters/toy-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Yellow",
     "group": "Toy",
@@ -65,7 +71,10 @@
     "name": "Withered Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/withered-chica.webp",
+    "images": {
+      "frame": "/images/characters/withered-chica/frame.webp",
+      "full": "/images/characters/withered-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Yellow",
     "group": "Withered",
@@ -91,7 +100,10 @@
     "name": "Phantom Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/phantom-chica.webp",
+    "images": {
+      "frame": "/images/characters/phantom-chica/frame.webp",
+      "full": "/images/characters/phantom-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Charred greenish yellow",
     "group": "Phantom",
@@ -115,7 +127,10 @@
     "name": "Nightmare Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/nightmare-chica.webp",
+    "images": {
+      "frame": "/images/characters/nightmare-chica/frame.webp",
+      "full": "/images/characters/nightmare-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Dark yellow",
     "group": "Nightmare",
@@ -140,7 +155,10 @@
     "name": "Jack-O-Chica",
     "continuity": "games",
     "variantOf": "nightmare-chica",
-    "imageUrl": "/images/characters/jack-o-chica.webp",
+    "images": {
+      "frame": "/images/characters/jack-o-chica/frame.webp",
+      "full": "/images/characters/jack-o-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Charred black with orange glow",
     "group": "Nightmare",
@@ -159,7 +177,10 @@
     "name": "Funtime Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/funtime-chica.webp",
+    "images": {
+      "frame": "/images/characters/funtime-chica/frame.webp",
+      "full": "/images/characters/funtime-chica/full.webp"
+    },
     "gender": "Female",
     "color": "White and orange-pink",
     "group": "Funtime",
@@ -178,7 +199,10 @@
     "name": "Rockstar Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/rockstar-chica.webp",
+    "images": {
+      "frame": "/images/characters/rockstar-chica/frame.webp",
+      "full": "/images/characters/rockstar-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Yellow",
     "group": "Rockstar",
@@ -203,7 +227,10 @@
     "name": "Glamrock Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/glamrock-chica.webp",
+    "images": {
+      "frame": "/images/characters/glamrock-chica/frame.webp",
+      "full": "/images/characters/glamrock-chica/full.webp"
+    },
     "gender": "Female",
     "color": "White and pink",
     "group": "Glamrock",
@@ -225,7 +252,10 @@
     "name": "Cupcake",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/cupcake.webp",
+    "images": {
+      "frame": "/images/characters/cupcake/frame.webp",
+      "full": "/images/characters/cupcake/full.webp"
+    },
     "color": "Pink",
     "group": "Companion",
     "debut": "fnaf-1",
@@ -246,7 +276,10 @@
     "name": "Highscore Toy Chica",
     "continuity": "games",
     "variantOf": "toy-chica",
-    "imageUrl": "/images/characters/highscore-toy-chica.webp",
+    "images": {
+      "frame": "/images/characters/highscore-toy-chica/frame.webp",
+      "full": "/images/characters/highscore-toy-chica/full.webp"
+    },
     "gender": "Female",
     "color": "8-bit yellow",
     "group": "Skin",
@@ -264,7 +297,10 @@
     "name": "System Error Toy Chica",
     "continuity": "games",
     "variantOf": "toy-chica",
-    "imageUrl": "/images/characters/system-error-toy-chica.webp",
+    "images": {
+      "frame": "/images/characters/system-error-toy-chica/frame.webp",
+      "full": "/images/characters/system-error-toy-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Glitched teal",
     "group": "Skin",
@@ -282,7 +318,10 @@
     "name": "Liberty Chica",
     "continuity": "games",
     "variantOf": "chica",
-    "imageUrl": "/images/characters/liberty-chica.webp",
+    "images": {
+      "frame": "/images/characters/liberty-chica/frame.webp",
+      "full": "/images/characters/liberty-chica/full.webp"
+    },
     "gender": "Female",
     "color": "Copper green",
     "group": "Skin",
@@ -303,7 +342,10 @@
       "chica",
       "chica-movie"
     ],
-    "imageUrl": "/images/characters/chica-novels.webp",
+    "images": {
+      "frame": "/images/characters/chica-novels/frame.webp",
+      "full": "/images/characters/chica-novels/full.webp"
+    },
     "gender": "Female",
     "color": "Yellow",
     "group": "Original",
@@ -326,7 +368,10 @@
       "chica",
       "chica-novels"
     ],
-    "imageUrl": "/images/characters/chica-movie.webp",
+    "images": {
+      "frame": "/images/characters/chica-movie/frame.webp",
+      "full": "/images/characters/chica-movie/full.webp"
+    },
     "gender": "Female",
     "color": "Yellow",
     "group": "Original",

@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Bonnie",
     "continuity": "games",
-    "imageUrl": "/images/characters/bonnie.webp",
+    "images": {
+      "frame": "/images/characters/bonnie/frame.webp",
+      "full": "/images/characters/bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Indigo",
     "group": "Original",
@@ -41,7 +44,10 @@
     "name": "Toy Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/toy-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/toy-bonnie/frame.webp",
+      "full": "/images/characters/toy-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Light blue",
     "group": "Toy",
@@ -65,7 +71,10 @@
     "name": "Withered Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/withered-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/withered-bonnie/frame.webp",
+      "full": "/images/characters/withered-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Blue",
     "group": "Withered",
@@ -91,7 +100,10 @@
     "name": "Shadow Bonnie (RWQFSFASXC)",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/shadow-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/shadow-bonnie/frame.webp",
+      "full": "/images/characters/shadow-bonnie/full.webp"
+    },
     "color": "Black",
     "group": "Shadow",
     "status": {
@@ -117,7 +129,10 @@
     "name": "Spring Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/spring-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/spring-bonnie/frame.webp",
+      "full": "/images/characters/spring-bonnie/full.webp"
+    },
     "color": "Golden yellow",
     "group": "Springlock",
     "debut": "fnaf-3",
@@ -129,6 +144,10 @@
       "Springlock hybrid suit from Fredbear's Family Diner; performed alongside Fredbear.",
       "Chronologically precedes Bonnie in-universe, but debuted later in the real world; variantOf follows design lineage, not in-universe chronology.",
       "The suit William Afton used to lure the missing children, later becoming Springtrap."
+    ],
+    "counterparts": [
+      "pit-bonnie",
+      "yellow-rabbit-movie"
     ]
   },
   {
@@ -137,7 +156,10 @@
     "name": "Springtrap",
     "continuity": "games",
     "variantOf": "spring-bonnie",
-    "imageUrl": "/images/characters/springtrap.webp",
+    "images": {
+      "frame": "/images/characters/springtrap/frame.webp",
+      "full": "/images/characters/springtrap/full.webp"
+    },
     "gender": "Male",
     "color": "Decayed olive yellow",
     "group": "Springlock",
@@ -155,6 +177,9 @@
     ],
     "notes": [
       "William Afton's corpse trapped inside the Spring Bonnie suit after a springlock failure."
+    ],
+    "counterparts": [
+      "yellow-rabbit-movie"
     ]
   },
   {
@@ -163,7 +188,10 @@
     "name": "Scraptrap",
     "continuity": "games",
     "variantOf": "springtrap",
-    "imageUrl": "/images/characters/scraptrap.webp",
+    "images": {
+      "frame": "/images/characters/scraptrap/frame.webp",
+      "full": "/images/characters/scraptrap/full.webp"
+    },
     "gender": "Male",
     "color": "Decayed yellow",
     "group": "Scrap",
@@ -193,7 +221,10 @@
     "name": "Glitchtrap",
     "continuity": "games",
     "variantOf": "spring-bonnie",
-    "imageUrl": "/images/characters/glitchtrap.webp",
+    "images": {
+      "frame": "/images/characters/glitchtrap/frame.webp",
+      "full": "/images/characters/glitchtrap/full.webp"
+    },
     "gender": "Male",
     "color": "Golden yellow",
     "group": "Digital",
@@ -220,7 +251,10 @@
     "name": "Burntrap",
     "continuity": "games",
     "variantOf": "springtrap",
-    "imageUrl": "/images/characters/burntrap.webp",
+    "images": {
+      "frame": "/images/characters/burntrap/frame.webp",
+      "full": "/images/characters/burntrap/full.webp"
+    },
     "gender": "Male",
     "color": "Charred yellow",
     "group": "Springlock",
@@ -245,7 +279,10 @@
     "name": "Nightmare Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/nightmare-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/nightmare-bonnie/frame.webp",
+      "full": "/images/characters/nightmare-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Dark blue",
     "group": "Nightmare",
@@ -267,7 +304,10 @@
     "name": "Jack-O-Bonnie",
     "continuity": "games",
     "variantOf": "nightmare-bonnie",
-    "imageUrl": "/images/characters/jack-o-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/jack-o-bonnie/frame.webp",
+      "full": "/images/characters/jack-o-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Charred black with orange glow",
     "group": "Nightmare",
@@ -285,7 +325,10 @@
     "name": "Plushtrap",
     "continuity": "games",
     "variantOf": "spring-bonnie",
-    "imageUrl": "/images/characters/plushtrap.webp",
+    "images": {
+      "frame": "/images/characters/plushtrap/frame.webp",
+      "full": "/images/characters/plushtrap/full.webp"
+    },
     "gender": "Male",
     "color": "Pale green-yellow",
     "group": "Nightmare",
@@ -304,7 +347,10 @@
     "name": "Rockstar Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/rockstar-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/rockstar-bonnie/frame.webp",
+      "full": "/images/characters/rockstar-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Blue",
     "group": "Rockstar",
@@ -326,7 +372,10 @@
     "name": "Glamrock Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/glamrock-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/glamrock-bonnie/frame.webp",
+      "full": "/images/characters/glamrock-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Blue and white",
     "group": "Glamrock",
@@ -352,7 +401,10 @@
     "name": "Bon-Bon",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/bon-bon.webp",
+    "images": {
+      "frame": "/images/characters/bon-bon/frame.webp",
+      "full": "/images/characters/bon-bon/full.webp"
+    },
     "gender": "Male",
     "color": "Blue",
     "group": "Funtime",
@@ -373,7 +425,10 @@
     "name": "Bonnet",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/bonnet.webp",
+    "images": {
+      "frame": "/images/characters/bonnet/frame.webp",
+      "full": "/images/characters/bonnet/full.webp"
+    },
     "gender": "Female",
     "color": "Pink",
     "group": "Funtime",
@@ -391,7 +446,10 @@
     "name": "Chocolate Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/chocolate-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/chocolate-bonnie/frame.webp",
+      "full": "/images/characters/chocolate-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Chocolate brown",
     "group": "Skin",
@@ -409,7 +467,10 @@
     "name": "Easter Bonnie",
     "continuity": "games",
     "variantOf": "bonnie",
-    "imageUrl": "/images/characters/easter-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/easter-bonnie/frame.webp",
+      "full": "/images/characters/easter-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "White and purple",
     "group": "Skin",
@@ -427,7 +488,10 @@
     "name": "Toxic Springtrap",
     "continuity": "games",
     "variantOf": "springtrap",
-    "imageUrl": "/images/characters/toxic-springtrap.webp",
+    "images": {
+      "frame": "/images/characters/toxic-springtrap/frame.webp",
+      "full": "/images/characters/toxic-springtrap/full.webp"
+    },
     "gender": "Male",
     "color": "Toxic green",
     "group": "Skin",
@@ -445,7 +509,10 @@
     "name": "Clown Springtrap",
     "continuity": "games",
     "variantOf": "springtrap",
-    "imageUrl": "/images/characters/clown-springtrap.webp",
+    "images": {
+      "frame": "/images/characters/clown-springtrap/frame.webp",
+      "full": "/images/characters/clown-springtrap/full.webp"
+    },
     "gender": "Male",
     "color": "White and red",
     "group": "Skin",
@@ -466,7 +533,10 @@
       "bonnie",
       "bonnie-movie"
     ],
-    "imageUrl": "/images/characters/bonnie-novels.webp",
+    "images": {
+      "frame": "/images/characters/bonnie-novels/frame.webp",
+      "full": "/images/characters/bonnie-novels/full.webp"
+    },
     "gender": "Male",
     "color": "Blue-violet",
     "group": "Original",
@@ -485,7 +555,10 @@
     "name": "Twisted Bonnie",
     "continuity": "novels",
     "variantOf": "bonnie-novels",
-    "imageUrl": "/images/characters/twisted-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/twisted-bonnie/frame.webp",
+      "full": "/images/characters/twisted-bonnie/full.webp"
+    },
     "gender": "Male",
     "color": "Dark blue",
     "group": "Twisted",
@@ -509,7 +582,10 @@
     "counterparts": [
       "spring-bonnie"
     ],
-    "imageUrl": "/images/characters/pit-bonnie.webp",
+    "images": {
+      "frame": "/images/characters/pit-bonnie/frame.webp",
+      "full": "/images/characters/pit-bonnie/full.webp"
+    },
     "color": "Golden yellow",
     "group": "Springlock",
     "debut": "ff-01-into-the-pit",
@@ -531,7 +607,10 @@
       "bonnie",
       "bonnie-novels"
     ],
-    "imageUrl": "/images/characters/bonnie-movie.webp",
+    "images": {
+      "frame": "/images/characters/bonnie-movie/frame.webp",
+      "full": "/images/characters/bonnie-movie/full.webp"
+    },
     "gender": "Male",
     "color": "Blue-violet",
     "group": "Original",
@@ -560,7 +639,10 @@
       "spring-bonnie",
       "springtrap"
     ],
-    "imageUrl": "/images/characters/yellow-rabbit-movie.webp",
+    "images": {
+      "frame": "/images/characters/yellow-rabbit-movie/frame.webp",
+      "full": "/images/characters/yellow-rabbit-movie/full.webp"
+    },
     "gender": "Male",
     "color": "Golden yellow",
     "group": "Springlock",

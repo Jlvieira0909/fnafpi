@@ -4,7 +4,10 @@
     "type": "Animatronic",
     "name": "Happy Frog",
     "continuity": "games",
-    "imageUrl": "/images/characters/happy-frog.webp",
+    "images": {
+      "frame": "/images/characters/happy-frog/frame.webp",
+      "full": "/images/characters/happy-frog/full.webp"
+    },
     "gender": "Female",
     "color": "Green",
     "group": "Mediocre Melodies",
@@ -25,7 +28,10 @@
     "type": "Animatronic",
     "name": "Mr. Hippo",
     "continuity": "games",
-    "imageUrl": "/images/characters/mr-hippo.webp",
+    "images": {
+      "frame": "/images/characters/mr-hippo/frame.webp",
+      "full": "/images/characters/mr-hippo/full.webp"
+    },
     "gender": "Male",
     "color": "Purple",
     "group": "Mediocre Melodies",
@@ -50,7 +56,10 @@
     "name": "Mystic Hippo",
     "continuity": "games",
     "variantOf": "mr-hippo",
-    "imageUrl": "/images/characters/mystic-hippo.webp",
+    "images": {
+      "frame": "/images/characters/mystic-hippo/frame.webp",
+      "full": "/images/characters/mystic-hippo/full.webp"
+    },
     "gender": "Female",
     "color": "Purple and gold",
     "group": "Skin",
@@ -67,7 +76,10 @@
     "type": "Animatronic",
     "name": "Pigpatch",
     "continuity": "games",
-    "imageUrl": "/images/characters/pigpatch.webp",
+    "images": {
+      "frame": "/images/characters/pigpatch/frame.webp",
+      "full": "/images/characters/pigpatch/full.webp"
+    },
     "gender": "Male",
     "color": "Pink",
     "group": "Mediocre Melodies",
@@ -91,7 +103,10 @@
     "type": "Animatronic",
     "name": "Nedd Bear",
     "continuity": "games",
-    "imageUrl": "/images/characters/nedd-bear.webp",
+    "images": {
+      "frame": "/images/characters/nedd-bear/frame.webp",
+      "full": "/images/characters/nedd-bear/full.webp"
+    },
     "gender": "Male",
     "color": "Brown and yellow",
     "group": "Mediocre Melodies",
@@ -112,7 +127,10 @@
     "type": "Animatronic",
     "name": "Orville Elephant",
     "continuity": "games",
-    "imageUrl": "/images/characters/orville-elephant.webp",
+    "images": {
+      "frame": "/images/characters/orville-elephant/frame.webp",
+      "full": "/images/characters/orville-elephant/full.webp"
+    },
     "gender": "Male",
     "color": "Gray and purple",
     "group": "Mediocre Melodies",
@@ -133,7 +151,10 @@
     "type": "Animatronic",
     "name": "El Chip",
     "continuity": "games",
-    "imageUrl": "/images/characters/el-chip.webp",
+    "images": {
+      "frame": "/images/characters/el-chip/frame.webp",
+      "full": "/images/characters/el-chip/full.webp"
+    },
     "gender": "Male",
     "color": "Brown",
     "group": "Mediocre Melodies",
@@ -158,7 +179,10 @@
     "type": "Animatronic",
     "name": "Candy Cadet",
     "continuity": "games",
-    "imageUrl": "/images/characters/candy-cadet.webp",
+    "images": {
+      "frame": "/images/characters/candy-cadet/frame.webp",
+      "full": "/images/characters/candy-cadet/full.webp"
+    },
     "color": "Red",
     "group": "Service",
     "debut": "fnaf-ffps",
@@ -175,7 +199,10 @@
     "type": "Animatronic",
     "name": "Egg Baby (Data Archive)",
     "continuity": "games",
-    "imageUrl": "/images/characters/egg-baby.webp",
+    "images": {
+      "frame": "/images/characters/egg-baby/frame.webp",
+      "full": "/images/characters/egg-baby/full.webp"
+    },
     "color": "Yellow and teal",
     "group": "Service",
     "debut": "fnaf-ffps",
@@ -191,7 +218,10 @@
     "type": "Animatronic",
     "name": "Trash and the Gang",
     "continuity": "games",
-    "imageUrl": "/images/characters/trash-and-the-gang.webp",
+    "images": {
+      "frame": "/images/characters/trash-and-the-gang/frame.webp",
+      "full": "/images/characters/trash-and-the-gang/full.webp"
+    },
     "color": "Assorted junk",
     "group": "Service",
     "debut": "fnaf-ffps",
@@ -207,7 +237,10 @@
     "type": "Animatronic",
     "name": "Dee Dee",
     "continuity": "games",
-    "imageUrl": "/images/characters/dee-dee.webp",
+    "images": {
+      "frame": "/images/characters/dee-dee/frame.webp",
+      "full": "/images/characters/dee-dee/full.webp"
+    },
     "gender": "Female",
     "color": "Pink and blue",
     "group": "Original",
@@ -226,7 +259,10 @@
     "type": "Animatronic",
     "name": "Old Man Consequences",
     "continuity": "games",
-    "imageUrl": "/images/characters/old-man-consequences.webp",
+    "images": {
+      "frame": "/images/characters/old-man-consequences/frame.webp",
+      "full": "/images/characters/old-man-consequences/full.webp"
+    },
     "gender": "Male",
     "color": "Red 8-bit sprite",
     "group": "Original",

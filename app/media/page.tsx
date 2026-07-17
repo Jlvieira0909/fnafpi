@@ -25,9 +25,7 @@ export default async function MediaPage({
 
   const results = media
     .filter((m) => !type || m.type.toLowerCase() === type.toLowerCase())
-    .sort((a, b) =>
-      (a.releaseDate ?? "9999").localeCompare(b.releaseDate ?? "9999")
-    );
+    .sort((a, b) => (a.releaseDate ?? "9999").localeCompare(b.releaseDate ?? "9999"));
 
   const byYear = new Map<string, typeof results>();
   for (const entry of results) {
@@ -43,22 +41,22 @@ export default async function MediaPage({
         title="Timeline"
         description="Every release in real-world order — one night on the job per year. The in-universe chronology is a different beast entirely."
       />
-      <div className="mt-6">
-        <FilterChips
-          basePath="/media"
-          param="type"
-          options={TYPES}
-          active={type}
-          otherParams={{}}
-        />
+      <div className="mt-6 rounded-md border border-seam bg-curtain/70 p-4">
+        <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-bone-dim">
+          <span>Filter console</span>
+          <span className="font-pixel text-[9px] text-signal">
+            Showing {results.length}/{media.length}
+          </span>
+        </div>
+        <div className="mt-3">
+          <FilterChips basePath="/media" param="type" options={TYPES} active={type} otherParams={{}} label="Type" />
+        </div>
       </div>
 
       <div className="mt-12 flex items-center gap-3">
         <span className="font-pixel text-[11px] text-rec">12:00 AM</span>
         <div className="h-px flex-1 bg-gradient-to-r from-rec/40 to-transparent" />
-        <span className="font-mono text-[10px] uppercase tracking-widest text-bone-dim">
-          Shift starts
-        </span>
+        <span className="font-mono text-[10px] uppercase tracking-widest text-bone-dim">Shift starts</span>
       </div>
 
       <div className="mt-10 space-y-12">
@@ -66,13 +64,9 @@ export default async function MediaPage({
           <section key={year} className="grid gap-4 sm:grid-cols-[130px_1fr]">
             <div>
               <p className="font-pixel text-[9px] uppercase leading-relaxed text-faz-dim">
-                {year === "TBA"
-                  ? "Night ??"
-                  : `Night ${String(index + 1).padStart(2, "0")}`}
+                {year === "TBA" ? "Night ??" : `Night ${String(index + 1).padStart(2, "0")}`}
               </p>
-              <h2 className="marquee font-display text-3xl uppercase text-bone/80">
-                {year}
-              </h2>
+              <h2 className="marquee font-display text-3xl uppercase text-bone/80">{year}</h2>
               <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-bone-dim">
                 {entries.length} release{entries.length > 1 ? "s" : ""}
               </p>
@@ -86,26 +80,19 @@ export default async function MediaPage({
                     className="group -mx-2 flex flex-wrap items-baseline gap-x-3 gap-y-1 rounded-md px-2 py-1.5 transition-colors hover:bg-curtain"
                   >
                     <span
-                      className={`rounded border px-1.5 py-0.5 font-pixel text-[8px] uppercase leading-none ${
-                        TYPE_STYLE[entry.type]
-                      }`}
+                      className={`rounded border px-1.5 py-0.5 font-pixel text-[8px] uppercase leading-none ${TYPE_STYLE[entry.type]}`}
                     >
                       {entry.type}
                     </span>
                     <span className="text-sm text-bone transition-colors group-hover:text-faz">
                       {entry.title}
                       {entry.mainSeries ? (
-                        <span
-                          className="ml-2 align-middle text-[10px] text-faz"
-                          title="Mainline entry"
-                        >
+                        <span className="ml-2 align-middle text-[10px] text-faz" title="Mainline entry">
                           ◆
                         </span>
                       ) : null}
                     </span>
-                    <span className="font-mono text-[11px] text-bone-dim/70">
-                      {entry.releaseDate ?? "TBA"}
-                    </span>
+                    <span className="font-mono text-[11px] text-bone-dim/70">{entry.releaseDate ?? "TBA"}</span>
                   </Link>
                 </li>
               ))}

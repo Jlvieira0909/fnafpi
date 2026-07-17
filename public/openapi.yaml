@@ -386,16 +386,32 @@ components:
         cast:
           type: array
           items: { $ref: "#/components/schemas/CastMember" }
+    MediaImages:
+      type: object
+      required: [poster]
+      properties:
+        poster:
+          type: string
+          description: Vertical cover art (2:3).
+        hero:
+          type: string
+          description: Horizontal key art (16:9). Present on games, DLCs and movies.
+        icon:
+          type: string
+          description: Square app icon (1:1). Present on games and DLCs.
+        logo:
+          type: string
+          description: Transparent logo/wordmark. Optional.
     Media:
       type: object
-      required: [id, type, title, imageUrl, releaseDate, continuity, credits]
+      required: [id, type, title, images, releaseDate, continuity, credits]
       properties:
         id: { type: string }
         type:
           type: string
           enum: [Game, DLC, Book, Movie]
         title: { type: string }
-        imageUrl: { type: string }
+        images: { $ref: "#/components/schemas/MediaImages" }
         releaseDate:
           type: [string, "null"]
           format: date
@@ -428,9 +444,19 @@ components:
               type: array
               items: { type: string }
               description: Ids of every character appearing in this media.
+    CharacterImages:
+      type: object
+      required: [frame, full]
+      properties:
+        frame:
+          type: string
+          description: Square portrait (1:1).
+        full:
+          type: string
+          description: Vertical full-body render.
     Character:
       type: object
-      required: [id, type, name, continuity, imageUrl, debut, appearances]
+      required: [id, type, name, continuity, images, debut, appearances]
       properties:
         id: { type: string }
         type:
@@ -445,7 +471,7 @@ components:
           type: array
           items: { type: string }
           description: The same character in other continuities.
-        imageUrl: { type: string }
+        images: { $ref: "#/components/schemas/CharacterImages" }
         gender: { type: string }
         color: { type: string }
         group: { type: string }
@@ -479,14 +505,24 @@ components:
         description: { type: string }
         canonicity: { $ref: "#/components/schemas/Canonicity" }
         source: { type: string }
+    LocationImages:
+      type: object
+      required: [hero]
+      properties:
+        hero:
+          type: string
+          description: Horizontal establishing shot (16:9).
+        map:
+          type: string
+          description: Camera-map floor plan, where one canonically exists.
     Location:
       type: object
-      required: [id, name, continuity, imageUrl, status, presentCharacters, appearances]
+      required: [id, name, continuity, images, status, presentCharacters, appearances]
       properties:
         id: { type: string }
         name: { type: string }
         continuity: { $ref: "#/components/schemas/Continuity" }
-        imageUrl: { type: string }
+        images: { $ref: "#/components/schemas/LocationImages" }
         status:
           type: string
           enum: [Active, Closed, Burned, Demolished, Unknown]

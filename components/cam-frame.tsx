@@ -17,7 +17,7 @@ export function CamFrame({
         REC
       </div>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt={alt} className="aspect-square w-full object-contain p-8" />
+      <img src={src} alt={alt} className="aspect-[3/4] w-full object-contain p-8" />
       <div className="absolute inset-x-0 bottom-0 flex items-center justify-between px-4 py-2 font-mono text-[10px] uppercase tracking-widest text-bone-dim/70">
         <span>Fazbear Ent. Security</span>
         <span>NIGHT 5 · 03:12 AM</span>

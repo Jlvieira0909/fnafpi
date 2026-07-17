@@ -37,7 +37,7 @@ export default async function MediaDetailPage({ params }: { params: Promise<{ id
       <div className="grid gap-8 lg:grid-cols-[minmax(0,320px)_1fr]">
         <div className="overflow-hidden rounded-lg border border-seam bg-curtain">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={entry.imageUrl} alt={entry.title} className="aspect-[3/4] w-full object-contain p-6" />
+          <img src={entry.images.poster} alt={entry.title} className="aspect-[2/3] w-full object-contain p-6" />
         </div>
         <div>
           <p className="font-mono text-[11px] uppercase tracking-[0.25em] text-faz-dim">
@@ -118,7 +118,7 @@ export default async function MediaDetailPage({ params }: { params: Promise<{ id
               <EntityCard
                 key={character.id}
                 href={`/characters/${character.id}`}
-                imageUrl={character.imageUrl}
+                imageUrl={character.images.frame}
                 title={character.name}
                 subtitle={character.group ?? character.type}
               />

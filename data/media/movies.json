@@ -3,7 +3,10 @@
     "id": "fnaf-movie-1",
     "type": "Movie",
     "title": "Five Nights at Freddy's",
-    "imageUrl": "/images/media/fnafmovie1.webp",
+    "images": {
+      "poster": "/images/media/fnaf-movie-1/poster.webp",
+      "hero": "/images/media/fnaf-movie-1/hero.webp"
+    },
     "releaseDate": "2023-10-27",
     "continuity": "movies",
     "credits": {
@@ -53,7 +56,10 @@
     "id": "fnaf-movie-2",
     "type": "Movie",
     "title": "Five Nights at Freddy's 2",
-    "imageUrl": "/images/media/fnafmovie2.webp",
+    "images": {
+      "poster": "/images/media/fnaf-movie-2/poster.webp",
+      "hero": "/images/media/fnaf-movie-2/hero.webp"
+    },
     "releaseDate": "2025-12-05",
     "continuity": "movies",
     "credits": {
