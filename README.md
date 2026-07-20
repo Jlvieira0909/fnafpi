@@ -45,6 +45,8 @@ List endpoints return `{ info: { count, pages, next, prev }, results: [...] }` w
 | `GET /api/v1/locations/:id` | — |
 | `GET /api/v1/teasers` | `title`, `teases`, `source`, `year` |
 | `GET /api/v1/teasers/:id` | — |
+| `GET /api/v1/minigames` | `name`, `media` |
+| `GET /api/v1/minigames/:id` | — |
 
 All list endpoints also take `page` and `limit`. Full OpenAPI 3.1 spec: [`/openapi.yaml`](public/openapi.yaml), rendered at `/docs`.
 
@@ -71,6 +73,7 @@ Every resource ships deterministic image paths under `public/`, one folder per i
 | Locations | `images.hero` | 16:9 | 1280×720 | establishing shots |
 | Locations (optional) | `images.map` | free | — | camera-map floor plans |
 | Teasers | `imageUrl` | original | as posted | the teaser wall |
+| Minigames | `images.screenshot` | 16:9 | 1280×720 | minigame archive, FNAFDLE minigames mode |
 
 Example: `public/images/characters/springtrap/frame.webp`. Prefer WebP; transparent backgrounds for `full`, `icon` and `logo`.
 
@@ -113,10 +116,15 @@ Pending verifications are tracked inside the data itself — grep for `Verify` i
 
 ## Roadmap
 
-- Character, media, location and teaser imagery
-- FNAFDLE — a daily guessing game built on this API
-- Quotes/dialog dataset
+- Character, media, location, teaser and minigame imagery
+- FNAFDLE — six daily modes are live (Classic, Image, Games, Teasers, Minigames, World Attacks); a Dialog mode is designed but unseeded, see below
+- Expand `worldAttacks` beyond the starting quartet (Freddy, Bonnie, Chica, Foxy) — one FNaF World Wiki character page at a time, same rigor as the rest of the data
+- Expand `data/minigames.json` beyond the initial 5 entries
 - Story-by-story Fazbear Frights / Tales from the Pizzaplex sweep
+
+### A note on `ucnVoiceLine`
+
+The `Character` schema reserves an optional `ucnVoiceLine` field for Ultimate Custom Night's spoken jumpscare lines, but it ships **unpopulated**. Research turned up two problems: most UCN animatronics are canonically silent (confirmed by the FNAF wiki itself), and the "quotes" circulating for the rest come from a mix of fan-fiction forum posts and unofficial mods easily mistaken for the real game. Rather than guess, this field is left for verified transcriptions — from official sources or your own recordings — added character by character.
 
 ## Legal
 

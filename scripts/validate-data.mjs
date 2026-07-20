@@ -39,6 +39,7 @@ const characters = characterFiles.flatMap((f) =>
 );
 const media = mediaFiles.flatMap((f) => load(`data/media/${f}`).map((m) => ({ ...m, __file: `data/media/${f}` })));
 const locations = load("data/locations.json");
+const minigames = load("data/minigames.json");
 const teasers = load("data/teasers.json");
 
 const allIds = new Map();
@@ -47,6 +48,7 @@ for (const [collection, items] of [
   ["media", media],
   ["location", locations],
   ["teaser", teasers],
+  ["minigame", minigames],
 ]) {
   for (const item of items) {
     if (typeof item.id !== "string" || !SLUG.test(item.id)) {
@@ -107,6 +109,17 @@ for (const c of characters) {
   }
   checkLoreClaim(tag, "possessedBy", c.possessedBy);
   checkLoreClaim(tag, "status", c.status);
+
+  for (const attack of c.worldAttacks ?? []) {
+    if (!attack.name) errors.push(`${tag}: worldAttacks entry missing name`);
+  }
+  if (c.worldAttacks?.length && !c.appearances.includes("fnaf-world")) {
+    warnings.push(`${tag}: has worldAttacks but 'fnaf-world' is not in appearances`);
+  }
+  if (c.ucnVoiceLine) {
+    if (!c.ucnVoiceLine.line) errors.push(`${tag}: ucnVoiceLine.line missing`);
+    if (!c.appearances.includes("fnaf-ucn")) warnings.push(`${tag}: has ucnVoiceLine but 'fnaf-ucn' is not in appearances`);
+  }
 }
 
 for (const c of characters) {
@@ -144,10 +157,18 @@ for (const t of teasers) {
   if (t.teases && !mediaIds.has(t.teases)) errors.push(`${tag}: teases '${t.teases}' not found in media`);
 }
 
+for (const m of minigames) {
+  const tag = `data/minigames.json → ${m.id}`;
+  if (!m.name) errors.push(`${tag}: name missing`);
+  if (!mediaIds.has(m.media)) errors.push(`${tag}: media '${m.media}' not found`);
+  if (!m.images?.screenshot?.startsWith("/images/minigames/")) errors.push(`${tag}: images.screenshot missing or malformed`);
+}
+
 console.log(`characters: ${characters.length} (${characterFiles.length} files)`);
 console.log(`media:      ${media.length} (${mediaFiles.length} files)`);
 console.log(`locations:  ${locations.length}`);
 console.log(`teasers:    ${teasers.length}`);
+console.log(`minigames:  ${minigames.length}`);
 
 if (warnings.length) {
   console.log(`\n${warnings.length} warning(s):`);

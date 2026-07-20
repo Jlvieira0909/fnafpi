@@ -300,6 +300,44 @@ paths:
               schema: { $ref: "#/components/schemas/Teaser" }
         "404":
           $ref: "#/components/responses/NotFound"
+  /minigames:
+    get:
+      operationId: listMinigames
+      summary: List minigames
+      tags: [Minigames]
+      parameters:
+        - name: name
+          in: query
+          description: Case-insensitive substring match on the minigame name.
+          schema: { type: string }
+        - name: media
+          in: query
+          description: Media id the minigame belongs to.
+          schema: { type: string }
+          example: fnaf-2
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/limit"
+      responses:
+        "200":
+          description: Paginated minigame list.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MinigameList" }
+  /minigames/{id}:
+    get:
+      operationId: getMinigame
+      summary: Get a minigame by id
+      tags: [Minigames]
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: The minigame.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Minigame" }
+        "404":
+          $ref: "#/components/responses/NotFound"
 components:
   parameters:
     id:
@@ -472,6 +510,12 @@ components:
           items: { type: string }
           description: The same character in other continuities.
         images: { $ref: "#/components/schemas/CharacterImages" }
+        worldAttacks:
+          type: array
+          items: { $ref: "#/components/schemas/WorldAttack" }
+          description: The character's three FNaF World battle attacks, where cataloged.
+        ucnVoiceLine:
+          $ref: "#/components/schemas/UcnVoiceLine"
         gender: { type: string }
         color: { type: string }
         group: { type: string }
@@ -604,6 +648,45 @@ components:
         results:
           type: array
           items: { $ref: "#/components/schemas/Teaser" }
+    MinigameImages:
+      type: object
+      required: [screenshot]
+      properties:
+        screenshot: { type: string }
+    Minigame:
+      type: object
+      required: [id, name, media, images]
+      properties:
+        id: { type: string }
+        name: { type: string }
+        media:
+          type: string
+          description: Id of the game this minigame belongs to.
+        description: { type: string }
+        images: { $ref: "#/components/schemas/MinigameImages" }
+        notes:
+          type: array
+          items: { type: string }
+    MinigameList:
+      type: object
+      required: [info, results]
+      properties:
+        info: { $ref: "#/components/schemas/PageInfo" }
+        results:
+          type: array
+          items: { $ref: "#/components/schemas/Minigame" }
+    WorldAttack:
+      type: object
+      required: [name]
+      properties:
+        name: { type: string }
+        description: { type: string }
+    UcnVoiceLine:
+      type: object
+      required: [line]
+      properties:
+        line: { type: string }
+        source: { type: string }
     Error:
       type: object
       required: [error]
@@ -618,3 +701,5 @@ tags:
     description: The franchise's venues, with structured incidents and canonicity.
   - name: Teasers
     description: The scottgames.com teaser archive, including what brightening each image reveals.
+  - name: Minigames
+    description: Between-night and death minigames from the core series, one entry per minigame.

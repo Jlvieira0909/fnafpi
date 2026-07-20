@@ -125,6 +125,20 @@ export default async function CharacterPage({ params }: { params: Promise<{ id: 
           </ul>
         </section>
 
+        {character.worldAttacks?.length ? (
+          <section className="mt-8">
+            <h2 className="font-mono text-[11px] uppercase tracking-widest text-bone-dim">FNaF World attacks</h2>
+            <div className="mt-2 grid gap-2 sm:grid-cols-3">
+              {character.worldAttacks.map((attack) => (
+                <div key={attack.name} className="rounded-md border border-seam bg-curtain p-3">
+                  <p className="font-pixel text-[9px] uppercase leading-relaxed text-signal">{attack.name}</p>
+                  {attack.description ? <p className="mt-1.5 text-xs text-bone-dim">{attack.description}</p> : null}
+                </div>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
         {character.notes?.length ? (
           <section className="mt-8 rounded-lg border border-seam bg-curtain p-4">
             <h2 className="font-mono text-[11px] uppercase tracking-widest text-bone-dim">Archive notes</h2>

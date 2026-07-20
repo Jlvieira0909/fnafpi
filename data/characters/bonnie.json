@@ -28,7 +28,8 @@
       "fnaf-1",
       "fnaf-ucn",
       "fnaf-hw",
-      "fnaf-ar"
+      "fnaf-ar",
+      "fnaf-world"
     ],
     "notes": [
       "Scott Cawthon has described Bonnie as the animatronic that scared him the most during development."
@@ -36,6 +37,20 @@
     "counterparts": [
       "bonnie-novels",
       "bonnie-movie"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Rockn",
+        "description": "A stronger strike unaffected by attack upgrades."
+      },
+      {
+        "name": "Chill",
+        "description": "Freezes the target."
+      },
+      {
+        "name": "Faint",
+        "description": "Drains HP from the enemy and gives it to Bonnie."
+      }
     ]
   },
   {

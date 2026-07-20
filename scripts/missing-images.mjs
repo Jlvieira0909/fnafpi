@@ -15,12 +15,14 @@ const media = readdirSync(join(ROOT, "data/media"))
   .flatMap((f) => load(`data/media/${f}`));
 const locations = load("data/locations.json");
 const teasers = load("data/teasers.json");
+const minigames = load("data/minigames.json");
 
 const expected = [];
 for (const c of characters) for (const [kind, path] of Object.entries(c.images)) expected.push({ category: `character ${kind}`, path });
 for (const m of media) for (const [kind, path] of Object.entries(m.images)) expected.push({ category: `media ${kind}`, path });
 for (const l of locations) for (const [kind, path] of Object.entries(l.images)) expected.push({ category: `location ${kind}`, path });
 for (const t of teasers) expected.push({ category: "teaser", path: t.imageUrl });
+for (const m of minigames) for (const [kind, path] of Object.entries(m.images)) expected.push({ category: `minigame ${kind}`, path });
 
 const byCategory = new Map();
 const missing = [];

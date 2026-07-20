@@ -1,0 +1,42 @@
+[
+  {
+    "id": "take-cake-to-the-children",
+    "name": "Take Cake to the Children",
+    "media": "fnaf-2",
+    "description": "One of the four random death minigames. The player controls an early Freddy Fazbear serving cake to six children while a seventh is struck by a car outside.",
+    "images": { "screenshot": "/images/minigames/take-cake-to-the-children/screenshot.webp" },
+    "notes": ["Verify remaining FNAF 2 death minigames beyond the three seeded here."]
+  },
+  {
+    "id": "foxy-go-go-go",
+    "name": "Foxy Go! Go! Go!",
+    "media": "fnaf-2",
+    "description": "A death minigame where a repaired Foxy runs out of Pirate Cove three times; the third time, the children he greets are already dead.",
+    "images": { "screenshot": "/images/minigames/foxy-go-go-go/screenshot.webp" },
+    "notes": []
+  },
+  {
+    "id": "savethem",
+    "name": "SAVETHEM",
+    "media": "fnaf-2",
+    "description": "A death minigame in which the player follows the Puppet through the 1987 pizzeria toward her music box.",
+    "images": { "screenshot": "/images/minigames/savethem/screenshot.webp" },
+    "notes": []
+  },
+  {
+    "id": "stage-01",
+    "name": "Stage 01",
+    "media": "fnaf-3",
+    "description": "A hidden minigame reached via a keypad code, showing Golden Freddy on stage alongside Spring Bonnie.",
+    "images": { "screenshot": "/images/minigames/stage-01/screenshot.webp" },
+    "notes": ["FNAF 3's nightly follow minigames are not yet individually cataloged here."]
+  },
+  {
+    "id": "fun-with-plushtrap",
+    "name": "Fun with Plushtrap",
+    "media": "fnaf-4",
+    "description": "A between-nights minigame where the player uses a flashlight to freeze Plushtrap before he reaches the marked spot.",
+    "images": { "screenshot": "/images/minigames/fun-with-plushtrap/screenshot.webp" },
+    "notes": []
+  }
+]

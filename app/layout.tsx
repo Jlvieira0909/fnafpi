@@ -19,6 +19,7 @@ const NAV = [
   { href: "/media", cam: "1B", label: "Timeline" },
   { href: "/locations", cam: "1C", label: "Locations" },
   { href: "/teasers", cam: "2A", label: "Teasers" },
+  { href: "/minigames", cam: "2B", label: "Minigames" },
   { href: "/fnafdle", cam: "CN", label: "FNAFDLE" },
 ];
 

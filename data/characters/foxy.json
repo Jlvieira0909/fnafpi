@@ -28,7 +28,8 @@
       "fnaf-1",
       "fnaf-ucn",
       "fnaf-hw",
-      "fnaf-ar"
+      "fnaf-ar",
+      "fnaf-world"
     ],
     "notes": [
       "Out of order since an unspecified incident; kept in Pirate Cove behind a curtain."
@@ -36,6 +37,20 @@
     "counterparts": [
       "foxy-novels",
       "foxy-movie"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Hook",
+        "description": "A low-damage opening attack."
+      },
+      {
+        "name": "Jumpscare",
+        "description": "Stuns enemies for a few seconds; deals no damage."
+      },
+      {
+        "name": "Hot Cheese",
+        "description": "A damage-over-time effect."
+      }
     ]
   },
   {

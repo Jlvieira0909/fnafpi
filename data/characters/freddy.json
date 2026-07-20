@@ -28,7 +28,8 @@
       "fnaf-1",
       "fnaf-ucn",
       "fnaf-hw",
-      "fnaf-ar"
+      "fnaf-ar",
+      "fnaf-world"
     ],
     "notes": [
       "Base identity for variants such as Withered Freddy, Toy Freddy, Nightmare Freddy and Glamrock Freddy.",
@@ -37,6 +38,20 @@
     "counterparts": [
       "freddy-novels",
       "freddy-movie"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Pizza Wheel",
+        "description": "Throws a spinning slice that damages all enemies."
+      },
+      {
+        "name": "Mic Toss",
+        "description": "A single-target throwing attack."
+      },
+      {
+        "name": "Birthday",
+        "description": "Buffs the whole party's attack, defense and speed."
+      }
     ]
   },
   {

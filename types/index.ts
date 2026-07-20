@@ -83,6 +83,8 @@ export interface Character {
   status?: LoreClaim;
   debut: string;
   appearances: string[];
+  worldAttacks?: WorldAttack[];
+  ucnVoiceLine?: UcnVoiceLine;
   notes?: string[];
 }
 
@@ -118,6 +120,29 @@ export interface Location {
   owner?: string;
   presentCharacters: string[];
   appearances: string[];
+  notes?: string[];
+}
+
+export interface WorldAttack {
+  name: string;
+  description?: string;
+}
+
+export interface UcnVoiceLine {
+  line: string;
+  source?: string;
+}
+
+export interface MinigameImages {
+  screenshot: string;
+}
+
+export interface Minigame {
+  id: string;
+  name: string;
+  media: string;
+  description?: string;
+  images: MinigameImages;
   notes?: string[];
 }
 

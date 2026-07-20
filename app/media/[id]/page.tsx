@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EntityCard } from "@/components/entity-card";
-import { charactersById, charactersIn, media, mediaById } from "@/lib/data";
+import { charactersById, charactersIn, media, mediaById, minigames } from "@/lib/data";
 
 export function generateStaticParams() {
   return media.map((m) => ({ id: m.id }));
@@ -21,6 +21,7 @@ export default async function MediaDetailPage({ params }: { params: Promise<{ id
     .map((characterId) => charactersById.get(characterId))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
   const parent = entry.parentId ? mediaById.get(entry.parentId) : undefined;
+  const relatedMinigames = minigames.filter((m) => m.media === entry.id);
   const credits = Object.entries({
     Developer: entry.credits.developer,
     Publisher: entry.credits.publisher,
@@ -109,6 +110,29 @@ export default async function MediaDetailPage({ params }: { params: Promise<{ id
           ) : null}
         </div>
       </div>
+
+      {relatedMinigames.length > 0 ? (
+        <section className="mt-12">
+          <h2 className="font-display text-xl text-bone">Minigames ({relatedMinigames.length})</h2>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedMinigames.map((m) => (
+              <Link
+                key={m.id}
+                href={`/minigames/${m.id}`}
+                className="group overflow-hidden rounded-lg border border-seam bg-curtain transition-colors hover:border-faz-dim"
+              >
+                <div className="relative aspect-video bg-[radial-gradient(ellipse_at_center,#1c1626,#0b0a10_78%)]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={m.images.screenshot} alt={m.name} className="h-full w-full object-cover" />
+                </div>
+                <div className="p-3">
+                  <h3 className="text-sm font-semibold text-bone transition-colors group-hover:text-faz">{m.name}</h3>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {roster.length > 0 ? (
         <section className="mt-12">

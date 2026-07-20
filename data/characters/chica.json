@@ -28,11 +28,26 @@
       "fnaf-1",
       "fnaf-ucn",
       "fnaf-hw",
-      "fnaf-ar"
+      "fnaf-ar",
+      "fnaf-world"
     ],
     "counterparts": [
       "chica-novels",
       "chica-movie"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Cupcake",
+        "description": "Heals the entire party."
+      },
+      {
+        "name": "Party Favors",
+        "description": "Low damage paired with some healing."
+      },
+      {
+        "name": "Regen Song",
+        "description": "Refills the party's life gradually during battle."
+      }
     ]
   },
   {
