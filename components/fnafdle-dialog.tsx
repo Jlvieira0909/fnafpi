@@ -6,34 +6,34 @@ import { FnafdleGuessList } from "@/components/fnafdle-guess-list";
 import { FnafdleWinBanner } from "@/components/fnafdle-win-banner";
 import { loadGuesses, localDateKey, pickDaily, saveGuesses } from "@/lib/fnafdle";
 
-interface WorldEntry {
+interface DialogEntry {
   id: string;
   name: string;
   frame: string;
-  attacks: { name: string; description?: string }[];
+  line: string;
 }
 
-export function FnafdleWorld({ pool }: { pool: WorldEntry[] }) {
+export function FnafdleDialog({ pool }: { pool: DialogEntry[] }) {
   const [dateKey, setDateKey] = useState<string | null>(null);
   const [guessIds, setGuessIds] = useState<string[]>([]);
 
   useEffect(() => {
     const key = localDateKey();
     setDateKey(key);
-    setGuessIds(loadGuesses(`fnafdle:world:${key}`));
+    setGuessIds(loadGuesses(`fnafdle:dialog:${key}`));
   }, []);
 
   useEffect(() => {
-    if (dateKey) saveGuesses(`fnafdle:world:${dateKey}`, guessIds);
+    if (dateKey) saveGuesses(`fnafdle:dialog:${dateKey}`, guessIds);
   }, [guessIds, dateKey]);
 
   const byId = useMemo(() => new Map(pool.map((e) => [e.id, e])), [pool]);
-  const answer = useMemo(() => (dateKey ? pickDaily(pool, dateKey, "world") : null), [dateKey, pool]);
-  const guesses = guessIds.map((id) => byId.get(id)).filter((g): g is WorldEntry => Boolean(g));
+  const answer = useMemo(() => (dateKey ? pickDaily(pool, dateKey, "dialog") : null), [dateKey, pool]);
+  const guesses = guessIds.map((id) => byId.get(id)).filter((g): g is DialogEntry => Boolean(g));
   const won = answer ? guessIds.includes(answer.id) : false;
 
   if (!dateKey || !answer) {
-    return <p className="mt-10 font-pixel text-[10px] uppercase text-bone-dim">Entering the overworld…</p>;
+    return <p className="mt-10 font-pixel text-[10px] uppercase text-bone-dim">Cueing the audio…</p>;
   }
 
   const options: AutocompleteOption[] = pool.map((e) => ({ id: e.id, label: e.name }));
@@ -41,18 +41,14 @@ export function FnafdleWorld({ pool }: { pool: WorldEntry[] }) {
 
   const shareText = () => {
     const marks = guesses.map((g) => (g.id === answer.id ? "🟩" : "🟥")).join("");
-    return `FNAFDLE WORLD ${dateKey} · ${guesses.length}/∞\n${marks}\n${window.location.origin}/fnafdle`;
+    return `FNAFDLE DIALOG ${dateKey} · ${guesses.length}/∞\n${marks}\n${window.location.origin}/fnafdle`;
   };
 
   return (
     <div className="mt-8">
-      <div className="grid max-w-md gap-2 sm:grid-cols-3">
-        {answer.attacks.map((attack) => (
-          <div key={attack.name} className="rounded-md border border-seam bg-curtain p-3">
-            <p className="font-pixel text-[9px] uppercase leading-relaxed text-signal">{attack.name}</p>
-            {attack.description ? <p className="mt-1.5 text-xs text-bone-dim">{attack.description}</p> : null}
-          </div>
-        ))}
+      <div className="max-w-lg rounded-md border border-seam bg-curtain p-4">
+        <p className="font-pixel text-[9px] uppercase leading-relaxed text-faz-dim">Ultimate Custom Night · Cam audio</p>
+        <p className="mt-2 text-lg italic leading-snug text-bone">&ldquo;{answer.line}&rdquo;</p>
       </div>
 
       <div className="mt-6">
@@ -80,8 +76,8 @@ export function FnafdleWorld({ pool }: { pool: WorldEntry[] }) {
       />
 
       <p className="mt-8 max-w-md font-mono text-[10px] leading-relaxed text-bone-dim/70">
-        This mode&apos;s roster is intentionally small right now — only characters with a verified attack loadout are
-        included. It grows as the FNaF World roster gets the same research pass.
+        Most UCN animatronics are silent — this pool only includes characters with an identifiable spoken line, and a
+        few are marked &quot;implied&quot; rather than confirmed. Check a character&apos;s own page for the source.
       </p>
     </div>
   );

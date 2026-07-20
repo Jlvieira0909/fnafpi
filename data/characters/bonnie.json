@@ -224,11 +224,17 @@
     },
     "debut": "fnaf-ffps",
     "appearances": [
-      "fnaf-ffps"
+      "fnaf-ffps",
+      "fnaf-ucn"
     ],
     "notes": [
       "Listed in-game as 'Afton'. Whether Scraptrap is the same physical suit as Springtrap is debated by the community."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "I always come back!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "glitchtrap",
@@ -379,7 +385,12 @@
     "appearances": [
       "fnaf-ffps",
       "fnaf-ucn"
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "I found my guitar, now reach for the stars!",
+      "canonicity": "implied",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "glamrock-bonnie",

@@ -26,7 +26,8 @@
     "debut": "fnaf-sl",
     "appearances": [
       "fnaf-sl",
-      "fnaf-ar"
+      "fnaf-ar",
+      "fnaf-ucn"
     ],
     "notes": [
       "Star of Circus Baby's Entertainment and Rental, built by William Afton with child-capture capabilities; killed his daughter Elizabeth.",
@@ -34,7 +35,12 @@
     ],
     "counterparts": [
       "baby-novels"
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Want to see the scooping room?",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "scrap-baby",
@@ -63,11 +69,17 @@
     },
     "debut": "fnaf-ffps",
     "appearances": [
-      "fnaf-ffps"
+      "fnaf-ffps",
+      "fnaf-ucn"
     ],
     "notes": [
       "Circus Baby's self-rebuilt body after being ejected from Ennard."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "You won't die, but you'll wish you could.",
+      "canonicity": "implied",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "ballora",
@@ -96,7 +108,12 @@
     "notes": [
       "Ballerina animatronic from the Ballora Gallery; keeps her eyes closed and hunts by sound.",
       "The popular theory that she is tied to Mrs. Afton has no canonical support; intentionally omitted from possessedBy."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "I could hear you. Breathing.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "minireena",

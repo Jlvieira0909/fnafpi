@@ -10,6 +10,7 @@ import glamrockPizzaplex from "@/data/characters/glamrock-pizzaplex.json";
 import ffpsUcn from "@/data/characters/ffps-ucn.json";
 import booksCast from "@/data/characters/books.json";
 import humans from "@/data/characters/humans.json";
+import fnafWorldExclusive from "@/data/characters/fnaf-world.json";
 
 import locationsData from "@/data/locations.json";
 import teasersData from "@/data/teasers.json";
@@ -30,6 +31,7 @@ export const characters = [
   ...ffpsUcn,
   ...booksCast,
   ...humans,
+  ...fnafWorldExclusive,
 ] as unknown as Character[];
 
 export const media = [

@@ -683,9 +683,13 @@ components:
         description: { type: string }
     UcnVoiceLine:
       type: object
-      required: [line]
+      required: [line, canonicity]
       properties:
         line: { type: string }
+        canonicity:
+          type: string
+          enum: [confirmed, implied]
+          description: How confidently this line is attributed to the character.
         source: { type: string }
     Error:
       type: object

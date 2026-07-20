@@ -74,7 +74,12 @@
     "notes": [
       "Spider-like keyboardist that reacts to noise; debuted in Ultimate Custom Night.",
       "Miniature Music Men roam the Mega Pizzaplex in Security Breach."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "A song was requested of me, and now I sing it!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "dj-music-man",

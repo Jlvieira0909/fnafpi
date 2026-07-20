@@ -139,6 +139,30 @@ export default async function CharacterPage({ params }: { params: Promise<{ id: 
           </section>
         ) : null}
 
+        {character.ucnVoiceLine ? (
+          <section className="mt-8">
+            <h2 className="font-mono text-[11px] uppercase tracking-widest text-bone-dim">Ultimate Custom Night</h2>
+            <div className="mt-2 rounded-md border border-seam bg-curtain p-3.5">
+              <div className="flex items-center justify-between gap-3">
+                <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-bone-dim">Voice line</span>
+                <span
+                  className={`rounded-full border px-2 py-0.5 font-mono text-[10px] uppercase tracking-widest ${
+                    character.ucnVoiceLine.canonicity === "confirmed"
+                      ? "border-signal bg-signal/10 text-signal"
+                      : "border-violet bg-violet/10 text-violet"
+                  }`}
+                >
+                  {character.ucnVoiceLine.canonicity}
+                </span>
+              </div>
+              <p className="mt-1.5 text-sm italic text-bone">&ldquo;{character.ucnVoiceLine.line}&rdquo;</p>
+              {character.ucnVoiceLine.source ? (
+                <p className="mt-1 text-xs leading-relaxed text-bone-dim">{character.ucnVoiceLine.source}</p>
+              ) : null}
+            </div>
+          </section>
+        ) : null}
+
         {character.notes?.length ? (
           <section className="mt-8 rounded-lg border border-seam bg-curtain p-4">
             <h2 className="font-mono text-[11px] uppercase tracking-widest text-bone-dim">Archive notes</h2>

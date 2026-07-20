@@ -118,6 +118,7 @@ for (const c of characters) {
   }
   if (c.ucnVoiceLine) {
     if (!c.ucnVoiceLine.line) errors.push(`${tag}: ucnVoiceLine.line missing`);
+    if (!CANONICITY.has(c.ucnVoiceLine.canonicity)) errors.push(`${tag}: ucnVoiceLine.canonicity '${c.ucnVoiceLine.canonicity}' invalid`);
     if (!c.appearances.includes("fnaf-ucn")) warnings.push(`${tag}: has ucnVoiceLine but 'fnaf-ucn' is not in appearances`);
   }
 }

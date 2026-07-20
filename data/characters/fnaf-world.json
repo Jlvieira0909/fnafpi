@@ -1,0 +1,138 @@
+[
+  {
+    "id": "paper-pals",
+    "type": "Animatronic",
+    "name": "Paper Pals",
+    "continuity": "games",
+    "images": {
+      "frame": "/images/characters/paper-pals/frame.webp",
+      "full": "/images/characters/paper-pals/full.webp"
+    },
+    "gender": "None",
+    "group": "FNaF World",
+    "debut": "fnaf-world",
+    "appearances": [
+      "fnaf-world"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Prize Ball 2",
+        "description": "A random high-tier attack or effect."
+      },
+      {
+        "name": "Mystery Box 2",
+        "description": "Randomly swaps in a different party for one battle."
+      },
+      {
+        "name": "Mimic Ball",
+        "description": "Mimics whatever attack the party just used."
+      }
+    ],
+    "notes": [
+      "A cluster of paper cutout versions of the cast, exclusive to FNaF World; not a single character in other continuities.",
+      "Attacks per the original 2016 (Update 1) FNaF World roster, cross-referenced from a Steam community moveset guide; Update 2 rebalanced some characters' movesets and this has not been reconciled move-by-move."
+    ]
+  },
+  {
+    "id": "endo-01",
+    "type": "Animatronic",
+    "name": "Endo-01",
+    "continuity": "games",
+    "images": {
+      "frame": "/images/characters/endo-01/frame.webp",
+      "full": "/images/characters/endo-01/full.webp"
+    },
+    "gender": "None",
+    "group": "FNaF World",
+    "debut": "fnaf-world",
+    "appearances": [
+      "fnaf-world"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Power Song",
+        "description": "Raises the party's attack power."
+      },
+      {
+        "name": "Armor Song",
+        "description": "Raises the party's defense."
+      },
+      {
+        "name": "Endo Army",
+        "description": "Summons three Endos to help fight."
+      }
+    ],
+    "notes": [
+      "A bare endoskeleton playable character exclusive to FNaF World.",
+      "Attacks per the original 2016 (Update 1) FNaF World roster, cross-referenced from a Steam community moveset guide; Update 2 rebalanced some characters' movesets and this has not been reconciled move-by-move."
+    ]
+  },
+  {
+    "id": "endo-02",
+    "type": "Animatronic",
+    "name": "Endo-02",
+    "continuity": "games",
+    "images": {
+      "frame": "/images/characters/endo-02/frame.webp",
+      "full": "/images/characters/endo-02/full.webp"
+    },
+    "gender": "None",
+    "group": "FNaF World",
+    "debut": "fnaf-world",
+    "appearances": [
+      "fnaf-world"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Speed Song",
+        "description": "Increases the party's speed."
+      },
+      {
+        "name": "Endo Army",
+        "description": "Summons three Endos to help fight."
+      },
+      {
+        "name": "Neon Wall",
+        "description": "A force field that blocks half of incoming damage."
+      }
+    ],
+    "notes": [
+      "A bare endoskeleton playable character exclusive to FNaF World.",
+      "Attacks per the original 2016 (Update 1) FNaF World roster, cross-referenced from a Steam community moveset guide; Update 2 rebalanced some characters' movesets and this has not been reconciled move-by-move."
+    ]
+  },
+  {
+    "id": "endoplush",
+    "type": "Animatronic",
+    "name": "Endoplush",
+    "continuity": "games",
+    "images": {
+      "frame": "/images/characters/endoplush/frame.webp",
+      "full": "/images/characters/endoplush/full.webp"
+    },
+    "gender": "None",
+    "group": "FNaF World",
+    "debut": "fnaf-world",
+    "appearances": [
+      "fnaf-world"
+    ],
+    "worldAttacks": [
+      {
+        "name": "Neon Wall",
+        "description": "A force field that blocks half of incoming damage."
+      },
+      {
+        "name": "Eye Beam",
+        "description": "Medium damage with a chance to critically hit."
+      },
+      {
+        "name": "Waterhose 2",
+        "description": "Instantly defeats enemies below 50% health."
+      }
+    ],
+    "notes": [
+      "A plush-and-endoskeleton hybrid, the only FNaF World playable character with no design basis in any other FNAF game.",
+      "Attacks per the original 2016 (Update 1) FNaF World roster, cross-referenced from a Steam community moveset guide; Update 2 rebalanced some characters' movesets and this has not been reconciled move-by-move."
+    ]
+  }
+]

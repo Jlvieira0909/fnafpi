@@ -19,10 +19,11 @@ interface PoolEntry {
 
 const ATTRIBUTES = ["Type", "Continuity", "Group", "Gender", "Family", "Debut"] as const;
 
-function Cell({ ok, children }: { ok: boolean; children: React.ReactNode }) {
+function Cell({ ok, delayMs, children }: { ok: boolean; delayMs: number; children: React.ReactNode }) {
   return (
     <div
-      className={`flex min-h-[54px] items-center justify-center border px-1.5 py-1 text-center font-mono text-[10px] uppercase leading-tight ${
+      style={{ animationDelay: `${delayMs}ms` }}
+      className={`cell-pop flex min-h-[54px] items-center justify-center border px-1.5 py-1 text-center font-mono text-[10px] uppercase leading-tight ${
         ok ? "border-signal/60 bg-signal/10 text-signal" : "border-rec/40 bg-rec/5 text-bone-dim"
       }`}
     >
@@ -104,21 +105,24 @@ export function FnafdleClassic({ pool }: { pool: PoolEntry[] }) {
               ))}
             </div>
             <div className="mt-1.5 space-y-1.5">
-              {[...guesses].reverse().map((guess, i) => {
+              {[...guesses].reverse().map((guess) => {
                 const year = yearMark(guess);
                 return (
-                  <div key={`${guess.id}-${i}`} className="grid grid-cols-[minmax(160px,1.4fr)_repeat(6,minmax(92px,1fr))] gap-1.5">
-                    <div className="flex min-h-[54px] items-center gap-2.5 border border-seam bg-curtain px-2.5">
+                  <div key={guess.id} className="grid grid-cols-[minmax(160px,1.4fr)_repeat(6,minmax(92px,1fr))] gap-1.5">
+                    <div
+                      style={{ animationDelay: "0ms" }}
+                      className="cell-pop flex min-h-[54px] items-center gap-2.5 border border-seam bg-curtain px-2.5"
+                    >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={guess.frame} alt="" className="h-9 w-9 shrink-0 object-contain" />
                       <span className="text-xs font-semibold text-bone">{guess.name}</span>
                     </div>
-                    <Cell ok={guess.type === answer.type}>{guess.type}</Cell>
-                    <Cell ok={guess.continuity === answer.continuity}>{guess.continuity}</Cell>
-                    <Cell ok={guess.group === answer.group}>{guess.group}</Cell>
-                    <Cell ok={guess.gender === answer.gender}>{guess.gender}</Cell>
-                    <Cell ok={guess.family === answer.family}>{guess.family}</Cell>
-                    <Cell ok={year.ok}>{year.text}</Cell>
+                    <Cell ok={guess.type === answer.type} delayMs={60}>{guess.type}</Cell>
+                    <Cell ok={guess.continuity === answer.continuity} delayMs={120}>{guess.continuity}</Cell>
+                    <Cell ok={guess.group === answer.group} delayMs={180}>{guess.group}</Cell>
+                    <Cell ok={guess.gender === answer.gender} delayMs={240}>{guess.gender}</Cell>
+                    <Cell ok={guess.family === answer.family} delayMs={300}>{guess.family}</Cell>
+                    <Cell ok={year.ok} delayMs={360}>{year.text}</Cell>
                   </div>
                 );
               })}

@@ -107,7 +107,12 @@
     "notes": [
       "Missing both hands, with her jaw forced permanently open.",
       "Verify whether the Help Wanted FNAF 2 levels justify adding fnaf-hw."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Where's my beak? Lodged in your forehead of course.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "phantom-chica",
@@ -179,12 +184,18 @@
     "group": "Nightmare",
     "debut": "fnaf-4",
     "appearances": [
-      "fnaf-4"
+      "fnaf-4",
+      "fnaf-ucn"
     ],
     "notes": [
       "Halloween Edition of FNAF 4, replacing Nightmare Chica; carries a jack-o'-lantern instead of the cupcake.",
       "Verify whether her Ultimate Custom Night appearance warrants adding fnaf-ucn."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Come and burn with me.",
+      "canonicity": "implied",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "funtime-chica",
@@ -206,7 +217,12 @@
     "notes": [
       "Debuted directly in Ultimate Custom Night, arriving with camera flashes and a red carpet.",
       "Never appeared in Sister Location despite belonging to the Funtime line."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "I'm ready for my close-up!",
+      "canonicity": "implied",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "rockstar-chica",
@@ -234,7 +250,12 @@
     ],
     "notes": [
       "Carries dual maracas; in Ultimate Custom Night she is deterred by a 'wet floor' sign."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "That'll teach ya for trying to trick this old bird!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "glamrock-chica",
@@ -405,6 +426,32 @@
       "Accompanied by Mr. Cupcake, responsible for one of the movie's kills.",
       "Suit performed by a physical animatronic built by Jim Henson's Creature Shop.",
       "Verify the child's name for the movie continuity before publishing."
+    ]
+  },
+  {
+    "id": "yandere-toy-chica",
+    "type": "Animatronic",
+    "name": "Yandere Toy Chica",
+    "continuity": "games",
+    "variantOf": "toy-chica",
+    "images": {
+      "frame": "/images/characters/yandere-toy-chica/frame.webp",
+      "full": "/images/characters/yandere-toy-chica/full.webp"
+    },
+    "gender": "Female",
+    "color": "Yellow",
+    "group": "Toy",
+    "debut": "fnaf-ucn",
+    "appearances": [
+      "fnaf-ucn"
+    ],
+    "ucnVoiceLine": {
+      "line": "He'll be mine by the end of the day!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    },
+    "notes": [
+      "A UCN-exclusive skin; her diary-entry voice lines are the basis for the 'yandere' nickname."
     ]
   }
 ]

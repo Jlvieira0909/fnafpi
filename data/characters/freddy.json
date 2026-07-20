@@ -119,7 +119,12 @@
     ],
     "notes": [
       "In Ultimate Custom Night he is found playing video games in Parts/Service."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "If I get jumpscared, YOU get jumpscared!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "withered-freddy",
@@ -301,12 +306,18 @@
     },
     "debut": "fnaf-4",
     "appearances": [
-      "fnaf-4"
+      "fnaf-4",
+      "fnaf-ucn"
     ],
     "notes": [
       "Shadow counterpart of Nightmare Fredbear, active from Night 7 (Nightmare mode).",
       "Verify whether his Ultimate Custom Night appearance warrants adding fnaf-ucn."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "I am your wickedness, made flesh.",
+      "canonicity": "implied",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "funtime-freddy",

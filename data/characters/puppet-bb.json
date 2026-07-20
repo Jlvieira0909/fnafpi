@@ -33,7 +33,12 @@
     "notes": [
       "Also known as The Marionette; kept at bay by a music box in FNAF 2.",
       "Credited in-lore with giving the missing children's souls their animatronic bodies ('give gifts, give life')."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "I recognise you! But I'm not afraid of you. Not anymore.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "phantom-puppet",
@@ -84,7 +89,12 @@
     ],
     "notes": [
       "Halloween Edition of FNAF 4, replacing Nightmare; returns in Help Wanted's Night Terrors."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Thi-is is a nightmare that you won't wa-ake from.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "security-puppet",
@@ -137,7 +147,12 @@
     ],
     "notes": [
       "Freddy-style bear built by Henry to capture the Puppet; classified under the Puppet family by its contents, not its bear-shaped shell."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "There is room for one more.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "balloon-boy",
@@ -212,6 +227,32 @@
     "debut": "fnaf-3",
     "appearances": [
       "fnaf-3"
+    ]
+  },
+  {
+    "id": "nightmare-bb",
+    "type": "Animatronic",
+    "name": "Nightmare BB",
+    "continuity": "games",
+    "variantOf": "balloon-boy",
+    "images": {
+      "frame": "/images/characters/nightmare-bb/frame.webp",
+      "full": "/images/characters/nightmare-bb/full.webp"
+    },
+    "gender": "Male",
+    "group": "Nightmare",
+    "debut": "fnaf-4",
+    "appearances": [
+      "fnaf-4",
+      "fnaf-ucn"
+    ],
+    "ucnVoiceLine": {
+      "line": "Flash that light all you want! It can't save you now!",
+      "canonicity": "implied",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    },
+    "notes": [
+      "Debut listed as fnaf-4 (Halloween Edition); verify against the standalone DLC record if one exists."
     ]
   }
 ]

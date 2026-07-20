@@ -71,12 +71,16 @@ export default function FnafdlePage() {
     .filter((c) => c.worldAttacks?.length)
     .map((c) => ({ id: c.id, name: c.name, frame: c.images.frame, attacks: c.worldAttacks ?? [] }));
 
+  const dialogPool = characters
+    .filter((c) => c.ucnVoiceLine)
+    .map((c) => ({ id: c.id, name: c.name, frame: c.images.frame, line: c.ucnVoiceLine?.line ?? "" }));
+
   return (
     <div className="pb-10">
       <PageHeader
         eyebrow="Custom Night · one per day"
         title="FNAFDLE"
-        description="Six ways to test what you know. Every mode picks a new answer at midnight, and your progress on each is saved locally per day."
+        description="Seven ways to test what you know. Every mode picks a new answer at midnight, and your progress on each is saved locally per day."
       />
       <FnafdleModes
         classicPool={classicPool}
@@ -87,6 +91,7 @@ export default function FnafdlePage() {
         minigamesPool={minigamesPool}
         minigamesMediaOptions={minigamesMediaOptions}
         worldPool={worldPool}
+        dialogPool={dialogPool}
       />
     </div>
   );

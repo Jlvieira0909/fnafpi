@@ -124,7 +124,12 @@ Pending verifications are tracked inside the data itself — grep for `Verify` i
 
 ### A note on `ucnVoiceLine`
 
-The `Character` schema reserves an optional `ucnVoiceLine` field for Ultimate Custom Night's spoken jumpscare lines, but it ships **unpopulated**. Research turned up two problems: most UCN animatronics are canonically silent (confirmed by the FNAF wiki itself), and the "quotes" circulating for the rest come from a mix of fan-fiction forum posts and unofficial mods easily mistaken for the real game. Rather than guess, this field is left for verified transcriptions — from official sources or your own recordings — added character by character.
+27 characters now carry a `ucnVoiceLine`, sourced from fnaflore.com's audio transcripts and cross-checked against
+the game's official voice cast credits. Each line carries `canonicity`: `confirmed` or `implied`. Most UCN
+animatronics are canonically silent; this pool only covers the ones known to speak.
+
+One earlier lead was discarded on purpose: the "ultra-custom-night.fandom.com" wiki documents *Ultra Custom Night*,
+an unrelated fan game — not Scott Cawthon's Ultimate Custom Night. Nothing from it made it into this dataset.
 
 ## Legal
 

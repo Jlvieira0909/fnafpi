@@ -1,13 +1,54 @@
 [
   {
+    "id": "fnaf2-withered-freddy",
+    "title": "The reopening.",
+    "imageUrl": "/images/teasers/fnaf2-withered-freddy.webp",
+    "postedDate": "2014-09-24",
+    "source": "scottgames.com",
+    "teases": "fnaf-2",
+    "description": "The first FNAF2 teaser: a worn, withered Freddy Fazbear, days after the original game's Steam release.",
+    "notes": []
+  },
+  {
     "id": "fnaf2-something-borrowed",
     "title": "Something borrowed, something new.",
     "imageUrl": "/images/teasers/fnaf2-something-borrowed.webp",
-    "postedDate": "2014-09",
+    "postedDate": "2014-09-28",
     "source": "scottgames.com",
     "teases": "fnaf-2",
     "description": "Extreme close-up of Toy Freddy announcing the sequel weeks after the original's success.",
-    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+    "notes": []
+  },
+  {
+    "id": "fnaf2-curtain-pull",
+    "title": "Out of the cove.",
+    "imageUrl": "/images/teasers/fnaf2-curtain-pull.webp",
+    "postedDate": "2014-10-08",
+    "source": "scottgames.com",
+    "teases": "fnaf-2",
+    "description": "Foxy and the newly revealed Mangle pull open a purple curtain with their hooks.",
+    "notes": []
+  },
+  {
+    "id": "fnaf2-no-place-to-run",
+    "title": "No place to run, and exactly one place to hide.",
+    "imageUrl": "/images/teasers/fnaf2-no-place-to-run.webp",
+    "postedDate": "2014-10-16",
+    "source": "scottgames.com",
+    "teases": "fnaf-2",
+    "description": "Withered Foxy seen through the right eye socket of a worn Freddy Fazbear head, worn by the player character.",
+    "notes": []
+  },
+  {
+    "id": "fnaf2-puppet-reveal",
+    "title": "CAM 11.",
+    "imageUrl": "/images/teasers/fnaf2-puppet-reveal.webp",
+    "postedDate": "2014-11-12",
+    "source": "scottgames.com",
+    "teases": "fnaf-2",
+    "hiddenContent": "Brightening the pitch-black image reveals the Puppet inside its music box.",
+    "description": "The fifth and final FNAF2 teaser: a dark camera feed with a red alert icon over a \"CAM 11\" label.",
+    "notes": []
   },
   {
     "id": "fnaf3-i-am-still-here",
@@ -17,28 +58,105 @@
     "source": "scottgames.com",
     "teases": "fnaf-3",
     "description": "Springtrap's decayed face emerging from darkness — the community's first look at the saga's true antagonist.",
-    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+    "notes": [
+      "Verify the exact posted date on thefnafarchive.org."
+    ]
+  },
+  {
+    "id": "fnaf3-security-map",
+    "title": "Fazbear's Fright: The Horror Attraction.",
+    "imageUrl": "/images/teasers/fnaf3-security-map.webp",
+    "postedDate": "2015-02-03",
+    "source": "scottgames.com",
+    "teases": "fnaf-3",
+    "description": "A security camera map of the game's new setting, the Fazbear's Fright horror attraction.",
+    "notes": []
+  },
+  {
+    "id": "fnaf3-phantom-bb",
+    "title": "Phantom BB.",
+    "imageUrl": "/images/teasers/fnaf3-phantom-bb.webp",
+    "postedDate": "2015-03-01",
+    "source": "scottgames.com",
+    "teases": "fnaf-3",
+    "description": "The fourth FNAF3 teaser, introducing Phantom BB one day before the game's release.",
+    "notes": []
+  },
+  {
+    "id": "fnaf3-final-mind",
+    "title": "It's all in your mind.",
+    "imageUrl": "/images/teasers/fnaf3-final-mind.webp",
+    "postedDate": "2015-03-02",
+    "source": "scottgames.com",
+    "teases": "fnaf-3",
+    "description": "The fifth and final FNAF3 teaser, featuring Phantom Foxy and Phantom Chica, posted the same day the game released.",
+    "notes": []
   },
   {
     "id": "fnaf4-nightmare",
     "title": "NIGHTMARE",
     "imageUrl": "/images/teasers/fnaf4-nightmare.webp",
-    "postedDate": "2015-04",
+    "postedDate": "2015-04-28",
     "source": "scottgames.com",
     "teases": "fnaf-4",
-    "hiddenContent": "Brightening the image reveals a faint '87' hidden on Nightmare Fredbear's hat.",
-    "description": "Nightmare Fredbear announcing the 'final chapter', posted around the franchise's first anniversary.",
-    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+    "description": "Nightmare Freddy announcing \"THE FINAL CHAPTER\" with the date 10.31.15; the page's HTML source was also altered to include recurring 7s and 8s.",
+    "notes": [
+      "An earlier version of this entry claimed a hidden '87' on the hat; that detail could not be verified and has been removed."
+    ]
+  },
+  {
+    "id": "fnaf4-was-it-me-bonnie",
+    "title": "Was it me?",
+    "imageUrl": "/images/teasers/fnaf4-was-it-me-bonnie.webp",
+    "postedDate": "2015-05-08",
+    "source": "scottgames.com",
+    "teases": "fnaf-4",
+    "description": "Nightmare Bonnie opens the \"Was it me?\" caption series, each nightmare pleading guilt over the Bite of '87.",
+    "notes": []
+  },
+  {
+    "id": "fnaf4-was-it-me-chica",
+    "title": "Was it me?",
+    "imageUrl": "/images/teasers/fnaf4-was-it-me-chica.webp",
+    "postedDate": "2015-05-24",
+    "source": "scottgames.com",
+    "teases": "fnaf-4",
+    "description": "Nightmare Chica and Nightmare Cupcake, continuing the \"Was it me?\" series.",
+    "notes": [
+      "Posted date is approximate (\"over two weeks after May 8\" per the wiki); verify the exact day."
+    ]
   },
   {
     "id": "fnaf4-or-was-it-me",
-    "title": "Or was it me?",
+    "title": "Or me?",
     "imageUrl": "/images/teasers/fnaf4-or-was-it-me.webp",
-    "postedDate": "2015-06",
+    "postedDate": "2015-05-30",
     "source": "scottgames.com",
     "teases": "fnaf-4",
-    "description": "Nightmare Foxy joining the 'Was it me?' teaser series — each nightmare pleading guilt over the Bite.",
-    "notes": ["Part of a multi-image series; map the remaining entries from thefnafarchive.org."]
+    "description": "Nightmare Foxy, continuing the \"Was it me?\" caption series started by Nightmare Bonnie and Nightmare Chica.",
+    "notes": []
+  },
+  {
+    "id": "fnaf4-fredbear-spotlight",
+    "title": "PROPERTY OF FR--ER",
+    "imageUrl": "/images/teasers/fnaf4-fredbear-spotlight.webp",
+    "postedDate": "2015-06-11",
+    "source": "scottgames.com",
+    "teases": "fnaf-4",
+    "hiddenContent": "Brightening the image reveals the text \"PROPERTY OF FR--ER\", likely completing to Fredbear's Family Diner.",
+    "description": "A purple hat and bowtie under a spotlight, with Nightmare Fredbear's head faintly visible, upside down, in the floor's reflection.",
+    "notes": []
+  },
+  {
+    "id": "fnaf4-fredbear-torso",
+    "title": "Or was it —",
+    "imageUrl": "/images/teasers/fnaf4-fredbear-torso.webp",
+    "postedDate": "2015-06-25",
+    "source": "scottgames.com",
+    "teases": "fnaf-4",
+    "hiddenContent": "Brightening reveals \"or was it\" (likely completing to \"or was it me\") and \"pro--me\" across the torso.",
+    "description": "A grayscale close-up of Nightmare Fredbear's torso and lower jaw, wearing his purple bowtie.",
+    "notes": []
   },
   {
     "id": "fnaf-world-reveal",
@@ -48,7 +166,9 @@
     "source": "scottgames.com",
     "teases": "fnaf-world",
     "description": "A sudden burst of color on the usually pitch-black site: the Adventure cast announcing the RPG spin-off.",
-    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+    "notes": [
+      "Verify the exact posted date on thefnafarchive.org."
+    ]
   },
   {
     "id": "sl-there-was-never-just-one",
@@ -58,7 +178,9 @@
     "source": "scottgames.com",
     "teases": "fnaf-sl",
     "description": "Circus Baby's debut image, reframing the entire series' scale with a single caption.",
-    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+    "notes": [
+      "Verify the exact posted date on thefnafarchive.org."
+    ]
   },
   {
     "id": "sl-dont-hold-it-against-us",
@@ -68,7 +190,9 @@
     "source": "scottgames.com",
     "teases": "fnaf-sl",
     "description": "The Funtime cast assembled in the dark ahead of Sister Location's reveal trailer.",
-    "notes": ["Verify the exact caption, cast and posted date on thefnafarchive.org."]
+    "notes": [
+      "Verify the exact caption, cast and posted date on thefnafarchive.org."
+    ]
   },
   {
     "id": "sl-cancelled",
@@ -78,7 +202,57 @@
     "source": "scottgames.com",
     "teases": "fnaf-sl",
     "description": "Scott's infamous prank days before launch, 'cancelling' Sister Location over story leaks — the game shipped on schedule.",
-    "notes": ["Verify the exact posted date on thefnafarchive.org."]
+    "notes": [
+      "Verify the exact posted date on thefnafarchive.org."
+    ]
+  },
+  {
+    "id": "ffps-cake",
+    "title": "Something to celebrate.",
+    "imageUrl": "/images/teasers/ffps-cake.webp",
+    "postedDate": "2017-08",
+    "source": "scottgames.com",
+    "teases": "fnaf-ffps",
+    "description": "Freddy Fazbear posed with a cake — the first of three images that speculation read as a pizzeria-management game.",
+    "notes": [
+      "Posted date is approximate (\"between August and November 2017\" per the wiki); verify the exact day."
+    ]
+  },
+  {
+    "id": "ffps-three-children",
+    "title": "Something to celebrate.",
+    "imageUrl": "/images/teasers/ffps-three-children.webp",
+    "postedDate": "2017-09",
+    "source": "scottgames.com",
+    "teases": "fnaf-ffps",
+    "description": "Freddy Fazbear standing close to three children, the second of the three pizzeria-themed teasers.",
+    "notes": [
+      "Posted date is approximate (\"between August and November 2017\" per the wiki); verify the exact day."
+    ]
+  },
+  {
+    "id": "ffps-juggling-pizzas",
+    "title": "Something to celebrate.",
+    "imageUrl": "/images/teasers/ffps-juggling-pizzas.webp",
+    "postedDate": "2017-11",
+    "source": "scottgames.com",
+    "teases": "fnaf-ffps",
+    "description": "Freddy Fazbear juggling pizzas, the third image in the pizzeria-themed teaser trio that preceded the title reveal.",
+    "notes": [
+      "Posted date is approximate (\"between August and November 2017\" per the wiki); verify the exact day."
+    ]
+  },
+  {
+    "id": "ffps-title-reveal",
+    "title": "Freddy Fazbear's Pizzeria Simulator",
+    "imageUrl": "/images/teasers/ffps-title-reveal.webp",
+    "postedDate": "2017-12-02",
+    "source": "scottgames.com",
+    "teases": "fnaf-ffps",
+    "description": "The game's title is confirmed directly on scottgames.com, two days ahead of release.",
+    "notes": [
+      "Posted date is estimated as two days before the December 4, 2017 release; verify the exact day."
+    ]
   },
   {
     "id": "ucn-roster",
@@ -88,16 +262,18 @@
     "source": "scottgames.com",
     "teases": "fnaf-ucn",
     "description": "The gigantic character collage that grew over successive updates until it revealed all fifty selectable menaces.",
-    "notes": ["The collage evolved across several revisions; consider archiving each revision as its own entry."]
+    "notes": [
+      "The collage evolved across several revisions; consider archiving each revision as its own entry."
+    ]
   },
   {
     "id": "sb-vanny-reveal",
     "title": "Vanny",
     "imageUrl": "/images/teasers/sb-vanny-reveal.webp",
-    "postedDate": "2020-09",
+    "postedDate": "2020-09-16",
     "source": "scottgames.com",
     "teases": "fnaf-sb",
     "description": "The white rabbit stalking the Mega Pizzaplex era, surfacing on scottgames.com around the PS5 showcase reveal.",
-    "notes": ["Verify the exact image and posted date on thefnafarchive.org."]
+    "notes": []
   }
 ]

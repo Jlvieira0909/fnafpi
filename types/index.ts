@@ -130,6 +130,7 @@ export interface WorldAttack {
 
 export interface UcnVoiceLine {
   line: string;
+  canonicity: "confirmed" | "implied";
   source?: string;
 }
 

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { FnafdleAutocomplete, type AutocompleteOption } from "@/components/fnafdle-autocomplete";
+import { FnafdleGuessList } from "@/components/fnafdle-guess-list";
 import { FnafdleWinBanner } from "@/components/fnafdle-win-banner";
 import { loadGuesses, localDateKey, pickDaily, saveGuesses } from "@/lib/fnafdle";
 
@@ -110,20 +111,9 @@ export function FnafdleTeasers({ pool, mediaOptions }: { pool: TeaserEntry[]; me
         </div>
       </div>
 
-      {guesses.length > 0 ? (
-        <ul className="mt-6 max-w-md space-y-1.5">
-          {[...guesses].reverse().map((g, i) => (
-            <li
-              key={`${g.id}-${i}`}
-              className={`rounded-sm border px-3 py-2 font-mono text-xs uppercase tracking-wide ${
-                g.id === teaser.teasesId ? "border-signal/60 bg-signal/10 text-signal" : "border-rec/40 bg-rec/5 text-bone-dim"
-              }`}
-            >
-              {g.title}
-            </li>
-          ))}
-        </ul>
-      ) : null}
+      <FnafdleGuessList
+        items={[...guesses].reverse().map((g) => ({ id: g.id, label: g.title, correct: g.id === teaser.teasesId }))}
+      />
     </div>
   );
 }

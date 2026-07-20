@@ -21,7 +21,12 @@
     "appearances": [
       "fnaf-ffps",
       "fnaf-ucn"
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Happy Frog is the new star of the show!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "mr-hippo",
@@ -48,7 +53,12 @@
     ],
     "notes": [
       "Famous for his rambling post-death monologues in Ultimate Custom Night."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "My friend, you have met a terrible, terrible demise.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "mystic-hippo",
@@ -96,7 +106,12 @@
     ],
     "notes": [
       "Banjo player who quotes proverbs in Ultimate Custom Night."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "The nail that sticks out, gets hammered down.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "nedd-bear",
@@ -120,7 +135,12 @@
     "appearances": [
       "fnaf-ffps",
       "fnaf-ucn"
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Don't you hate getting killed by obscure secondary characters?",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "orville-elephant",
@@ -187,12 +207,18 @@
     "group": "Service",
     "debut": "fnaf-ffps",
     "appearances": [
-      "fnaf-ffps"
+      "fnaf-ffps",
+      "fnaf-ucn"
     ],
     "notes": [
       "Candy vending robot whose cryptic stories (five kittens, five keys, five children) mirror the franchise's lore of merged souls.",
       "Verify whether his Security Breach cameo warrants adding fnaf-sb."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Please deposit five coins!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "egg-baby",
@@ -252,7 +278,12 @@
     "notes": [
       "Debuted running FNAF World's fishing minigame; returns in Ultimate Custom Night adding surprise characters to the roster.",
       "Her shadow form XOR appears in 50/20 mode, summoning all of her secret characters in sequence."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "I'll add a new problem to your night!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "old-man-consequences",
@@ -274,6 +305,11 @@
     "notes": [
       "8-bit fisherman from FNAF World's Red Lake; his Ultimate Custom Night easter egg ('leave the demon to his demons') addresses the game's tormented subject.",
       "Widely discussed in meta-lore theories; keep claims to confirmed appearances."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Time to face the consequences of your failure.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   }
 ]

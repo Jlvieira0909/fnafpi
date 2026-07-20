@@ -51,7 +51,12 @@
         "name": "Hot Cheese",
         "description": "A damage-over-time effect."
       }
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Never underestimate the cunning of a pirate! Or a fox for that matter!",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "mangle",
@@ -83,7 +88,12 @@
       "Mangle's gender is a canonical joke: asked whether Mangle is male or female, Scott Cawthon officially answered 'Yes'.",
       "Popular theory links Mangle to the Bite of '87; treat as theory.",
       "Verify whether the Help Wanted FNAF 2 levels justify adding fnaf-hw."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "It's so much more fun hanging out in here with you.",
+      "canonicity": "implied",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "withered-foxy",
@@ -293,7 +303,12 @@
     ],
     "notes": [
       "Has a peg leg and a parrot; uniquely, in Ultimate Custom Night he can help the player instead of attacking."
-    ]
+    ],
+    "ucnVoiceLine": {
+      "line": "Me bird likes you, so I'll do ye a favour.",
+      "canonicity": "confirmed",
+      "source": "fnaflore.com audio transcripts, cross-referenced with the UCN voice cast credits"
+    }
   },
   {
     "id": "grimm-foxy",
