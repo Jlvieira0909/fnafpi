@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in the API, the site, or FNAFDLE is broken or behaving unexpectedly.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where's the bug?
+      options:
+        - API (an endpoint)
+        - Museum site (pages, filters, styling)
+        - FNAFDLE (any mode)
+        - Docs (/docs)
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL or endpoint
+      placeholder: "/api/v1/characters?group=Toy or /fnafdle"
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser / device (for site or FNAFDLE bugs)
+      placeholder: "Chrome 128 on Android, Safari on iOS 18, etc."

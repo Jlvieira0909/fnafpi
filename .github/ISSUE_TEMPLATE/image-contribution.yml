@@ -1,0 +1,40 @@
+name: Image contribution
+description: You have (or found) an image for a character, game, location, or minigame that's missing one.
+labels: ["images"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check `npm run images:coverage -- --list` or the [image spec table](../../blob/main/README.md#images)
+        for exactly what's missing and which ratio/size each slot expects.
+
+        Please read the [image contribution guidelines](../../blob/main/CONTRIBUTING.md#contributing-images)
+        before submitting — in short: official promotional material, screenshots, or your own photos of
+        merchandise are welcome; datamined or ripped game assets are not.
+  - type: input
+    id: path
+    attributes:
+      label: Which image slot is this for?
+      description: The exact path from the coverage script, e.g. /images/characters/springtrap/full.webp
+      placeholder: /images/characters/springtrap/full.webp
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where is this image from?
+      description: A link if possible (official site, press kit, store page, wiki), or "my own photo/screenshot".
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else worth knowing?
+      description: Crop suggestions, alternate versions, why this one over another candidate, etc.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is official promotional material / a screenshot / my own photo — not a datamined or ripped asset.
+          required: true

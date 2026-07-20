@@ -105,14 +105,14 @@ npm run dev
 
 Site at `http://localhost:3000`, API at `/api/v1`, docs at `/docs`.
 
-## Contributing data
+## Contributing
 
-1. Edit or add entries in `data/`. New character family → new file in `data/characters/` plus one import line in `lib/data.ts`.
-2. Everything in English. Slugs are lowercase-kebab-case. Dates are `YYYY-MM-DD`. Image paths follow the folder-per-id convention above.
-3. Disputed lore goes in a `LoreClaim` with honest `canonicity` — theories are labeled as theories.
-4. Run `npm run validate:data`. CI runs it on every push and pull request, alongside typecheck, lint and build.
-
-Pending verifications are tracked inside the data itself — grep for `Verify` in the `notes` fields.
+FNAFPI is open to contributions — data corrections, images, bug reports, features, and code. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for the full guide (including image submission guidelines) and
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for how we treat each other here. The short version for data:
+run `npm run validate:data` before opening a PR, cite a source, and use a `LoreClaim` with honest
+`canonicity` for anything disputed. Pending verifications are tracked inside the data itself — grep for
+`Verify` in the `notes` fields.
 
 ## Roadmap
 

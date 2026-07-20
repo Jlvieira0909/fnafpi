@@ -1,0 +1,27 @@
+name: Feature request
+description: An idea for the API, the museum site, or a new FNAFDLE mode.
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does this apply?
+      options:
+        - API
+        - Museum site
+        - FNAFDLE
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve, or what would it add?
+      description: What's missing today, or what would be more fun/useful?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What are you picturing?
+      description: Sketch it out as much or as little as you like — rough ideas are fine.
